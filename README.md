@@ -1,2 +1,3 @@
 # openclaw-marketing-lab
-System that ingests marketing-related GitHub repositories, extracts reusable AI patterns (skills, agents, workflows), and normalizes them into a structured, versioned library.
+
+Agentic system that discovers, analyzes, and ingests marketing-related GitHub repositories to extract reusable AI patterns (skills, agents, workflows, and prompts), transforming them into a structured and versioned library.
