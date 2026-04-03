@@ -1,0 +1,24 @@
+{
+  "keywords": [
+    "marketing ai",
+    "martech",
+    "growth automation",
+    "revops",
+    "llm agents marketing",
+    "content generation ai",
+    "abm automation",
+    "seo automation",
+    "marketing ops",
+    "agentic marketing",
+    "marketing prompts",
+    "creative automation"
+  ],
+  "filters": {
+    "min_stars": 50,
+    "language": ["Python", "JavaScript"],
+    "updated_after": "2023-01-01"
+  },
+  "limits": {
+    "max_repos_per_keyword": 5
+  }
+}
