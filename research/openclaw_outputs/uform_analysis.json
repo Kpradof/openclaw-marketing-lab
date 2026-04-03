@@ -1,0 +1,15 @@
+{
+  "repo_name": "UForm",
+  "full_name": "unum-cloud/UForm",
+  "url": "https://github.com/unum-cloud/UForm",
+  "description": "Pocket-Sized Multimodal AI for content understanding and generation across multilingual texts, images, and 🔜 video, up to 5x faster than OpenAI CLIP and LLaVA 🖼️ & 🖋️",
+  "topics": [],
+  "language": null,
+  "stars": 1228,
+  "score": 5,
+  "patterns": [
+    "pattern_extraction_pending",
+    "workflow_identification_pending"
+  ],
+  "generated_from": "generate_assets.py MVP"
+}

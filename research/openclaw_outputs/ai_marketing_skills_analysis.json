@@ -1,0 +1,15 @@
+{
+  "repo_name": "ai-marketing-skills",
+  "full_name": "ericosiu/ai-marketing-skills",
+  "url": "https://github.com/ericosiu/ai-marketing-skills",
+  "description": "Open-source AI marketing skills for Claude Code — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
+  "topics": [],
+  "language": null,
+  "stars": 747,
+  "score": 6,
+  "patterns": [
+    "pattern_extraction_pending",
+    "workflow_identification_pending"
+  ],
+  "generated_from": "generate_assets.py MVP"
+}

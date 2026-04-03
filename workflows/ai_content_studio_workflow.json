@@ -1,0 +1,9 @@
+{
+  "name": "AI-Content-Studio_workflow",
+  "steps": [
+    "input_data",
+    "process_data",
+    "generate_output"
+  ],
+  "source_repo": "https://github.com/naqashafzal/AI-Content-Studio"
+}

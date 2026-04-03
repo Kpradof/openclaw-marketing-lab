@@ -1,0 +1,15 @@
+{
+  "repo_name": "AI-Content-Studio",
+  "full_name": "naqashafzal/AI-Content-Studio",
+  "url": "https://github.com/naqashafzal/AI-Content-Studio",
+  "description": "A 100% free & open-source AI Content Automation Tool that writes scripts, generates voiceovers, creates videos, and uploads them automatically — hands-free YouTube growth powered by AI.",
+  "topics": [],
+  "language": null,
+  "stars": 197,
+  "score": 6,
+  "patterns": [
+    "pattern_extraction_pending",
+    "workflow_identification_pending"
+  ],
+  "generated_from": "generate_assets.py MVP"
+}

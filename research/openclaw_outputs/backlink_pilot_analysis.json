@@ -1,0 +1,15 @@
+{
+  "repo_name": "backlink-pilot",
+  "full_name": "s87343472/backlink-pilot",
+  "url": "https://github.com/s87343472/backlink-pilot",
+  "description": "Automated backlink submission toolkit for indie hackers — submit your product to directory sites, awesome-lists, and search engines with one command",
+  "topics": [],
+  "language": null,
+  "stars": 234,
+  "score": 6,
+  "patterns": [
+    "pattern_extraction_pending",
+    "workflow_identification_pending"
+  ],
+  "generated_from": "generate_assets.py MVP"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "content-generation-solution-accelerator_skill",
+  "description": "Accelerate marketing content creation with an AI-powered multi-agent system using Microsoft Foundry.",
+  "topics": [],
+  "actions": [
+    "extract_patterns",
+    "apply_logic"
+  ]
+}

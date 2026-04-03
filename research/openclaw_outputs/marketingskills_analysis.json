@@ -1,0 +1,15 @@
+{
+  "repo_name": "marketingskills",
+  "full_name": "coreyhaines31/marketingskills",
+  "url": "https://github.com/coreyhaines31/marketingskills",
+  "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+  "topics": [],
+  "language": null,
+  "stars": 18456,
+  "score": 7,
+  "patterns": [
+    "pattern_extraction_pending",
+    "workflow_identification_pending"
+  ],
+  "generated_from": "generate_assets.py MVP"
+}

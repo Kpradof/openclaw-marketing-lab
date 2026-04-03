@@ -1,0 +1,15 @@
+{
+  "repo_name": "ALwrity",
+  "full_name": "AJaySi/ALwrity",
+  "url": "https://github.com/AJaySi/ALwrity",
+  "description": "ALwrity - AI Digital Marketing Platform. (WIP)",
+  "topics": [],
+  "language": null,
+  "stars": 969,
+  "score": 5,
+  "patterns": [
+    "pattern_extraction_pending",
+    "workflow_identification_pending"
+  ],
+  "generated_from": "generate_assets.py MVP"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "seo-geo-claude-skills_skill",
+  "description": "20 SEO & GEO skills for Claude Code, Cursor, Codex, and 35+ AI agents. Keyword research, content writing, technical audits, rank tracking. CORE-EEAT + CITE frameworks.",
+  "topics": [],
+  "actions": [
+    "extract_patterns",
+    "apply_logic"
+  ]
+}

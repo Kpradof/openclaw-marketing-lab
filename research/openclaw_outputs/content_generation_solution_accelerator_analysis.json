@@ -1,0 +1,15 @@
+{
+  "repo_name": "content-generation-solution-accelerator",
+  "full_name": "microsoft/content-generation-solution-accelerator",
+  "url": "https://github.com/microsoft/content-generation-solution-accelerator",
+  "description": "Accelerate marketing content creation with an AI-powered multi-agent system using Microsoft Foundry.",
+  "topics": [],
+  "language": null,
+  "stars": 215,
+  "score": 6,
+  "patterns": [
+    "pattern_extraction_pending",
+    "workflow_identification_pending"
+  ],
+  "generated_from": "generate_assets.py MVP"
+}

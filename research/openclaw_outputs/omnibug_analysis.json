@@ -1,0 +1,15 @@
+{
+  "repo_name": "omnibug",
+  "full_name": "MisterPhilip/omnibug",
+  "url": "https://github.com/MisterPhilip/omnibug",
+  "description": "Omnibug is an extension for Firefox and most Chromium-based browsers to ease implementing and debugging digital marketing tools.",
+  "topics": [],
+  "language": null,
+  "stars": 123,
+  "score": 4,
+  "patterns": [
+    "pattern_extraction_pending",
+    "workflow_identification_pending"
+  ],
+  "generated_from": "generate_assets.py MVP"
+}

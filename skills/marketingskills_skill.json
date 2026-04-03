@@ -1,0 +1,9 @@
+{
+  "name": "marketingskills_skill",
+  "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+  "topics": [],
+  "actions": [
+    "extract_patterns",
+    "apply_logic"
+  ]
+}

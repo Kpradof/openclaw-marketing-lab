@@ -1,0 +1,9 @@
+{
+  "name": "OpenOutreach_workflow",
+  "steps": [
+    "input_data",
+    "process_data",
+    "generate_output"
+  ],
+  "source_repo": "https://github.com/eracle/OpenOutreach"
+}
