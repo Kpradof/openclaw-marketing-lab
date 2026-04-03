@@ -5,9 +5,9 @@
     "full_name": "coreyhaines31/marketingskills",
     "html_url": "https://github.com/coreyhaines31/marketingskills",
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-    "stargazers_count": 18456,
+    "stargazers_count": 18464,
     "language": "JavaScript",
-    "updated_at": "2026-04-03T00:50:40Z",
+    "updated_at": "2026-04-03T01:39:07Z",
     "topics": [
       "claude",
       "codex",
@@ -22,7 +22,7 @@
     "description": "Linkedin Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
     "stargazers_count": 1371,
     "language": "Python",
-    "updated_at": "2026-04-03T00:42:10Z",
+    "updated_at": "2026-04-03T01:23:17Z",
     "topics": [
       "agent",
       "agentic",
@@ -75,7 +75,7 @@
     "description": "ALwrity - AI Digital Marketing Platform. (WIP)",
     "stargazers_count": 969,
     "language": "Python",
-    "updated_at": "2026-04-01T17:17:39Z",
+    "updated_at": "2026-04-03T01:33:12Z",
     "topics": [
       "ai-content-generation",
       "ai-content-marketing",
@@ -134,9 +134,9 @@
     "full_name": "ericosiu/ai-marketing-skills",
     "html_url": "https://github.com/ericosiu/ai-marketing-skills",
     "description": "Open-source AI marketing skills for Claude Code — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
-    "stargazers_count": 747,
+    "stargazers_count": 758,
     "language": "Python",
-    "updated_at": "2026-04-03T00:45:50Z",
+    "updated_at": "2026-04-03T01:38:47Z",
     "topics": []
   },
   {
@@ -282,9 +282,9 @@
     "full_name": "ericosiu/ai-marketing-skills",
     "html_url": "https://github.com/ericosiu/ai-marketing-skills",
     "description": "Open-source AI marketing skills for Claude Code — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
-    "stargazers_count": 747,
+    "stargazers_count": 758,
     "language": "Python",
-    "updated_at": "2026-04-03T00:45:50Z",
+    "updated_at": "2026-04-03T01:38:47Z",
     "topics": []
   },
   {
@@ -343,9 +343,9 @@
     "full_name": "ericosiu/ai-marketing-skills",
     "html_url": "https://github.com/ericosiu/ai-marketing-skills",
     "description": "Open-source AI marketing skills for Claude Code — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
-    "stargazers_count": 747,
+    "stargazers_count": 758,
     "language": "Python",
-    "updated_at": "2026-04-03T00:45:50Z",
+    "updated_at": "2026-04-03T01:38:47Z",
     "topics": []
   },
   {
@@ -354,9 +354,9 @@
     "full_name": "coreyhaines31/marketingskills",
     "html_url": "https://github.com/coreyhaines31/marketingskills",
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-    "stargazers_count": 18456,
+    "stargazers_count": 18464,
     "language": "JavaScript",
-    "updated_at": "2026-04-03T00:50:40Z",
+    "updated_at": "2026-04-03T01:39:07Z",
     "topics": [
       "claude",
       "codex",
@@ -369,9 +369,9 @@
     "full_name": "alirezarezvani/claude-skills",
     "html_url": "https://github.com/alirezarezvani/claude-skills",
     "description": "220+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory.",
-    "stargazers_count": 8958,
+    "stargazers_count": 8968,
     "language": "Python",
-    "updated_at": "2026-04-03T00:49:16Z",
+    "updated_at": "2026-04-03T01:29:48Z",
     "topics": [
       "agent-plugins",
       "agent-skills",
@@ -403,7 +403,7 @@
     "description": "Linkedin Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
     "stargazers_count": 1371,
     "language": "Python",
-    "updated_at": "2026-04-03T00:42:10Z",
+    "updated_at": "2026-04-03T01:23:17Z",
     "topics": [
       "agent",
       "agentic",
@@ -459,5 +459,91 @@
     "language": "Python",
     "updated_at": "2026-04-03T00:38:16Z",
     "topics": []
+  },
+  {
+    "keyword": "creative automation",
+    "name": "nodriver",
+    "full_name": "ultrafunkamsterdam/nodriver",
+    "html_url": "https://github.com/ultrafunkamsterdam/nodriver",
+    "description": "Successor of Undetected-Chromedriver. Providing a blazing fast framework for web automation, webscraping, bots and any other creative ideas which are normally hindered by annoying anti bot systems like Captcha / CloudFlare / Imperva / hCaptcha ",
+    "stargazers_count": 3948,
+    "language": "Python",
+    "updated_at": "2026-04-02T20:54:16Z",
+    "topics": []
+  },
+  {
+    "keyword": "creative automation",
+    "name": "Vibe-Skills",
+    "full_name": "foryourhealth111-pixel/Vibe-Skills",
+    "html_url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+    "description": "Wherever your AI supports skills, VibeSkills works. 340+ governed skills spanning coding, research, automation & creative work.",
+    "stargazers_count": 972,
+    "language": "Python",
+    "updated_at": "2026-04-02T20:51:36Z",
+    "topics": [
+      "agent-skills",
+      "agentic-coding",
+      "ai-agents",
+      "ai-skills",
+      "ai-workflow",
+      "anthropic",
+      "automation",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "opencode",
+      "skills",
+      "vibe-coding",
+      "vibecoding",
+      "windsurf"
+    ]
+  },
+  {
+    "keyword": "creative automation",
+    "name": "puppeteer-demos",
+    "full_name": "onderceylan/puppeteer-demos",
+    "html_url": "https://github.com/onderceylan/puppeteer-demos",
+    "description": "Puppeteer is mostly used and considered for scraping content, UI testing and automated form submissions. This repo aims to change this mindset by inspiring you on observing your daily routines and common patterns on your development and testing workflows. It will help you automate them in a creative way!",
+    "stargazers_count": 75,
+    "language": "JavaScript",
+    "updated_at": "2024-09-11T13:00:20Z",
+    "topics": [
+      "automation",
+      "chrome",
+      "chromium",
+      "performance",
+      "puppeteer",
+      "puppeteer-demos",
+      "testing"
+    ]
+  },
+  {
+    "keyword": "creative automation",
+    "name": "auto-mindmapping",
+    "full_name": "florian-kalisch/auto-mindmapping",
+    "html_url": "https://github.com/florian-kalisch/auto-mindmapping",
+    "description": "Revolutionize your mind mapping with this repo, combining mermaid and GPT-3.5-turbo / GPT-4! Craft captivating mindmaps for brainstorming and text summarization, unlocking creativity and productivity. Experience this trailblazing solution for the ultimate mind mapping experience today! Don't miss out and elevate your creative thinking skills!",
+    "stargazers_count": 69,
+    "language": "JavaScript",
+    "updated_at": "2026-02-11T10:33:49Z",
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "automation",
+      "creativity",
+      "gpt-3",
+      "gpt-4",
+      "mermaid",
+      "mermaid-diagrams",
+      "mindmap",
+      "mindmapping",
+      "productivity",
+      "reactjs"
+    ]
   }
 ]
