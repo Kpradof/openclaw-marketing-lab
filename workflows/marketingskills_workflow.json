@@ -1,0 +1,9 @@
+{
+  "name": "marketingskills_workflow",
+  "skill_name": "marketingskills",
+  "steps": [
+    "analyze_repository_metadata",
+    "extract_reusable_patterns",
+    "map_patterns_to_marketing_use_cases"
+  ]
+}
