@@ -59,6 +59,7 @@ From each repository, the system generates:
 
 ## Architecture
 
+```text
 GitHub Repositories
         ↓
 Ingestion & Scoring
@@ -77,10 +78,12 @@ Orchestrator
         ↓
 Pull Request for Review
 
+``` 
+
 ---
 
 ## Project structure
-
+```text
 .github/workflows/     # automation pipelines
 research/              # repo data + analysis outputs
 schemas/               # JSON schema validation
@@ -89,7 +92,7 @@ skills/                # generated reusable skills
 workflows/             # generated workflows
 prompts/generated/     # prompt packs
 generated/             # manifest + runtime outputs
-
+``` 
 ---
 
 ## Outputs
