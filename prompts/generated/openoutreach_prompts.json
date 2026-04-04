@@ -1,0 +1,16 @@
+{
+  "name": "openoutreach_prompts",
+  "source_skill": "openoutreach",
+  "description": "Reusable prompt pack derived from the openoutreach capability.",
+  "prompts": [
+    {
+      "name": "lead_generation_prompt",
+      "template": "Find leads on LinkedIn for a product targeting {target_market_description}. The product description is: {product_description}. Use these criteria: {search_criteria}.",
+      "use_case": "Sales teams seeking to automate lead generation on LinkedIn."
+    }
+  ],
+  "metadata": {
+    "repo_url": "https://github.com/eracle/OpenOutreach",
+    "generated_from": "openoutreach"
+  }
+}

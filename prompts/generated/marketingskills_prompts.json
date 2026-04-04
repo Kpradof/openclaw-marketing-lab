@@ -4,24 +4,19 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "seo_optimization",
-      "template": "Optimize the following content for SEO using these keywords: {keywords}. Content: {content_data}",
-      "use_case": "Enhancing marketing copy for higher conversion rates in digital campaigns."
+      "name": "seo_copywriting",
+      "template": "Write SEO-optimized marketing copy about {content_topic} focusing on these keywords: {keyword_list}. The goal is to {marketing_goal}.",
+      "use_case": "Automating creation of SEO-friendly marketing copy for product launches."
     },
     {
-      "name": "copywriting_improvement",
-      "template": "Improve this marketing copy to increase engagement and conversions: {content_data}",
-      "use_case": "Optimizing website content for improved search engine ranking and visibility."
+      "name": "growth_strategy_recommendation",
+      "template": "Based on these analytics data: {analytics_data}, suggest a growth engineering strategy to improve conversion rates and overall marketing performance.",
+      "use_case": "Improving website conversion rates through data-driven content optimization."
     },
     {
-      "name": "analytics_insights",
-      "template": "Analyze this analytics data and provide actionable insights to enhance marketing performance: {analytics_data}",
-      "use_case": "Generating analytics-driven reports to inform marketing decision-making."
-    },
-    {
-      "name": "growth_strategy_suggestion",
-      "template": "Based on the following marketing goal and analytics data, suggest growth engineering strategies: Goal: {marketing_goal}, Analytics: {analytics_data}",
-      "use_case": "Designing and implementing growth engineering strategies to scale online presence."
+      "name": "performance_summary",
+      "template": "Summarize the marketing performance given the following data: {analytics_data}.",
+      "use_case": "Generating reports and actionable insights from marketing analytics."
     }
   ],
   "metadata": {

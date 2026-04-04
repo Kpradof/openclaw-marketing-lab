@@ -1,9 +1,158 @@
 {
-  "name": "ai-marketing-claude_skill",
-  "description": "AI Marketing Suite for Claude Code. 15 marketing skills with parallel subagents — audit any website, generate copy, email sequences, ad campaigns, content calendars, competitive intelligence, and client-ready PDF reports.",
-  "topics": [],
-  "actions": [
-    "extract_patterns",
-    "apply_logic"
-  ]
+  "name": "ai_marketing_claude",
+  "type": "repository_derived_skill",
+  "description": "An AI-powered marketing toolkit that leverages multiple parallel subagents to perform website audits, generate marketing copy, email sequences, ad campaigns, content calendars, competitive intelligence analyses, and create client-ready PDF marketing reports.",
+  "triggers": [
+    "create",
+    "multiple",
+    "ad",
+    "email",
+    "perform",
+    "ready",
+    "subagents",
+    "sequences",
+    "leverages",
+    "website",
+    "toolkit",
+    "intelligence",
+    "parallel",
+    "analyses",
+    "marketing",
+    "content",
+    "audits",
+    "client",
+    "pdf",
+    "generate",
+    "reports",
+    "ai",
+    "calendars",
+    "competitive",
+    "copy",
+    "powered",
+    "campaigns",
+    "ai_marketing_claude"
+  ],
+  "inputs": [
+    {
+      "name": "website_url",
+      "type": "string",
+      "description": "URL of the website to audit or analyze."
+    },
+    {
+      "name": "marketing_goals",
+      "type": "string",
+      "description": "Description of the marketing objectives or requirements."
+    },
+    {
+      "name": "target_audience",
+      "type": "string",
+      "description": "Description of the target market or customer segment."
+    },
+    {
+      "name": "existing_content",
+      "type": "string",
+      "description": "Current marketing copy or assets to be enhanced or referenced."
+    },
+    {
+      "name": "campaign_parameters",
+      "type": "object",
+      "description": "Details such as campaign type, duration, channels, budget, and tone."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "website_audit_report",
+      "type": "pdf",
+      "description": "Comprehensive audit report outlining website strengths, weaknesses, and recommendations."
+    },
+    {
+      "name": "marketing_copy",
+      "type": "string",
+      "description": "Generated copy tailored for specified marketing channels like social media, ads, and emails."
+    },
+    {
+      "name": "email_sequence",
+      "type": "list",
+      "description": "Automated sequences of marketing emails designed to nurture leads or drive conversions."
+    },
+    {
+      "name": "ad_campaign_plan",
+      "type": "string",
+      "description": "Strategic ad campaign details including messaging and targeting."
+    },
+    {
+      "name": "content_calendar",
+      "type": "string",
+      "description": "Scheduled content plan outlining topics, formats, and publishing dates."
+    },
+    {
+      "name": "competitive_intelligence_report",
+      "type": "pdf",
+      "description": "Analysis of competitors’ marketing strategies and positioning."
+    },
+    {
+      "name": "client_ready_pdf",
+      "type": "pdf",
+      "description": "Consolidated marketing report formatted and ready for client presentation."
+    }
+  ],
+  "steps": [
+    "Receive website URL and marketing goals as input",
+    "Deploy parallel subagents specialized in auditing, copywriting, email sequencing, ad campaign creation, content calendar planning, and competitor analysis",
+    "Analyze the input website and relevant data to produce detailed marketing insights",
+    "Generate content such as marketing copy, email sequences, and campaign plans using AI prompt templates",
+    "Synthesize outputs into structured content calendars and campaign strategies",
+    "Compile all results into professional PDF reports tailored for client delivery",
+    "Provide deliverables enabling marketers to execute data-driven campaigns"
+  ],
+  "use_cases": [
+    "Marketing agencies auditing client websites and generating comprehensive marketing plans",
+    "Small business owners seeking automated marketing content generation",
+    "Content strategists creating synchronized content calendars and email drip campaigns",
+    "Digital advertisers designing AI-powered ad campaigns based on competitive insights",
+    "Consultants preparing client-ready presentations with detailed marketing intelligence"
+  ],
+  "patterns": [
+    "Parallel processing using multiple specialized AI subagents",
+    "Automated website content auditing",
+    "Template-based AI prompt engineering for marketing content generation",
+    "Sequential email campaign generation with contextual coherence",
+    "Competitive intelligence extraction and summarization",
+    "PDF report generation integrating various marketing outputs"
+  ],
+  "prompt_templates": [
+    {
+      "name": "website_audit_prompt",
+      "template": "Audit the website at {website_url} and identify areas to improve marketing effectiveness including SEO, user engagement, and content quality."
+    },
+    {
+      "name": "marketing_copy_prompt",
+      "template": "Generate persuasive marketing copy targeting {target_audience} focused on these goals: {marketing_goals}."
+    },
+    {
+      "name": "email_sequence_prompt",
+      "template": "Create a sequence of {number_of_emails} marketing emails tailored for {target_audience} to achieve {campaign_goal}."
+    },
+    {
+      "name": "ad_campaign_prompt",
+      "template": "Design an ad campaign including messaging and targeting parameters based on {campaign_parameters}."
+    },
+    {
+      "name": "content_calendar_prompt",
+      "template": "Develop a monthly content calendar with posting dates, topics, and content types aligned with {marketing_goals}."
+    },
+    {
+      "name": "competitive_intelligence_prompt",
+      "template": "Analyze key competitors within {industry} and summarize their marketing strategies and positioning."
+    }
+  ],
+  "metadata": {
+    "language": "unknown",
+    "stars": 1043,
+    "repo_url": "https://github.com/zubair-trabzada/ai-marketing-claude"
+  },
+  "source": {
+    "repo_name": "ai-marketing-claude",
+    "repo_url": "https://github.com/zubair-trabzada/ai-marketing-claude"
+  }
 }

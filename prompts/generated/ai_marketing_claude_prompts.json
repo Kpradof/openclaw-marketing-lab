@@ -1,0 +1,40 @@
+{
+  "name": "ai_marketing_claude_prompts",
+  "source_skill": "ai_marketing_claude",
+  "description": "Reusable prompt pack derived from the ai_marketing_claude capability.",
+  "prompts": [
+    {
+      "name": "website_audit_prompt",
+      "template": "Audit the website at {website_url} and identify areas to improve marketing effectiveness including SEO, user engagement, and content quality.",
+      "use_case": "Marketing agencies auditing client websites and generating comprehensive marketing plans"
+    },
+    {
+      "name": "marketing_copy_prompt",
+      "template": "Generate persuasive marketing copy targeting {target_audience} focused on these goals: {marketing_goals}.",
+      "use_case": "Small business owners seeking automated marketing content generation"
+    },
+    {
+      "name": "email_sequence_prompt",
+      "template": "Create a sequence of {number_of_emails} marketing emails tailored for {target_audience} to achieve {campaign_goal}.",
+      "use_case": "Content strategists creating synchronized content calendars and email drip campaigns"
+    },
+    {
+      "name": "ad_campaign_prompt",
+      "template": "Design an ad campaign including messaging and targeting parameters based on {campaign_parameters}.",
+      "use_case": "Digital advertisers designing AI-powered ad campaigns based on competitive insights"
+    },
+    {
+      "name": "content_calendar_prompt",
+      "template": "Develop a monthly content calendar with posting dates, topics, and content types aligned with {marketing_goals}.",
+      "use_case": "Consultants preparing client-ready presentations with detailed marketing intelligence"
+    },
+    {
+      "name": "competitive_intelligence_prompt",
+      "template": "Analyze key competitors within {industry} and summarize their marketing strategies and positioning."
+    }
+  ],
+  "metadata": {
+    "repo_url": "https://github.com/zubair-trabzada/ai-marketing-claude",
+    "generated_from": "ai_marketing_claude"
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "name": "openoutreach_workflow",
-  "skill_name": "openoutreach",
+  "name": "ai_marketing_claude_workflow",
+  "skill_name": "ai_marketing_claude",
   "steps": [
     "analyze_repository_metadata",
     "extract_reusable_patterns",

@@ -1,6 +1,28 @@
 {
-  "name": "LinkedIn Lead Automation",
+  "name": "openoutreach",
+  "type": "repository_derived_skill",
   "description": "An AI-powered LinkedIn automation tool designed to identify and find potential sales leads automatically, targeting professionals and businesses for outreach and marketing efforts.",
+  "triggers": [
+    "automatically",
+    "targeting",
+    "tool",
+    "businesses",
+    "find",
+    "sales",
+    "efforts",
+    "leads",
+    "identify",
+    "outreach",
+    "linkedin",
+    "marketing",
+    "openoutreach",
+    "automation",
+    "ai",
+    "professionals",
+    "powered",
+    "designed",
+    "potential"
+  ],
   "inputs": [
     {
       "name": "target_market_description",
@@ -35,12 +57,6 @@
       "description": "Summary or log of automation activity, such as number of leads found and actions performed."
     }
   ],
-  "patterns": [
-    "Lead generation automation",
-    "AI-based profile matching",
-    "Social media scraping and filtering",
-    "Automated outreach workflows"
-  ],
   "steps": [
     "User inputs product and target market descriptions.",
     "AI analyzes inputs to generate lead identification criteria.",
@@ -56,6 +72,12 @@
     "Recruiters identifying potential candidates based on job profile.",
     "Entrepreneurs automating prospecting to scale outreach efforts."
   ],
+  "patterns": [
+    "Lead generation automation",
+    "AI-based profile matching",
+    "Social media scraping and filtering",
+    "Automated outreach workflows"
+  ],
   "prompt_templates": [
     {
       "name": "lead_generation_prompt",
@@ -65,6 +87,10 @@
   "metadata": {
     "language": "unknown",
     "stars": 1371,
+    "repo_url": "https://github.com/eracle/OpenOutreach"
+  },
+  "source": {
+    "repo_name": "OpenOutreach",
     "repo_url": "https://github.com/eracle/OpenOutreach"
   }
 }
