@@ -1,88 +1,61 @@
 # openclaw-personal-marketing-lab
 
-An agentic system that turns GitHub repositories into reusable AI capabilities for marketing automation.
+This project turns GitHub repositories into reusable AI capabilities for marketing systems.
 
-## Why this project exists
+Instead of treating repositories as code you read manually, the idea here is to treat them as capabilities that can be extracted, structured, validated, and reused.
 
-Open-source repositories often contain valuable implementation patterns, workflows, and domain knowledge, but they are difficult to reuse directly as building blocks for AI systems.
+The system takes relevant repositories, analyzes them, and converts them into reusable assets like skills, workflows, prompt packs, and a manifest that ties everything together.
 
-This project explores a different approach:
+## Why I built this
 
-**a repository is not just code — it is a capability that can be extracted, structured, validated, and reused.**
+A lot of useful open-source work already exists, but most of it is hard to reuse directly inside AI systems.
 
-The goal of `openclaw-marketing-lab` is to transform relevant GitHub repositories into reusable assets such as:
+You can learn from a repo, but you usually cannot plug it into a larger system without doing a lot of interpretation first.
 
-- structured capabilities
-- skills
-- workflows
-- prompt packs
-- manifest indexes
+I built this project to explore a different model:
 
-These assets can then be orchestrated into larger automated marketing systems.
+`repository -> structured capability -> reusable building block`
 
----
+The goal is to make repositories easier to turn into components for agentic marketing systems.
 
-## What the system does
+## What it does
 
-The pipeline currently supports:
+Right now the project can:
 
-1. **Repository ingestion**
-   - finds relevant GitHub repositories using keyword-based discovery
-   - analyzes and scores them
-   - filters top candidates
-
-2. **Capability extraction**
-   - uses an LLM to analyze repository metadata
-   - extracts structured JSON capabilities
-
-3. **Validation**
-   - validates generated outputs with JSON schemas
-
-4. **Asset generation**
-   - converts capabilities into:
-     - skills
-     - workflows
-     - prompt packs
-     - manifest entries
-
-5. **Orchestration**
-   - runs workflows against generated skills
-   - stores execution runs for inspection
-
-6. **Automation**
-   - uses GitHub Actions to generate assets and open pull requests for human review
-
----
+- discover and score relevant GitHub repositories
+- select top candidates for deeper analysis
+- use an LLM to extract structured capability data
+- validate those outputs with JSON schemas
+- generate reusable skills
+- generate workflows from those skills
+- generate prompt packs from the extracted capability
+- build a manifest of generated assets
+- run workflows through a simple orchestrator
+- open pull requests automatically through GitHub Actions for review
 
 ## Core idea
 
-This project transforms:
+This system transforms:
 
 `repo -> metadata`
 
 into:
 
-`repo -> structured capability -> reusable system building block`
+`repo -> capability -> skill -> workflow -> prompt pack`
 
----
+That makes a repository more useful as a system component instead of just a reference.
 
-## High-level architecture
+## Architecture
+
+The flow looks like this:
 
 ```text
 GitHub repositories
-    ↓
-ingestion + scoring
-    ↓
-top_candidates.json
-    ↓
-LLM capability extraction
-    ↓
-validated structured capability JSON
-    ↓
-skills / workflows / prompt packs
-    ↓
-manifest.json
-    ↓
-orchestrator execution
-    ↓
-GitHub PR for human review
+  -> ingestion and scoring
+  -> top_candidates.json
+  -> LLM capability extraction
+  -> validated structured JSON
+  -> skills / workflows / prompt packs
+  -> manifest.json
+  -> orchestrator
+  -> pull request for human review
