@@ -4,24 +4,19 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "seo_analysis_prompt",
-      "template": "Analyze the following content for SEO effectiveness and suggest improvements: {content_data}",
-      "use_case": "Enhancing website landing pages to improve conversion rates."
+      "name": "seo_optimization_prompt",
+      "template": "Analyze the following text for SEO opportunities and suggest improvements: {text_content}",
+      "use_case": "Automated generation and optimization of marketing copy for digital campaigns"
     },
     {
-      "name": "cro_recommendation_prompt",
-      "template": "Given these analytics insights: {analytics_data}, suggest strategies to improve conversion rates.",
-      "use_case": "Generating SEO-friendly marketing copy for product launches."
+      "name": "copywriting_improvement_prompt",
+      "template": "Generate persuasive marketing copy to increase conversion rates for this product: {campaign_parameters}",
+      "use_case": "Improving conversion rates through AI-assisted CRO methodologies"
     },
     {
-      "name": "copywriting_prompt",
-      "template": "Create engaging marketing copy focused on {marketing_goal} using these keywords: {keywords}.",
-      "use_case": "Conducting SEO audits to identify content gaps and keyword opportunities."
-    },
-    {
-      "name": "growth_strategy_prompt",
-      "template": "Develop a growth engineering plan based on user behavior analytics: {analytics_data}.",
-      "use_case": "Using web traffic and user analytics data to inform growth hacking tactics."
+      "name": "analytics_insights_prompt",
+      "template": "Based on this analytics data, provide a performance report and suggest growth strategies: {analytics_data}",
+      "use_case": "Enhancing SEO strategies with machine-generated keyword and content suggestions"
     }
   ],
   "metadata": {
