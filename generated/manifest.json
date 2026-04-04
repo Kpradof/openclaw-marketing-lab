@@ -1,13 +1,14 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-04-04T14:14:23.770420Z",
+  "generated_at": "2026-04-04T15:12:53.230524Z",
   "total_repositories": 1,
   "assets": [
     {
       "repo_name": "marketingskills",
       "analysis_path": "research\\openclaw_outputs\\marketingskills_analysis.json",
       "skill_path": "skills\\marketingskills_skill.json",
-      "workflow_path": "workflows\\marketingskills_workflow.json"
+      "workflow_path": "workflows\\marketingskills_workflow.json",
+      "prompt_pack_path": "prompts\\generated\\marketingskills_prompts.json"
     }
   ]
 }

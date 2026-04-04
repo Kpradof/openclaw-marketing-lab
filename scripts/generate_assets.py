@@ -8,6 +8,7 @@ TOP_CANDIDATES_PATH = os.path.join(BASE_DIR, "research", "top_candidates.json")
 OUTPUT_ANALYSIS_DIR = os.path.join(BASE_DIR, "research", "openclaw_outputs")
 SKILLS_DIR = os.path.join(BASE_DIR, "skills")
 WORKFLOWS_DIR = os.path.join(BASE_DIR, "workflows")
+PROMPTS_DIR = os.path.join(BASE_DIR, "prompts", "generated")
 MANIFEST_PATH = os.path.join(BASE_DIR, "generated", "manifest.json")
 
 STOPWORDS = {
@@ -249,6 +250,43 @@ def generate_workflow_from_skill(skill):
     }
 
 
+def generate_prompt_pack_from_skill(skill):
+    skill_name = sanitize_name(skill.get("name", "repo"))
+    prompt_templates = normalize_prompt_templates(skill.get("prompt_templates", []))
+    use_cases = normalize_string_list(skill.get("use_cases", []))
+    metadata = skill.get("metadata", {}) or {}
+
+    prompts = []
+    for idx, tpl in enumerate(prompt_templates):
+        prompt_entry = {
+            "name": tpl.get("name", f"prompt_{idx + 1}"),
+            "template": tpl.get("template", "")
+        }
+        if idx < len(use_cases):
+            prompt_entry["use_case"] = use_cases[idx]
+        prompts.append(prompt_entry)
+
+    if not prompts:
+        prompts = [
+            {
+                "name": f"{skill_name}_default_prompt",
+                "template": skill.get("description", "Describe how to use this skill."),
+                "use_case": use_cases[0] if use_cases else "general usage"
+            }
+        ]
+
+    return {
+        "name": f"{skill_name}_prompts",
+        "source_skill": skill_name,
+        "description": f"Reusable prompt pack derived from the {skill_name} capability.",
+        "prompts": prompts,
+        "metadata": {
+            "repo_url": metadata.get("repo_url", ""),
+            "generated_from": skill_name
+        }
+    }
+
+
 def generate_analysis(repo):
     return {
         "name": get_repo_name(repo),
@@ -284,6 +322,7 @@ def main():
     os.makedirs(OUTPUT_ANALYSIS_DIR, exist_ok=True)
     os.makedirs(SKILLS_DIR, exist_ok=True)
     os.makedirs(WORKFLOWS_DIR, exist_ok=True)
+    os.makedirs(PROMPTS_DIR, exist_ok=True)
     os.makedirs(os.path.dirname(MANIFEST_PATH), exist_ok=True)
 
     candidates = load_top_candidates()
@@ -307,7 +346,7 @@ def main():
 
     if USE_LLM_ANALYSIS:
         from llm_analysis import generate_analysis_with_llm
-    from validation import validate_capability, validate_workflow
+    from validation import validate_capability, validate_workflow, validate_prompt_pack
 
     for repo in candidates:
         repo_name = get_repo_name(repo)
@@ -371,12 +410,28 @@ def main():
             print("-----")
             continue
 
+        # PROMPT PACK
+        prompt_pack = generate_prompt_pack_from_skill(skill)
+        prompt_pack_path = os.path.join(
+            PROMPTS_DIR,
+            f"{repo_name_safe}_prompts.json"
+        )
+
+        if validate_prompt_pack(prompt_pack):
+            save_json(prompt_pack, prompt_pack_path)
+            print(f"Saved prompt pack -> {prompt_pack_path}")
+        else:
+            print(f"Prompt pack validation failed for repo: {repo_name}")
+            print("-----")
+            continue
+
         # MANIFEST
         manifest_assets.append({
             "repo_name": repo_name,
             "analysis_path": os.path.relpath(analysis_path, BASE_DIR),
             "skill_path": os.path.relpath(skill_path, BASE_DIR),
-            "workflow_path": os.path.relpath(workflow_path, BASE_DIR)
+            "workflow_path": os.path.relpath(workflow_path, BASE_DIR),
+            "prompt_pack_path": os.path.relpath(prompt_pack_path, BASE_DIR)
         })
 
         print("-----")

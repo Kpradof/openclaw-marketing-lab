@@ -11,6 +11,9 @@ with open(BASE_DIR / "schemas" / "capability.schema.json", "r", encoding="utf-8"
 with open(BASE_DIR / "schemas" / "workflow.schema.json", "r", encoding="utf-8") as f:
     workflow_schema = json.load(f)
 
+with open(BASE_DIR / "schemas" / "prompt-pack.schema.json", "r", encoding="utf-8") as f:
+    prompt_pack_schema = json.load(f)
+
 
 def validate_capability(capability_json):
     try:
@@ -29,4 +32,14 @@ def validate_workflow(workflow_json):
         return True
     except jsonschema.exceptions.ValidationError as e:
         print(f"Workflow validation error: {e.message}")
+        return False
+
+
+def validate_prompt_pack(prompt_pack_json):
+    try:
+        validate(instance=prompt_pack_json, schema=prompt_pack_schema)
+        print("Prompt pack JSON is valid.")
+        return True
+    except jsonschema.exceptions.ValidationError as e:
+        print(f"Prompt pack validation error: {e.message}")
         return False

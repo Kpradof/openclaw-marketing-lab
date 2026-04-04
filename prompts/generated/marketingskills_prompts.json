@@ -1,0 +1,31 @@
+{
+  "name": "marketingskills_prompts",
+  "source_skill": "marketingskills",
+  "description": "Reusable prompt pack derived from the marketingskills capability.",
+  "prompts": [
+    {
+      "name": "seo_optimization",
+      "template": "Optimize the following content for SEO using these keywords: {keywords}. Content: {content_data}",
+      "use_case": "Enhancing marketing copy for higher conversion rates in digital campaigns."
+    },
+    {
+      "name": "copywriting_improvement",
+      "template": "Improve this marketing copy to increase engagement and conversions: {content_data}",
+      "use_case": "Optimizing website content for improved search engine ranking and visibility."
+    },
+    {
+      "name": "analytics_insights",
+      "template": "Analyze this analytics data and provide actionable insights to enhance marketing performance: {analytics_data}",
+      "use_case": "Generating analytics-driven reports to inform marketing decision-making."
+    },
+    {
+      "name": "growth_strategy_suggestion",
+      "template": "Based on the following marketing goal and analytics data, suggest growth engineering strategies: Goal: {marketing_goal}, Analytics: {analytics_data}",
+      "use_case": "Designing and implementing growth engineering strategies to scale online presence."
+    }
+  ],
+  "metadata": {
+    "repo_url": "https://github.com/coreyhaines31/marketingskills",
+    "generated_from": "marketingskills"
+  }
+}
