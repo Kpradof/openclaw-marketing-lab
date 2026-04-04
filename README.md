@@ -116,61 +116,19 @@ Index of all generated assets
 
 ---
 
-## Running locally
-
-pip install openai jsonschema
-
-OPENAI_API_KEY=your_key_here
-
-REPO_LIMIT=1
-
-python scripts/generate_assets.py
-
-python scripts/orchestrator.py
-
----
-
 ## Automation
 
-- GitHub Actions handles ingestion, asset generation, and PR creation  
-- Human validation happens through pull requests  
-- OpenClaw is used for development but does not directly modify the repo  
+The system uses a hybrid automation model:
 
----
+- **OpenClaw**
+  - Runs scheduled discovery (cron-based)
+  - Searches and analyzes new GitHub repositories
+  - Triggers the ingestion pipeline
 
-## Current capabilities
+- **GitHub Actions**
+  - Runs asset generation workflows
+  - Validates outputs
+  - Opens pull requests automatically
 
-- repository ingestion  
-- candidate filtering  
-- LLM-based capability extraction  
-- schema validation  
-- skill generation  
-- workflow generation  
-- prompt pack generation  
-- manifest generation  
-- orchestration  
-- pull request automation  
-
----
-
-## What’s next
-
-- richer workflow execution engine  
-- stronger step handlers  
-- better mapping between prompts and real use cases  
-- scaling ingestion  
-- composing multi-skill agent systems  
-
----
-
-## Why this matters
-
-A repository is not just code.
-
-It becomes:
-
-→ a capability  
-→ a building block  
-→ a system component  
-
-This is the foundation for modular, agent-driven marketing systems.
+- **Human review**
+  - All generated assets are reviewed through PRs before merging
