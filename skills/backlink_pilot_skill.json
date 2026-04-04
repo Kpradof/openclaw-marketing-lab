@@ -1,9 +1,0 @@
-{
-  "name": "backlink-pilot_skill",
-  "description": "Automated backlink submission toolkit for indie hackers — submit your product to directory sites, awesome-lists, and search engines with one command",
-  "topics": [],
-  "actions": [
-    "extract_patterns",
-    "apply_logic"
-  ]
-}

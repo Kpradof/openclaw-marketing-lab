@@ -1,9 +1,0 @@
-{
-  "name": "claude-skills_skill",
-  "description": "220+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory.",
-  "topics": [],
-  "actions": [
-    "extract_patterns",
-    "apply_logic"
-  ]
-}

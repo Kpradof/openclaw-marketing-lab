@@ -1,9 +1,0 @@
-{
-  "name": "omnibug_skill",
-  "description": "Omnibug is an extension for Firefox and most Chromium-based browsers to ease implementing and debugging digital marketing tools.",
-  "topics": [],
-  "actions": [
-    "extract_patterns",
-    "apply_logic"
-  ]
-}

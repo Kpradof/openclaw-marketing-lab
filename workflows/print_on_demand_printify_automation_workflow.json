@@ -1,9 +1,0 @@
-{
-  "name": "print_on_demand_printify_automation_workflow",
-  "steps": [
-    "input_data",
-    "process_data",
-    "generate_output"
-  ],
-  "source_repo": "https://github.com/IncomeStreamSurfer/print_on_demand_printify_automation"
-}

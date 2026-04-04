@@ -1,9 +1,0 @@
-{
-  "name": "ALwrity_skill",
-  "description": "ALwrity - AI Digital Marketing Platform. (WIP)",
-  "topics": [],
-  "actions": [
-    "extract_patterns",
-    "apply_logic"
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "name": "openclaw-agent-feeds_workflow",
-  "steps": [
-    "input_data",
-    "process_data",
-    "generate_output"
-  ],
-  "source_repo": "https://github.com/mkhsu2002/openclaw-agent-feeds"
-}

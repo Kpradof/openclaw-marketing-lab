@@ -1,9 +1,0 @@
-{
-  "name": "Reddit_Scrapper_skill",
-  "description": "Scrape Reddit for marketing pain points using GPT — built to fuel Cronlytic's growth.",
-  "topics": [],
-  "actions": [
-    "extract_patterns",
-    "apply_logic"
-  ]
-}

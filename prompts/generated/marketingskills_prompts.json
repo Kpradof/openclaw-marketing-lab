@@ -4,24 +4,24 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "seo_optimization_prompt",
-      "template": "Analyze the website at {website_url} and provide an SEO strategy focused on these keywords: {keywords_list}.",
-      "use_case": "Improving website conversion rates through targeted copy and layout adjustments."
+      "name": "generate_cro_copy",
+      "template": "Create high-converting copy for a landing page targeting {target_audience} promoting {product_service}.",
+      "use_case": "Automated generation of high-converting landing page copy"
     },
     {
-      "name": "copywriting_enhancement_prompt",
-      "template": "Improve the following marketing copy for higher conversions and engagement: {content_data}.",
-      "use_case": "Creating SEO-optimized marketing content to increase organic traffic."
+      "name": "seo_optimization",
+      "template": "Optimize the following content for SEO with keywords: {keywords}. Content: {content}",
+      "use_case": "SEO optimization for website content using AI"
     },
     {
-      "name": "conversion_rate_optimization_prompt",
-      "template": "Given these performance metrics: {performance_metrics}, suggest CRO improvements to meet these marketing goals: {marketing_goals}.",
-      "use_case": "Generating data-driven growth strategies for digital marketing campaigns."
+      "name": "analytics_insights",
+      "template": "Analyze this marketing analytics data and provide actionable insights: {analytics_data}",
+      "use_case": "Generating analytics insights from user or campaign data"
     },
     {
-      "name": "growth_strategy_prompt",
-      "template": "Create a growth engineering plan based on this analytics report: {analytics_report} and the target goals: {marketing_goals}.",
-      "use_case": "Enhancing AI agent marketing capabilities with advanced marketing skillsets."
+      "name": "growth_engineering_plan",
+      "template": "Develop a growth engineering plan to increase {metric} for {product_service}.",
+      "use_case": "Designing and implementing growth-driven engineering strategies"
     }
   ],
   "metadata": {
