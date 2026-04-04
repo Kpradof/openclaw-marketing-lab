@@ -56,33 +56,32 @@ From each repository, the system generates:
 - Keeps human review in the loop via PRs
 
 ---
-
 ## Architecture
 
-```text
-GitHub Repositories
-        ↓
-Ingestion & Scoring
-        ↓
-top_candidates.json
-        ↓
-LLM Capability Extraction
-        ↓
-Validated Structured JSON
-        ↓
-Skills / Workflows / Prompts
-        ↓
-manifest.json
-        ↓
-Orchestrator
-        ↓
-Pull Request for Review
+```mermaid
+flowchart TD
+    A[GitHub repositories] --> B[Weekly ingestion]
+    B --> C[top_candidates.json]
+    C --> D[LLM capability extraction]
+    D --> E[Validated capability JSON]
 
+    E --> F[Skills]
+    E --> G[Workflows]
+    E --> H[Prompt packs]
+
+    F --> I[Manifest]
+    G --> I
+    H --> I
+
+    G --> J[Orchestrator]
+
+    I --> K[GitHub pull request]
+    J --> K
+
+    K --> L[Human review and merge]
 ``` 
-
 ---
-
-## Project structure
+Project structure
 ```text
 .github/workflows/     # automation pipelines
 research/              # repo data + analysis outputs
