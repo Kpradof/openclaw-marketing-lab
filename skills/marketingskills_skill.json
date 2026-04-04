@@ -1,9 +1,112 @@
 {
-  "name": "marketingskills_skill",
-  "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-  "topics": [],
-  "actions": [
-    "extract_patterns",
-    "apply_logic"
-  ]
+  "name": "marketingskills",
+  "type": "repository_derived_skill",
+  "description": "Provides marketing-related skills and capabilities for Claude Code and AI agents, including conversion rate optimization (CRO), copywriting, SEO, analytics, and growth engineering to enhance marketing performance and strategy.",
+  "triggers": [
+    "performance",
+    "analytics",
+    "enhance",
+    "capabilities",
+    "claude",
+    "marketingskills",
+    "ai",
+    "seo",
+    "including",
+    "related",
+    "engineering",
+    "rate",
+    "skills",
+    "growth",
+    "marketing",
+    "agents",
+    "optimization",
+    "cro",
+    "copywriting",
+    "code",
+    "provides",
+    "conversion",
+    "strategy"
+  ],
+  "inputs": [
+    {
+      "name": "marketing_data",
+      "type": "string",
+      "description": "Raw or processed marketing data such as web traffic, conversion metrics, copy drafts, keywords, or analytics reports."
+    },
+    {
+      "name": "task_description",
+      "type": "string",
+      "description": "Description of the marketing task or goal the AI agent needs to perform, e.g., optimize a landing page, generate ad copy, improve SEO."
+    },
+    {
+      "name": "parameters",
+      "type": "object",
+      "description": "Optional parameters including target audience, keywords, campaign details, or performance indicators."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "optimized_content",
+      "type": "string",
+      "description": "Generated or optimized marketing content such as copywriting, SEO-enhanced text, or growth strategy recommendations."
+    },
+    {
+      "name": "analytics_report",
+      "type": "object",
+      "description": "Analytical insights and recommendations derived from marketing data to inform decisions."
+    },
+    {
+      "name": "growth_action_plan",
+      "type": "string",
+      "description": "A structured plan or set of steps to implement growth engineering techniques."
+    }
+  ],
+  "steps": [
+    "Collect and input relevant marketing data and task description into the system.",
+    "Analyze the input for current performance indicators and content quality.",
+    "Apply appropriate marketing skill modules such as CRO, SEO, or copywriting.",
+    "Generate outputs including optimized content, analytics reports, and growth plans.",
+    "Review and iterate based on feedback or further data inputs."
+  ],
+  "use_cases": [
+    "AI-assisted creation of persuasive marketing copy.",
+    "Optimization of web pages to increase conversion rates.",
+    "SEO analysis and enhancement for better search ranking.",
+    "Generating growth strategies based on marketing data.",
+    "Analyzing marketing analytics to refine campaign effectiveness."
+  ],
+  "patterns": [
+    "Conversion Rate Optimization (CRO) workflows",
+    "SEO keyword analysis and enhancement",
+    "Copywriting generation and optimization",
+    "Marketing analytics data interpretation",
+    "Growth engineering iterative testing and scaling"
+  ],
+  "prompt_templates": [
+    {
+      "name": "copywriting_prompt",
+      "template": "Generate persuasive marketing copy for a product targeting {target_audience} focusing on {key_features}."
+    },
+    {
+      "name": "seo_optimization_prompt",
+      "template": "Analyze the following text and suggest SEO improvements focusing on keywords: {keywords}."
+    },
+    {
+      "name": "cro_recommendation_prompt",
+      "template": "Provide recommendations to improve conversion rates for a landing page with current metrics: {metrics}."
+    },
+    {
+      "name": "growth_plan_prompt",
+      "template": "Create a growth engineering plan to scale marketing efforts targeting {market_segment} based on recent analytics data."
+    }
+  ],
+  "metadata": {
+    "language": "unknown",
+    "stars": 18464,
+    "repo_url": "https://github.com/coreyhaines31/marketingskills"
+  },
+  "source": {
+    "repo_name": "marketingskills",
+    "repo_url": "https://github.com/coreyhaines31/marketingskills"
+  }
 }

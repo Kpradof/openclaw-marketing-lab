@@ -1,77 +1,13 @@
 {
-  "total_repositories": 18,
+  "version": "0.1.0",
+  "generated_at": "2026-04-04T14:14:23.770420Z",
+  "total_repositories": 1,
   "assets": [
     {
       "repo_name": "marketingskills",
-      "asset_type": "skill",
       "analysis_path": "research\\openclaw_outputs\\marketingskills_analysis.json",
-      "asset_path": "skills\\marketingskills_skill.json"
-    },
-    {
-      "repo_name": "ai-marketing-claude",
-      "asset_type": "skill",
-      "analysis_path": "research\\openclaw_outputs\\ai_marketing_claude_analysis.json",
-      "asset_path": "skills\\ai_marketing_claude_skill.json"
-    },
-    {
-      "repo_name": "seo-geo-claude-skills",
-      "asset_type": "skill",
-      "analysis_path": "research\\openclaw_outputs\\seo_geo_claude_skills_analysis.json",
-      "asset_path": "skills\\seo_geo_claude_skills_skill.json"
-    },
-    {
-      "repo_name": "claude-skills",
-      "asset_type": "skill",
-      "analysis_path": "research\\openclaw_outputs\\claude_skills_analysis.json",
-      "asset_path": "skills\\claude_skills_skill.json"
-    },
-    {
-      "repo_name": "Reddit_Scrapper",
-      "asset_type": "skill",
-      "analysis_path": "research\\openclaw_outputs\\reddit_scrapper_analysis.json",
-      "asset_path": "skills\\reddit_scrapper_skill.json"
-    },
-    {
-      "repo_name": "content-generation-solution-accelerator",
-      "asset_type": "skill",
-      "analysis_path": "research\\openclaw_outputs\\content_generation_solution_accelerator_analysis.json",
-      "asset_path": "skills\\content_generation_solution_accelerator_skill.json"
-    },
-    {
-      "repo_name": "backlink-pilot",
-      "asset_type": "skill",
-      "analysis_path": "research\\openclaw_outputs\\backlink_pilot_analysis.json",
-      "asset_path": "skills\\backlink_pilot_skill.json"
-    },
-    {
-      "repo_name": "ALwrity",
-      "asset_type": "skill",
-      "analysis_path": "research\\openclaw_outputs\\alwrity_analysis.json",
-      "asset_path": "skills\\alwrity_skill.json"
-    },
-    {
-      "repo_name": "DeepClaude",
-      "asset_type": "skill",
-      "analysis_path": "research\\openclaw_outputs\\deepclaude_analysis.json",
-      "asset_path": "skills\\deepclaude_skill.json"
-    },
-    {
-      "repo_name": "UForm",
-      "asset_type": "skill",
-      "analysis_path": "research\\openclaw_outputs\\uform_analysis.json",
-      "asset_path": "skills\\uform_skill.json"
-    },
-    {
-      "repo_name": "CrawlAI-RAG",
-      "asset_type": "skill",
-      "analysis_path": "research\\openclaw_outputs\\crawlai_rag_analysis.json",
-      "asset_path": "skills\\crawlai_rag_skill.json"
-    },
-    {
-      "repo_name": "omnibug",
-      "asset_type": "skill",
-      "analysis_path": "research\\openclaw_outputs\\omnibug_analysis.json",
-      "asset_path": "skills\\omnibug_skill.json"
+      "skill_path": "skills\\marketingskills_skill.json",
+      "workflow_path": "workflows\\marketingskills_workflow.json"
     }
   ]
 }
