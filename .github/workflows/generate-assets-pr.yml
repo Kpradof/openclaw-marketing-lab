@@ -37,7 +37,7 @@ jobs:
       - name: Run asset generation pipeline
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          REPO_LIMIT: "1"
+          REPO_LIMIT: "5"
         run: |
           python ./scripts/generate_assets.py
 
