@@ -1,0 +1,9 @@
+{
+  "name": "ai_marketing_claude_workflow",
+  "skill_name": "ai_marketing_claude",
+  "steps": [
+    "analyze_repository_metadata",
+    "extract_reusable_patterns",
+    "map_patterns_to_marketing_use_cases"
+  ]
+}

@@ -4,24 +4,24 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "generate_cro_copy",
-      "template": "Create high-converting copy for a landing page targeting {target_audience} promoting {product_service}.",
-      "use_case": "Automated generation of high-converting landing page copy"
+      "name": "seo_copywriting",
+      "template": "Create SEO-optimized marketing copy for the following product description: {content_data}. Focus on keywords: {keywords}.",
+      "use_case": "Improving website landing page conversion rates using AI-generated copy and SEO optimization."
     },
     {
-      "name": "seo_optimization",
-      "template": "Optimize the following content for SEO with keywords: {keywords}. Content: {content}",
-      "use_case": "SEO optimization for website content using AI"
+      "name": "cro_analysis",
+      "template": "Analyze the following webpage data for conversion rate optimization opportunities: {analytics_data}. Provide actionable recommendations.",
+      "use_case": "Generating high-quality marketing copy for digital campaigns."
     },
     {
-      "name": "analytics_insights",
-      "template": "Analyze this marketing analytics data and provide actionable insights: {analytics_data}",
-      "use_case": "Generating analytics insights from user or campaign data"
+      "name": "growth_strategy_generator",
+      "template": "Based on this growth metrics data: {growth_metrics}, suggest innovative growth engineering strategies.",
+      "use_case": "Analyzing web traffic and campaign data to extract actionable marketing insights."
     },
     {
-      "name": "growth_engineering_plan",
-      "template": "Develop a growth engineering plan to increase {metric} for {product_service}.",
-      "use_case": "Designing and implementing growth-driven engineering strategies"
+      "name": "performance_insights_report",
+      "template": "Generate a summary report of marketing performance insights from this data: {analytics_data}.",
+      "use_case": "Engineering growth strategies for startups or digital products using data-driven approaches."
     }
   ],
   "metadata": {

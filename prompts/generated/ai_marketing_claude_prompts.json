@@ -1,0 +1,44 @@
+{
+  "name": "ai_marketing_claude_prompts",
+  "source_skill": "ai_marketing_claude",
+  "description": "Reusable prompt pack derived from the ai_marketing_claude capability.",
+  "prompts": [
+    {
+      "name": "Website Audit Prompt",
+      "template": "Audit the website at {website_url} and identify marketing strengths, weaknesses, and opportunities.",
+      "use_case": "Marketing teams auditing and improving client websites"
+    },
+    {
+      "name": "Marketing Copy Generation",
+      "template": "Generate compelling marketing copy for a campaign targeting {target_audience} with the following product details: {product_details}.",
+      "use_case": "Businesses generating targeted marketing copy and campaigns quickly"
+    },
+    {
+      "name": "Email Sequence Creation",
+      "template": "Create an email marketing sequence with {number_of_emails} emails designed to {campaign_goal}.",
+      "use_case": "Content managers planning and automating content publication"
+    },
+    {
+      "name": "Ad Campaign Design",
+      "template": "Design an ad campaign for {product_or_service} with the budget of {budget} targeting {audience_description}.",
+      "use_case": "Market analysts performing competitive intelligence"
+    },
+    {
+      "name": "Content Calendar Planning",
+      "template": "Create a content calendar for {time_period} with content focused on {topics} and publishing frequency of {frequency}.",
+      "use_case": "Agencies creating polished, comprehensive reports for clients"
+    },
+    {
+      "name": "Competitive Intelligence Report",
+      "template": "Analyze competitors based on {competitive_data} and provide a detailed comparison report."
+    },
+    {
+      "name": "Generate Client Report",
+      "template": "Compile all marketing assets into a client-ready PDF report with focus on {report_focus}."
+    }
+  ],
+  "metadata": {
+    "repo_url": "https://github.com/zubair-trabzada/ai-marketing-claude",
+    "generated_from": "ai_marketing_claude"
+  }
+}

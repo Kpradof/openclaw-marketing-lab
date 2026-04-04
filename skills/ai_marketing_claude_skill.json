@@ -1,0 +1,163 @@
+{
+  "name": "ai_marketing_claude",
+  "type": "repository_derived_skill",
+  "description": "A comprehensive AI-powered marketing suite that provides 15 distinct marketing skills using parallel subagents, enabling website audits, marketing copy generation, email sequences, ad campaigns, content calendars, competitive intelligence, and client-ready PDF report creation.",
+  "triggers": [
+    "audits",
+    "website",
+    "intelligence",
+    "ready",
+    "distinct",
+    "using",
+    "generation",
+    "provides",
+    "client",
+    "content",
+    "skills",
+    "pdf",
+    "email",
+    "copy",
+    "campaigns",
+    "suite",
+    "subagents",
+    "marketing",
+    "sequences",
+    "parallel",
+    "ad",
+    "enabling",
+    "ai",
+    "ai_marketing_claude",
+    "report",
+    "calendars",
+    "15",
+    "comprehensive",
+    "powered",
+    "creation",
+    "competitive"
+  ],
+  "inputs": [
+    {
+      "name": "website_url",
+      "type": "string",
+      "description": "The URL of the website to audit and gather marketing insights from."
+    },
+    {
+      "name": "campaign_parameters",
+      "type": "object",
+      "description": "Parameters including target audience, goals, budget, and product details required to generate marketing copy, email sequences, and ad campaigns."
+    },
+    {
+      "name": "content_schedule_requirements",
+      "type": "string",
+      "description": "Details or preferences for creating content calendars such as frequency, content types, and distribution channels."
+    },
+    {
+      "name": "competitive_data",
+      "type": "string",
+      "description": "Information or URLs related to competitors for performing competitive intelligence."
+    },
+    {
+      "name": "report_preferences",
+      "type": "object",
+      "description": "Options defining the structure, focus, and style of client-ready PDF reports."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "website_audit_report",
+      "type": "object",
+      "description": "Detailed audit results of a website including strengths, weaknesses, and marketing opportunities."
+    },
+    {
+      "name": "marketing_copy",
+      "type": "string",
+      "description": "Generated marketing copy tailored to the specified campaign parameters."
+    },
+    {
+      "name": "email_sequences",
+      "type": "array",
+      "description": "A sequence of marketing emails designed to nurture leads or engage customers."
+    },
+    {
+      "name": "ad_campaigns",
+      "type": "object",
+      "description": "Structured ad campaign concepts and creatives ready for deployment."
+    },
+    {
+      "name": "content_calendar",
+      "type": "object",
+      "description": "A scheduling plan for future content publishing across platforms."
+    },
+    {
+      "name": "competitive_intelligence_report",
+      "type": "object",
+      "description": "Insights and analyses comparing client and competitor marketing presence and strategies."
+    },
+    {
+      "name": "client_ready_pdf_report",
+      "type": "file",
+      "description": "Comprehensive, formatted PDF report suitable for client presentation."
+    }
+  ],
+  "steps": [
+    "Receive input parameters including website URL, campaign details, content calendar requirements, competitive data, and report preferences",
+    "Launch parallel subagents to concurrently perform website audit, copywriting, email sequence creation, ad campaign design, content calendar generation, and competitive intelligence gathering",
+    "Aggregate outputs from all subagents",
+    "Format and compile the aggregated data into client-ready PDF reports",
+    "Deliver completed marketing assets and reports to the user"
+  ],
+  "use_cases": [
+    "Marketing teams auditing and improving client websites",
+    "Businesses generating targeted marketing copy and campaigns quickly",
+    "Content managers planning and automating content publication",
+    "Market analysts performing competitive intelligence",
+    "Agencies creating polished, comprehensive reports for clients"
+  ],
+  "patterns": [
+    "Parallel subagent orchestration to handle multiple marketing tasks concurrently",
+    "Automated website auditing for marketing insights",
+    "Template-driven generation of marketing copy and email sequences",
+    "Content calendar creation based on input scheduling preferences",
+    "Extraction and synthesis of competitive intelligence",
+    "Automated generation of professional PDF reports"
+  ],
+  "prompt_templates": [
+    {
+      "name": "Website Audit Prompt",
+      "template": "Audit the website at {website_url} and identify marketing strengths, weaknesses, and opportunities."
+    },
+    {
+      "name": "Marketing Copy Generation",
+      "template": "Generate compelling marketing copy for a campaign targeting {target_audience} with the following product details: {product_details}."
+    },
+    {
+      "name": "Email Sequence Creation",
+      "template": "Create an email marketing sequence with {number_of_emails} emails designed to {campaign_goal}."
+    },
+    {
+      "name": "Ad Campaign Design",
+      "template": "Design an ad campaign for {product_or_service} with the budget of {budget} targeting {audience_description}."
+    },
+    {
+      "name": "Content Calendar Planning",
+      "template": "Create a content calendar for {time_period} with content focused on {topics} and publishing frequency of {frequency}."
+    },
+    {
+      "name": "Competitive Intelligence Report",
+      "template": "Analyze competitors based on {competitive_data} and provide a detailed comparison report."
+    },
+    {
+      "name": "Generate Client Report",
+      "template": "Compile all marketing assets into a client-ready PDF report with focus on {report_focus}."
+    }
+  ],
+  "metadata": {
+    "language": "unknown",
+    "stars": 1043,
+    "repo_url": "https://github.com/zubair-trabzada/ai-marketing-claude"
+  },
+  "source": {
+    "repo_name": "ai-marketing-claude",
+    "repo_url": "https://github.com/zubair-trabzada/ai-marketing-claude"
+  }
+}

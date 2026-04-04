@@ -1,0 +1,21 @@
+{
+  "name": "openoutreach_prompts",
+  "source_skill": "openoutreach",
+  "description": "Reusable prompt pack derived from the openoutreach capability.",
+  "prompts": [
+    {
+      "name": "lead_search_prompt",
+      "template": "Find LinkedIn leads for a product targeting {target_market_description} with criteria: {search_criteria}",
+      "use_case": "B2B sales teams automating lead generation and initial contact on LinkedIn."
+    },
+    {
+      "name": "outreach_message_prompt",
+      "template": "Generate a personalized LinkedIn outreach message for a lead named {lead_name} working at {company_name}.",
+      "use_case": "Recruiters sourcing candidates fitting specific profiles."
+    }
+  ],
+  "metadata": {
+    "repo_url": "https://github.com/eracle/OpenOutreach",
+    "generated_from": "openoutreach"
+  }
+}
