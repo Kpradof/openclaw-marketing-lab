@@ -4,24 +4,24 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "seo_copywriting",
-      "template": "Create SEO-optimized marketing copy for the following product description: {content_data}. Focus on keywords: {keywords}.",
-      "use_case": "Improving website landing page conversion rates using AI-generated copy and SEO optimization."
+      "name": "seo_analysis_prompt",
+      "template": "Analyze the following content for SEO effectiveness and suggest improvements: {content_data}",
+      "use_case": "Enhancing website landing pages to improve conversion rates."
     },
     {
-      "name": "cro_analysis",
-      "template": "Analyze the following webpage data for conversion rate optimization opportunities: {analytics_data}. Provide actionable recommendations.",
-      "use_case": "Generating high-quality marketing copy for digital campaigns."
+      "name": "cro_recommendation_prompt",
+      "template": "Given these analytics insights: {analytics_data}, suggest strategies to improve conversion rates.",
+      "use_case": "Generating SEO-friendly marketing copy for product launches."
     },
     {
-      "name": "growth_strategy_generator",
-      "template": "Based on this growth metrics data: {growth_metrics}, suggest innovative growth engineering strategies.",
-      "use_case": "Analyzing web traffic and campaign data to extract actionable marketing insights."
+      "name": "copywriting_prompt",
+      "template": "Create engaging marketing copy focused on {marketing_goal} using these keywords: {keywords}.",
+      "use_case": "Conducting SEO audits to identify content gaps and keyword opportunities."
     },
     {
-      "name": "performance_insights_report",
-      "template": "Generate a summary report of marketing performance insights from this data: {analytics_data}.",
-      "use_case": "Engineering growth strategies for startups or digital products using data-driven approaches."
+      "name": "growth_strategy_prompt",
+      "template": "Develop a growth engineering plan based on user behavior analytics: {analytics_data}.",
+      "use_case": "Using web traffic and user analytics data to inform growth hacking tactics."
     }
   ],
   "metadata": {

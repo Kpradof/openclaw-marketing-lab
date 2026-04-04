@@ -4,6 +4,7 @@ from openai import OpenAI
 
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+DEBUG_LLM = os.getenv("DEBUG_LLM") == "1"
 
 
 ANALYSIS_PROMPT_TEMPLATE = """
@@ -107,15 +108,17 @@ def generate_analysis_with_llm(repo):
     text = response.output_text
     cleaned_text = clean_json_response(text)
 
-    print("\n[DEBUG] Raw LLM response:")
-    print(repr(text))
+    if DEBUG_LLM:
+        print("\n[DEBUG] Raw LLM response:")
+        print(repr(text))
 
     try:
         parsed = json.loads(cleaned_text)
     except json.JSONDecodeError as e:
-        print("\n[DEBUG] Failed to parse cleaned LLM response as JSON")
-        print("[DEBUG] Cleaned response:")
-        print(cleaned_text)
+        if DEBUG_LLM:
+            print("\n[DEBUG] Failed to parse cleaned LLM response as JSON")
+            print("[DEBUG] Cleaned response:")
+            print(cleaned_text)
         raise ValueError(f"LLM returned invalid JSON: {e}") from e
 
     if not isinstance(parsed, dict):

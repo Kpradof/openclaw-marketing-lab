@@ -1,112 +1,112 @@
 {
   "name": "marketingskills",
   "type": "repository_derived_skill",
-  "description": "A collection of marketing skills tailored for Claude Code and AI agents, covering conversion rate optimization (CRO), copywriting, SEO, analytics, and growth engineering.",
+  "description": "Provides marketing-oriented skills enabling Claude Code and AI agents to perform conversion rate optimization (CRO), copywriting, SEO, analytics, and growth engineering tasks.",
   "triggers": [
-    "tailored",
-    "copywriting",
-    "engineering",
-    "claude",
-    "optimization",
-    "conversion",
-    "skills",
-    "analytics",
-    "marketingskills",
-    "collection",
     "growth",
-    "cro",
-    "code",
-    "marketing",
     "rate",
-    "ai",
+    "perform",
+    "tasks",
+    "provides",
+    "copywriting",
+    "enabling",
     "seo",
-    "covering",
-    "agents"
+    "skills",
+    "conversion",
+    "oriented",
+    "analytics",
+    "optimization",
+    "agents",
+    "marketing",
+    "ai",
+    "cro",
+    "claude",
+    "code",
+    "engineering",
+    "marketingskills"
   ],
   "inputs": [
     {
       "name": "marketing_goal",
       "type": "string",
-      "description": "Description of the marketing objective to achieve."
+      "description": "The target marketing objective such as increasing conversions, improving SEO ranking, or generating copy."
     },
     {
       "name": "content_data",
       "type": "string",
-      "description": "Text or content requiring copywriting, SEO enhancement, or analysis."
+      "description": "Input text or web content for copywriting, SEO analysis, or conversion optimization."
     },
     {
       "name": "analytics_data",
       "type": "object",
-      "description": "Data representing user interaction, traffic, or campaign performance metrics."
+      "description": "Data related to user behavior, website traffic, or campaign performance for growth engineering or CRO."
     },
     {
-      "name": "growth_metrics",
-      "type": "object",
-      "description": "Data used to engineer or optimize growth strategies."
+      "name": "keywords",
+      "type": "list[string]",
+      "description": "Relevant keywords for SEO tasks and content targeting."
     }
   ],
   "outputs": [
     {
       "name": "optimized_content",
       "type": "string",
-      "description": "Content enhanced for SEO, engagement, or conversion."
+      "description": "Marketing copy or web content refined for SEO, engagement, and conversions."
     },
     {
-      "name": "performance_insights",
+      "name": "seo_report",
       "type": "object",
-      "description": "Analytical results providing actionable insights on marketing performance."
+      "description": "Analysis results highlighting SEO strengths, weaknesses, and opportunities."
     },
     {
-      "name": "growth_strategies",
-      "type": "string",
-      "description": "Recommended tactics or engineered approaches to drive user or revenue growth."
+      "name": "conversion_insights",
+      "type": "object",
+      "description": "Actionable recommendations based on CRO analysis."
     },
     {
-      "name": "copywriting_output",
-      "type": "string",
-      "description": "Generated or improved marketing copy tailored for target audiences."
+      "name": "growth_strategy",
+      "type": "object",
+      "description": "Proposed tactics and engineering approaches to accelerate user acquisition and retention."
     }
   ],
   "steps": [
-    "Identify and define the marketing goals and target audience.",
-    "Analyze existing marketing content and analytics data.",
-    "Apply copywriting techniques to improve engagement and clarity.",
-    "Enhance content with SEO best practices for keyword density and structure.",
-    "Perform CRO evaluation and apply optimization techniques.",
-    "Generate performance insights from analytics data.",
-    "Develop growth strategies based on analyzed data and marketing objectives.",
-    "Iterate on content and strategies based on performance feedback."
+    "Receive marketing goals and relevant input data (content, keywords, analytics).",
+    "Analyze input content for SEO and conversion performance metrics.",
+    "Generate or optimize marketing copy tailored to target audience and marketing goals.",
+    "Perform analytics to extract insights for growth and CRO.",
+    "Synthesize recommendations for SEO improvements, conversion rate enhancements, and growth strategies.",
+    "Return structured outputs including optimized content, reports, and actionable strategies."
   ],
   "use_cases": [
-    "Improving website landing page conversion rates using AI-generated copy and SEO optimization.",
-    "Generating high-quality marketing copy for digital campaigns.",
-    "Analyzing web traffic and campaign data to extract actionable marketing insights.",
-    "Engineering growth strategies for startups or digital products using data-driven approaches.",
-    "Automating routine marketing tasks for AI-powered marketing assistants."
+    "Enhancing website landing pages to improve conversion rates.",
+    "Generating SEO-friendly marketing copy for product launches.",
+    "Conducting SEO audits to identify content gaps and keyword opportunities.",
+    "Using web traffic and user analytics data to inform growth hacking tactics.",
+    "Supporting AI agents in automating multi-channel marketing campaigns."
   ],
   "patterns": [
-    "Conversion Rate Optimization (CRO) frameworks",
-    "SEO keyword integration and content structuring",
-    "Analytics-driven decision making",
-    "Growth engineering approaches using data analysis",
-    "Modular copywriting templates"
+    "Conversion Rate Optimization (CRO) analysis and recommendation",
+    "Automated copywriting and content generation",
+    "Search Engine Optimization (SEO) auditing and keyword targeting",
+    "Data-driven growth engineering through analytics",
+    "Prompt-based marketing task decomposition for AI agents"
   ],
   "prompt_templates": [
     {
-      "name": "seo_copywriting",
-      "template": "Create SEO-optimized marketing copy for the following product description: {content_data}. Focus on keywords: {keywords}."
+      "name": "seo_analysis_prompt",
+      "template": "Analyze the following content for SEO effectiveness and suggest improvements: {content_data}"
     },
     {
-      "name": "cro_analysis",
-      "template": "Analyze the following webpage data for conversion rate optimization opportunities: {analytics_data}. Provide actionable recommendations."
+      "name": "cro_recommendation_prompt",
+      "template": "Given these analytics insights: {analytics_data}, suggest strategies to improve conversion rates."
     },
     {
-      "name": "growth_strategy_generator",
-      "template": "Based on this growth metrics data: {growth_metrics}, suggest innovative growth engineering strategies."
+      "name": "copywriting_prompt",
+      "template": "Create engaging marketing copy focused on {marketing_goal} using these keywords: {keywords}."
     },
     {
-      "name": "performance_insights_report",
-      "template": "Generate a summary report of marketing performance insights from this data: {analytics_data}."
+      "name": "growth_strategy_prompt",
+      "template": "Develop a growth engineering plan based on user behavior analytics: {analytics_data}."
     }
   ],
   "metadata": {

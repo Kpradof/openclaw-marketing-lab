@@ -4,14 +4,14 @@
   "description": "Reusable prompt pack derived from the openoutreach capability.",
   "prompts": [
     {
-      "name": "lead_search_prompt",
-      "template": "Find LinkedIn leads for a product targeting {target_market_description} with criteria: {search_criteria}",
-      "use_case": "B2B sales teams automating lead generation and initial contact on LinkedIn."
+      "name": "lead_generation_prompt",
+      "template": "Find leads on LinkedIn for the following target market: {target_market_description} with these criteria: {search_criteria}",
+      "use_case": "Sales and marketing teams seeking to automate LinkedIn lead generation."
     },
     {
       "name": "outreach_message_prompt",
-      "template": "Generate a personalized LinkedIn outreach message for a lead named {lead_name} working at {company_name}.",
-      "use_case": "Recruiters sourcing candidates fitting specific profiles."
+      "template": "Send the following message to each lead: {message_content}",
+      "use_case": "Recruiters sourcing candidates from LinkedIn based on specific profiles."
     }
   ],
   "metadata": {

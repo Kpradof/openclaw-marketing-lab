@@ -428,10 +428,10 @@ def main():
         # MANIFEST
         manifest_assets.append({
             "repo_name": repo_name,
-            "analysis_path": os.path.relpath(analysis_path, BASE_DIR),
-            "skill_path": os.path.relpath(skill_path, BASE_DIR),
-            "workflow_path": os.path.relpath(workflow_path, BASE_DIR),
-            "prompt_pack_path": os.path.relpath(prompt_pack_path, BASE_DIR)
+            "analysis_path": os.path.relpath(analysis_path, BASE_DIR).replace("\\", "/"),
+            "skill_path": os.path.relpath(skill_path, BASE_DIR).replace("\\", "/"),
+            "workflow_path": os.path.relpath(workflow_path, BASE_DIR).replace("\\", "/"),
+            "prompt_pack_path": os.path.relpath(prompt_pack_path, BASE_DIR).replace("\\", "/")
         })
 
         print("-----")

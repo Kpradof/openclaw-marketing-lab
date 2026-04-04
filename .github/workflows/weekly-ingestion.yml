@@ -45,4 +45,6 @@ jobs:
             - research/top_candidates.json
           base: main
           add-paths: |
-            research
+            research/repos.json
+            research/repo_candidates.json
+            research/top_candidates.json
