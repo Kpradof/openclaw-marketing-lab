@@ -5,9 +5,9 @@
     "full_name": "coreyhaines31/marketingskills",
     "html_url": "https://github.com/coreyhaines31/marketingskills",
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-    "stargazers_count": 18464,
+    "stargazers_count": 18833,
     "language": "JavaScript",
-    "updated_at": "2026-04-03T01:39:07Z",
+    "updated_at": "2026-04-05T00:54:21Z",
     "topics": [
       "claude",
       "codex",
@@ -20,9 +20,9 @@
     "full_name": "eracle/OpenOutreach",
     "html_url": "https://github.com/eracle/OpenOutreach",
     "description": "Linkedin Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
-    "stargazers_count": 1371,
+    "stargazers_count": 1378,
     "language": "Python",
-    "updated_at": "2026-04-03T01:23:17Z",
+    "updated_at": "2026-04-04T23:33:05Z",
     "topics": [
       "agent",
       "agentic",
@@ -47,13 +47,24 @@
   },
   {
     "keyword": "marketing ai",
+    "name": "ai-marketing-skills",
+    "full_name": "ericosiu/ai-marketing-skills",
+    "html_url": "https://github.com/ericosiu/ai-marketing-skills",
+    "description": "Open-source AI marketing skills — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
+    "stargazers_count": 1299,
+    "language": "Python",
+    "updated_at": "2026-04-05T01:15:41Z",
+    "topics": []
+  },
+  {
+    "keyword": "marketing ai",
     "name": "ai-marketing-claude",
     "full_name": "zubair-trabzada/ai-marketing-claude",
     "html_url": "https://github.com/zubair-trabzada/ai-marketing-claude",
     "description": "AI Marketing Suite for Claude Code. 15 marketing skills with parallel subagents — audit any website, generate copy, email sequences, ad campaigns, content calendars, competitive intelligence, and client-ready PDF reports.",
-    "stargazers_count": 1043,
+    "stargazers_count": 1073,
     "language": "Python",
-    "updated_at": "2026-04-02T23:54:49Z",
+    "updated_at": "2026-04-04T22:28:46Z",
     "topics": [
       "ai-marketing",
       "claude",
@@ -73,9 +84,9 @@
     "full_name": "AJaySi/ALwrity",
     "html_url": "https://github.com/AJaySi/ALwrity",
     "description": "ALwrity - AI Digital Marketing Platform. (WIP)",
-    "stargazers_count": 969,
+    "stargazers_count": 971,
     "language": "Python",
-    "updated_at": "2026-04-03T01:33:12Z",
+    "updated_at": "2026-04-04T17:31:47Z",
     "topics": [
       "ai-content-generation",
       "ai-content-marketing",
@@ -83,29 +94,6 @@
       "ai-seo-tools",
       "ai-social-media",
       "multimodal-content-generation"
-    ]
-  },
-  {
-    "keyword": "marketing ai",
-    "name": "seo-geo-claude-skills",
-    "full_name": "aaron-he-zhu/seo-geo-claude-skills",
-    "html_url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
-    "description": "20 SEO & GEO skills for Claude Code, Cursor, Codex, and 35+ AI agents. Keyword research, content writing, technical audits, rank tracking. CORE-EEAT + CITE frameworks.",
-    "stargazers_count": 825,
-    "language": "Python",
-    "updated_at": "2026-04-02T20:31:49Z",
-    "topics": [
-      "agent-skills",
-      "ai-skills",
-      "claude-code",
-      "claude-skills",
-      "content-optimization",
-      "generative-engine-optimization",
-      "geo",
-      "marketing",
-      "search-engine-optimization",
-      "seo",
-      "seo-tools"
     ]
   },
   {
@@ -133,10 +121,10 @@
     "name": "ai-marketing-skills",
     "full_name": "ericosiu/ai-marketing-skills",
     "html_url": "https://github.com/ericosiu/ai-marketing-skills",
-    "description": "Open-source AI marketing skills for Claude Code — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
-    "stargazers_count": 758,
+    "description": "Open-source AI marketing skills — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
+    "stargazers_count": 1299,
     "language": "Python",
-    "updated_at": "2026-04-03T01:38:47Z",
+    "updated_at": "2026-04-05T01:15:41Z",
     "topics": []
   },
   {
@@ -192,9 +180,9 @@
     "full_name": "ErlichLiu/DeepClaude",
     "html_url": "https://github.com/ErlichLiu/DeepClaude",
     "description": "Unleash Next-Level AI! 🚀  💻 Code Generation: DeepSeek r1 + Claude 3.7 Sonnet - Unparalleled Performance! 📝 Content Creation: DeepSeek r1 + Gemini 2.5 Pro - Superior Quality! 🔌 OpenAI-Compatible. 🌊 Streaming & Non-Streaming Support.  ✨ Experience the Future of AI – Today! Click to Try Now! ✨",
-    "stargazers_count": 2793,
+    "stargazers_count": 2791,
     "language": "Python",
-    "updated_at": "2026-04-02T23:24:00Z",
+    "updated_at": "2026-04-04T19:37:49Z",
     "topics": [
       "ai",
       "claude-3-7-sonnet",
@@ -240,9 +228,9 @@
     "full_name": "microsoft/content-generation-solution-accelerator",
     "html_url": "https://github.com/microsoft/content-generation-solution-accelerator",
     "description": "Accelerate marketing content creation with an AI-powered multi-agent system using Microsoft Foundry.",
-    "stargazers_count": 215,
+    "stargazers_count": 214,
     "language": "Python",
-    "updated_at": "2026-04-01T14:42:47Z",
+    "updated_at": "2026-04-03T12:10:45Z",
     "topics": [
       "ai-azd-templates",
       "azd-templates"
@@ -265,9 +253,9 @@
     "full_name": "AnkitNayak-eth/CrawlAI-RAG",
     "html_url": "https://github.com/AnkitNayak-eth/CrawlAI-RAG",
     "description": "CrawlAI RAG is an AI-powered website intelligence platform that allows users to crawl entire websites, index their content, and ask natural-language questions using Retrieval-Augmented Generation (RAG).  It transforms static websites into queryable knowledge bases.",
-    "stargazers_count": 95,
+    "stargazers_count": 94,
     "language": "Python",
-    "updated_at": "2026-03-30T22:38:46Z",
+    "updated_at": "2026-04-04T18:24:36Z",
     "topics": [
       "agent",
       "crawler",
@@ -281,10 +269,10 @@
     "name": "ai-marketing-skills",
     "full_name": "ericosiu/ai-marketing-skills",
     "html_url": "https://github.com/ericosiu/ai-marketing-skills",
-    "description": "Open-source AI marketing skills for Claude Code — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
-    "stargazers_count": 758,
+    "description": "Open-source AI marketing skills — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
+    "stargazers_count": 1299,
     "language": "Python",
-    "updated_at": "2026-04-03T01:38:47Z",
+    "updated_at": "2026-04-05T01:15:41Z",
     "topics": []
   },
   {
@@ -293,9 +281,9 @@
     "full_name": "s87343472/backlink-pilot",
     "html_url": "https://github.com/s87343472/backlink-pilot",
     "description": "Automated backlink submission toolkit for indie hackers — submit your product to directory sites, awesome-lists, and search engines with one command",
-    "stargazers_count": 234,
+    "stargazers_count": 235,
     "language": "JavaScript",
-    "updated_at": "2026-04-01T07:03:53Z",
+    "updated_at": "2026-04-04T04:26:17Z",
     "topics": [
       "automation",
       "awesome-lists",
@@ -315,9 +303,9 @@
     "full_name": "IncomeStreamSurfer/print_on_demand_printify_automation",
     "html_url": "https://github.com/IncomeStreamSurfer/print_on_demand_printify_automation",
     "description": "This is a print on demand x stable diffusion x shopify integration which automatically creates, does the SEO for, and then uploads, print on demand images on any produc you want.",
-    "stargazers_count": 118,
+    "stargazers_count": 119,
     "language": "Python",
-    "updated_at": "2026-03-31T12:42:07Z",
+    "updated_at": "2026-04-03T17:05:18Z",
     "topics": []
   },
   {
@@ -326,9 +314,9 @@
     "full_name": "mkhsu2002/openclaw-agent-feeds",
     "html_url": "https://github.com/mkhsu2002/openclaw-agent-feeds",
     "description": "Standardized agent data feeds and automation instruction sets for the OpenClaw framework. 專為 OpenClaw 框架設計的標準化代理資料流與自動化指令集。",
-    "stargazers_count": 92,
+    "stargazers_count": 93,
     "language": "JavaScript",
-    "updated_at": "2026-04-01T07:25:22Z",
+    "updated_at": "2026-04-04T12:56:49Z",
     "topics": [
       "ai-agents",
       "feeds",
@@ -342,10 +330,10 @@
     "name": "ai-marketing-skills",
     "full_name": "ericosiu/ai-marketing-skills",
     "html_url": "https://github.com/ericosiu/ai-marketing-skills",
-    "description": "Open-source AI marketing skills for Claude Code — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
-    "stargazers_count": 758,
+    "description": "Open-source AI marketing skills — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
+    "stargazers_count": 1299,
     "language": "Python",
-    "updated_at": "2026-04-03T01:38:47Z",
+    "updated_at": "2026-04-05T01:15:41Z",
     "topics": []
   },
   {
@@ -354,9 +342,9 @@
     "full_name": "coreyhaines31/marketingskills",
     "html_url": "https://github.com/coreyhaines31/marketingskills",
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-    "stargazers_count": 18464,
+    "stargazers_count": 18833,
     "language": "JavaScript",
-    "updated_at": "2026-04-03T01:39:07Z",
+    "updated_at": "2026-04-05T00:54:21Z",
     "topics": [
       "claude",
       "codex",
@@ -369,9 +357,9 @@
     "full_name": "alirezarezvani/claude-skills",
     "html_url": "https://github.com/alirezarezvani/claude-skills",
     "description": "220+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory.",
-    "stargazers_count": 8968,
+    "stargazers_count": 9364,
     "language": "Python",
-    "updated_at": "2026-04-03T01:29:48Z",
+    "updated_at": "2026-04-05T01:04:42Z",
     "topics": [
       "agent-plugins",
       "agent-skills",
@@ -401,9 +389,9 @@
     "full_name": "eracle/OpenOutreach",
     "html_url": "https://github.com/eracle/OpenOutreach",
     "description": "Linkedin Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
-    "stargazers_count": 1371,
+    "stargazers_count": 1378,
     "language": "Python",
-    "updated_at": "2026-04-03T01:23:17Z",
+    "updated_at": "2026-04-04T23:33:05Z",
     "topics": [
       "agent",
       "agentic",
@@ -432,9 +420,9 @@
     "full_name": "aaron-he-zhu/seo-geo-claude-skills",
     "html_url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
     "description": "20 SEO & GEO skills for Claude Code, Cursor, Codex, and 35+ AI agents. Keyword research, content writing, technical audits, rank tracking. CORE-EEAT + CITE frameworks.",
-    "stargazers_count": 825,
+    "stargazers_count": 845,
     "language": "Python",
-    "updated_at": "2026-04-02T20:31:49Z",
+    "updated_at": "2026-04-04T23:23:15Z",
     "topics": [
       "agent-skills",
       "ai-skills",
@@ -455,9 +443,9 @@
     "full_name": "aitytech/agentkits-marketing",
     "html_url": "https://github.com/aitytech/agentkits-marketing",
     "description": "Enterprise-grade AI marketing automation for Claude Code, Cursor, GitHub Copilot, and any AI assistant supporting agents & skills",
-    "stargazers_count": 420,
+    "stargazers_count": 422,
     "language": "Python",
-    "updated_at": "2026-04-03T00:38:16Z",
+    "updated_at": "2026-04-03T21:11:42Z",
     "topics": []
   },
   {
@@ -466,9 +454,9 @@
     "full_name": "ultrafunkamsterdam/nodriver",
     "html_url": "https://github.com/ultrafunkamsterdam/nodriver",
     "description": "Successor of Undetected-Chromedriver. Providing a blazing fast framework for web automation, webscraping, bots and any other creative ideas which are normally hindered by annoying anti bot systems like Captcha / CloudFlare / Imperva / hCaptcha ",
-    "stargazers_count": 3948,
+    "stargazers_count": 3961,
     "language": "Python",
-    "updated_at": "2026-04-02T20:54:16Z",
+    "updated_at": "2026-04-04T20:09:10Z",
     "topics": []
   },
   {
@@ -477,9 +465,9 @@
     "full_name": "foryourhealth111-pixel/Vibe-Skills",
     "html_url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
     "description": "Wherever your AI supports skills, VibeSkills works. 340+ governed skills spanning coding, research, automation & creative work.",
-    "stargazers_count": 972,
+    "stargazers_count": 1051,
     "language": "Python",
-    "updated_at": "2026-04-02T20:51:36Z",
+    "updated_at": "2026-04-05T01:00:14Z",
     "topics": [
       "agent-skills",
       "agentic-coding",
