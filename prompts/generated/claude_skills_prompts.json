@@ -1,0 +1,36 @@
+{
+  "name": "claude_skills_prompts",
+  "source_skill": "claude_skills",
+  "description": "Reusable prompt pack derived from the claude_skills capability.",
+  "prompts": [
+    {
+      "name": "skill_invocation",
+      "template": "Execute the {skill_name} skill on agent {agent_name} using the following parameters: {input_parameters}",
+      "use_case": "Enhancing coding assistants with specialized capabilities across diverse domains"
+    },
+    {
+      "name": "marketing_strategy_generation",
+      "template": "Generate a comprehensive marketing strategy for {product_name} targeting {audience} leveraging agent {agent_name}'s capabilities.",
+      "use_case": "Automating engineering tasks, marketing strategies, product decisions, and compliance checks through AI agents"
+    },
+    {
+      "name": "engineering_task_automation",
+      "template": "Automate the engineering task: {task_description} using the {skill_name} plugin on {agent_name}.",
+      "use_case": "Providing C-level executive advisory support via coding agents"
+    },
+    {
+      "name": "compliance_check",
+      "template": "Perform a compliance check on {document} using the compliance skill for agent {agent_name}.",
+      "use_case": "Integrating multiple AI coding platforms with uniform skills for consistent developer experience"
+    },
+    {
+      "name": "c_level_advisory",
+      "template": "Provide executive advisory recommendations regarding {business_issue} using agent {agent_name}.",
+      "use_case": "Rapid prototyping and deployment of agent plugins for new AI coding assistants"
+    }
+  ],
+  "metadata": {
+    "repo_url": "https://github.com/alirezarezvani/claude-skills",
+    "generated_from": "claude_skills"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "AI Marketing Suite",
-  "description": "A comprehensive AI-powered marketing toolkit for Claude Code that integrates 15 parallel subagents to perform website audits, generate marketing copy, email sequences, ad campaigns, content calendars, competitive intelligence analyses, and produce client-ready PDF reports.",
+  "description": "An AI-powered marketing tool integrating 15 distinct marketing skills through parallel subagents to audit websites, generate marketing copy, email sequences, ad campaigns, content calendars, competitive intelligence, and prepare client-ready PDF reports.",
   "inputs": [
     {
       "name": "website_url",
@@ -8,106 +8,128 @@
       "description": "URL of the website to be audited or analyzed."
     },
     {
-      "name": "marketing_goals",
+      "name": "marketing_brief",
       "type": "string",
-      "description": "Description of marketing objectives or campaign goals."
+      "description": "Description or brief containing the marketing objectives and context."
     },
     {
       "name": "target_audience",
       "type": "string",
-      "description": "Details about the target customer segment for campaigns or content."
+      "description": "Description of the intended audience for campaigns and content."
     },
     {
-      "name": "product_service_info",
-      "type": "string",
-      "description": "Information about the product or service to be marketed."
-    },
-    {
-      "name": "campaign_parameters",
+      "name": "email_campaign_parameters",
       "type": "object",
-      "description": "Settings and preferences for email sequences, ad campaigns, or content calendars (e.g., schedule, frequency, channels)."
+      "description": "Details such as sequence length, tone, target segment for generating email sequences."
+    },
+    {
+      "name": "ad_campaign_parameters",
+      "type": "object",
+      "description": "Information related to ad goals, platforms, budget, and creative preferences."
+    },
+    {
+      "name": "content_calendar_requirements",
+      "type": "object",
+      "description": "Timeline and frequency details for scheduling content calendars."
+    },
+    {
+      "name": "competitor_info",
+      "type": "string",
+      "description": "Data or URLs about competitors for competitive intelligence."
     }
   ],
   "outputs": [
     {
       "name": "website_audit_report",
       "type": "pdf",
-      "description": "A detailed website audit report assessing the site and identifying improvement opportunities."
+      "description": "Comprehensive audit report of the provided website including marketing insights."
     },
     {
       "name": "marketing_copy",
       "type": "string",
-      "description": "Generated marketing copy suitable for ads, emails, or content."
+      "description": "Generated marketing copy tailored to the provided brief and audience."
     },
     {
-      "name": "email_sequence",
+      "name": "email_sequences",
       "type": "string",
-      "description": "A sequence of automated marketing emails tailored to the target audience."
+      "description": "Complete sequences of marketing emails for campaigns."
     },
     {
-      "name": "ad_campaign_blueprint",
+      "name": "ad_campaign_plan",
       "type": "string",
-      "description": "Structured plan for ad campaigns including messaging and targeting strategies."
+      "description": "Structured ad campaign concepts and plans."
     },
     {
       "name": "content_calendar",
       "type": "string",
-      "description": "A scheduled calendar of content initiatives optimized for engagement."
+      "description": "Scheduled plan for marketing content dissemination."
     },
     {
       "name": "competitive_intelligence_report",
+      "type": "string",
+      "description": "Analytical report on competitor strategies and positioning."
+    },
+    {
+      "name": "client_ready_pdf_report",
       "type": "pdf",
-      "description": "Insights on competitors delivered in a client-ready report format."
+      "description": "Formatted and polished PDF report ready for client presentation."
     }
   ],
   "patterns": [
-    "Use of parallel AI subagents to perform multiple marketing tasks concurrently",
-    "Automated website auditing with AI-driven analysis",
-    "Template-based marketing content generation",
-    "Dynamic email sequence creation based on inputs",
-    "Generation of client-ready PDF reports summarizing marketing diagnostics and strategies",
-    "Integration of competitive intelligence within a marketing automation pipeline"
+    "Use of parallel subagents for multi-skill marketing tasks",
+    "Automated website auditing combined with marketing insight generation",
+    "Template-driven generation of marketing content and campaigns",
+    "Structured content calendar creation based on marketing timelines",
+    "Consolidation of various marketing outputs into client-ready reports"
   ],
   "steps": [
-    "Input target website URL and marketing goals.",
-    "Run parallel subagents to audit the website and gather data.",
-    "Generate marketing copy, email sequences, and ad campaign strategies based on inputs.",
-    "Create a content calendar aligned to the marketing plan.",
-    "Analyze competition and generate intelligence reports.",
-    "Compile outputs including PDF reports for client presentation."
+    "Input the website URL and marketing brief into the system.",
+    "Run parallel subagents to audit the website and generate marketing assets like copy, email sequences, and ad campaigns.",
+    "Aggregate findings and content calendar into comprehensive marketing deliverables.",
+    "Perform competitive intelligence analysis using competitor input.",
+    "Compile outputs into a cohesive client-ready PDF report.",
+    "Deliver final reports and assets to the user for implementation."
   ],
   "use_cases": [
-    "Marketing teams requiring automated multi-channel campaign creation.",
-    "Agencies needing fast website audits and client-ready reports.",
-    "Businesses optimizing marketing strategies with AI-generated content.",
-    "Competitive benchmarking and intelligence gathering for marketing decisions.",
-    "Generating comprehensive marketing plans including copy, emails, ads, and calendars."
+    "Marketing teams auditing client websites to create tailored marketing strategies.",
+    "Agencies generating complete multi-channel marketing campaigns quickly.",
+    "Content strategists building marketing calendars aligned with business goals.",
+    "Competitive analysts researching market positioning and intelligence.",
+    "Sales teams preparing professional marketing collateral for client presentations."
   ],
   "prompt_templates": [
     {
-      "name": "Website Audit Request",
-      "template": "Audit the website at {website_url} and provide a detailed report on its marketing effectiveness."
+      "name": "website_audit",
+      "template": "Perform a detailed marketing audit on the website at {website_url}."
     },
     {
-      "name": "Generate Marketing Copy",
-      "template": "Create compelling marketing copy for a {product_service_info} targeting {target_audience} with the goal of {marketing_goals}."
+      "name": "copy_generation",
+      "template": "Generate marketing copy for a product targeting {target_audience} based on this brief: {marketing_brief}."
     },
     {
-      "name": "Email Sequence Generator",
-      "template": "Develop an email marketing sequence for {product_service_info} to engage {target_audience} aimed at {marketing_goals}."
+      "name": "email_sequence",
+      "template": "Create an email marketing sequence with {sequence_length} emails, tone set to {tone}, targeting {target_audience}."
     },
     {
-      "name": "Ad Campaign Planner",
-      "template": "Design an ad campaign blueprint leveraging {campaign_parameters} for marketing {product_service_info} to {target_audience}."
+      "name": "ad_campaign",
+      "template": "Design an ad campaign targeting {target_audience} with a budget of {budget} for platforms {platforms}."
     },
     {
-      "name": "Competitive Intelligence Report",
-      "template": "Analyze competitors relevant to {product_service_info} and summarize findings in a client-ready report."
+      "name": "content_calendar",
+      "template": "Generate a content calendar for the next {time_period} with {frequency} scheduled posts."
+    },
+    {
+      "name": "competitive_analysis",
+      "template": "Analyze the competitors: {competitor_info} and produce competitive intelligence."
+    },
+    {
+      "name": "client_report",
+      "template": "Compile all generated marketing assets and insights into a client-ready PDF report."
     }
   ],
   "metadata": {
     "language": "unknown",
-    "stars": 1043,
+    "stars": 1084,
     "repo_url": "https://github.com/zubair-trabzada/ai-marketing-claude"
   }
 }

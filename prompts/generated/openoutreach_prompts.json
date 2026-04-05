@@ -5,13 +5,8 @@
   "prompts": [
     {
       "name": "lead_generation_prompt",
-      "template": "Find leads on LinkedIn for the following target market: {target_market_description} with these criteria: {search_criteria}",
-      "use_case": "Sales and marketing teams seeking to automate LinkedIn lead generation."
-    },
-    {
-      "name": "outreach_message_prompt",
-      "template": "Send the following message to each lead: {message_content}",
-      "use_case": "Recruiters sourcing candidates from LinkedIn based on specific profiles."
+      "template": "Find LinkedIn leads for a product described as: \"{product_description}\" targeting: \"{target_market}\".",
+      "use_case": "Sales teams seeking qualified LinkedIn leads automatically."
     }
   ],
   "metadata": {

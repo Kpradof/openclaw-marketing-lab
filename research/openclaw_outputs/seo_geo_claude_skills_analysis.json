@@ -1,0 +1,110 @@
+{
+  "name": "seo_geo_ai_agent_skills",
+  "description": "A collection of 20 SEO and GEO-focused AI skills designed for use with Claude Code, Cursor, Codex, and 35+ AI agents, enabling keyword research, content writing, technical SEO audits, rank tracking, and applying CORE-EEAT and CITE frameworks.",
+  "inputs": [
+    {
+      "name": "keyword_list",
+      "type": "list[string]",
+      "description": "List of seed keywords or phrases for research and content generation."
+    },
+    {
+      "name": "website_url",
+      "type": "string",
+      "description": "URL of the target website for technical SEO audit or rank tracking."
+    },
+    {
+      "name": "content_text",
+      "type": "string",
+      "description": "Text content for SEO-driven rewriting or enhancement."
+    },
+    {
+      "name": "geographic_region",
+      "type": "string",
+      "description": "Specific location or region for localized SEO and GEO targeting."
+    },
+    {
+      "name": "ranking_data",
+      "type": "object",
+      "description": "Current search engine ranking data for monitoring and analysis."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "keyword_analysis",
+      "type": "object",
+      "description": "Insights and metrics about keyword opportunities and competitiveness."
+    },
+    {
+      "name": "content_draft",
+      "type": "string",
+      "description": "SEO-optimized content generated or enhanced based on input parameters."
+    },
+    {
+      "name": "seo_audit_report",
+      "type": "object",
+      "description": "Technical SEO audit findings including issues and improvement recommendations."
+    },
+    {
+      "name": "rank_tracking_report",
+      "type": "object",
+      "description": "Trends and movements of targeted keywords in search engine rankings over time."
+    },
+    {
+      "name": "compliance_check",
+      "type": "boolean",
+      "description": "Flag indicating adherence to CORE-EEAT and CITE framework principles."
+    }
+  ],
+  "patterns": [
+    "Keyword research and intent analysis",
+    "SEO content generation with CORE-EEAT and CITE framework adherence",
+    "Technical SEO auditing workflow",
+    "Rank tracking and trend analysis automation",
+    "Localized GEO-targeting in SEO strategies",
+    "Multi-agent orchestration with generative AI models"
+  ],
+  "steps": [
+    "Receive input parameters such as keywords, content, website URLs, and geographic regions.",
+    "Perform keyword research analyzing volume, competitiveness, and relevance to GEO targets.",
+    "Generate or enhance SEO-friendly content integrating CORE-EEAT and CITE principles.",
+    "Conduct technical SEO audits on target websites to identify optimization opportunities.",
+    "Track search engine rankings of targeted keywords over time for performance monitoring.",
+    "Compile audit, content, and tracking results into structured reports or outputs.",
+    "Use prompt templates to interact across multiple AI agents (Claude Code, Cursor, Codex, etc.)"
+  ],
+  "use_cases": [
+    "Generating optimized content for websites targeting specific geographic locations.",
+    "Conducting comprehensive SEO audits to improve website technical health.",
+    "Performing keyword research to identify valuable SEO and GEO opportunities.",
+    "Tracking keyword ranking progress for ongoing SEO campaigns.",
+    "Applying CORE-EEAT and CITE frameworks to enhance content trustworthiness and expertise.",
+    "Integrating with multiple AI agents for scalable automated SEO workflows."
+  ],
+  "prompt_templates": [
+    {
+      "name": "keyword_research_prompt",
+      "template": "Analyze the following keywords for search volume, competition, and GEO relevance: {keyword_list} in region {geographic_region}."
+    },
+    {
+      "name": "content_writing_prompt",
+      "template": "Generate SEO-optimized content on the topic: {keyword_list}, adhering to CORE-EEAT and CITE frameworks."
+    },
+    {
+      "name": "technical_audit_prompt",
+      "template": "Perform a full technical SEO audit of the website at URL: {website_url} and report critical issues."
+    },
+    {
+      "name": "rank_tracking_prompt",
+      "template": "Provide rank tracking report for keywords: {keyword_list} on domain {website_url} over the last 30 days."
+    },
+    {
+      "name": "seo_compliance_check_prompt",
+      "template": "Evaluate the content for compliance with CORE-EEAT and CITE SEO frameworks and return a compliance flag."
+    }
+  ],
+  "metadata": {
+    "language": "unknown",
+    "stars": 849,
+    "repo_url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills"
+  }
+}
