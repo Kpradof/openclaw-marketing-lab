@@ -4,29 +4,37 @@
   "description": "Reusable prompt pack derived from the ai_marketing_claude capability.",
   "prompts": [
     {
-      "name": "Website Audit Request",
-      "template": "Audit the website at {website_url} and provide a detailed report on its marketing effectiveness.",
-      "use_case": "Marketing teams requiring automated multi-channel campaign creation."
+      "name": "website_audit",
+      "template": "Perform a detailed marketing audit on the website at {website_url}.",
+      "use_case": "Marketing teams auditing client websites to create tailored marketing strategies."
     },
     {
-      "name": "Generate Marketing Copy",
-      "template": "Create compelling marketing copy for a {product_service_info} targeting {target_audience} with the goal of {marketing_goals}.",
-      "use_case": "Agencies needing fast website audits and client-ready reports."
+      "name": "copy_generation",
+      "template": "Generate marketing copy for a product targeting {target_audience} based on this brief: {marketing_brief}.",
+      "use_case": "Agencies generating complete multi-channel marketing campaigns quickly."
     },
     {
-      "name": "Email Sequence Generator",
-      "template": "Develop an email marketing sequence for {product_service_info} to engage {target_audience} aimed at {marketing_goals}.",
-      "use_case": "Businesses optimizing marketing strategies with AI-generated content."
+      "name": "email_sequence",
+      "template": "Create an email marketing sequence with {sequence_length} emails, tone set to {tone}, targeting {target_audience}.",
+      "use_case": "Content strategists building marketing calendars aligned with business goals."
     },
     {
-      "name": "Ad Campaign Planner",
-      "template": "Design an ad campaign blueprint leveraging {campaign_parameters} for marketing {product_service_info} to {target_audience}.",
-      "use_case": "Competitive benchmarking and intelligence gathering for marketing decisions."
+      "name": "ad_campaign",
+      "template": "Design an ad campaign targeting {target_audience} with a budget of {budget} for platforms {platforms}.",
+      "use_case": "Competitive analysts researching market positioning and intelligence."
     },
     {
-      "name": "Competitive Intelligence Report",
-      "template": "Analyze competitors relevant to {product_service_info} and summarize findings in a client-ready report.",
-      "use_case": "Generating comprehensive marketing plans including copy, emails, ads, and calendars."
+      "name": "content_calendar",
+      "template": "Generate a content calendar for the next {time_period} with {frequency} scheduled posts.",
+      "use_case": "Sales teams preparing professional marketing collateral for client presentations."
+    },
+    {
+      "name": "competitive_analysis",
+      "template": "Analyze the competitors: {competitor_info} and produce competitive intelligence."
+    },
+    {
+      "name": "client_report",
+      "template": "Compile all generated marketing assets and insights into a client-ready PDF report."
     }
   ],
   "metadata": {
