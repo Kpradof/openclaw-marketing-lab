@@ -4,37 +4,33 @@
   "description": "Reusable prompt pack derived from the ai_marketing_claude capability.",
   "prompts": [
     {
-      "name": "website_audit",
-      "template": "Perform a detailed marketing audit on the website at {website_url}.",
-      "use_case": "Marketing teams auditing client websites to create tailored marketing strategies."
+      "name": "website_audit_prompt",
+      "template": "Perform a detailed audit of the website at {website_url} focusing on SEO, UX, and marketing effectiveness.",
+      "use_case": "Marketing teams auditing client websites and generating comprehensive campaign materials"
     },
     {
-      "name": "copy_generation",
-      "template": "Generate marketing copy for a product targeting {target_audience} based on this brief: {marketing_brief}.",
-      "use_case": "Agencies generating complete multi-channel marketing campaigns quickly."
+      "name": "marketing_copy_prompt",
+      "template": "Generate compelling marketing copy for {brand_information} targeting {target_audience} with the goal of {campaign_goals}.",
+      "use_case": "Small businesses leveraging AI to create email marketing sequences and ad content without dedicated resources"
     },
     {
-      "name": "email_sequence",
-      "template": "Create an email marketing sequence with {sequence_length} emails, tone set to {tone}, targeting {target_audience}.",
-      "use_case": "Content strategists building marketing calendars aligned with business goals."
+      "name": "email_sequence_prompt",
+      "template": "Create an email sequence with {email_sequence_parameters.number_of_emails} emails, in a {email_sequence_parameters.tone} tone, including calls to action for {campaign_goals}.",
+      "use_case": "Agencies conducting competitive intelligence to inform client marketing strategies"
     },
     {
-      "name": "ad_campaign",
-      "template": "Design an ad campaign targeting {target_audience} with a budget of {budget} for platforms {platforms}.",
-      "use_case": "Competitive analysts researching market positioning and intelligence."
+      "name": "ad_campaign_prompt",
+      "template": "Develop an ad campaign plan for {brand_information} focused on {target_audience} aiming to achieve {campaign_goals}.",
+      "use_case": "Content planners developing organized, calendar-driven content strategies"
     },
     {
-      "name": "content_calendar",
-      "template": "Generate a content calendar for the next {time_period} with {frequency} scheduled posts.",
-      "use_case": "Sales teams preparing professional marketing collateral for client presentations."
+      "name": "competitive_intelligence_prompt",
+      "template": "Analyze the marketing strategies of competitors: {competitive_brands} and summarize strengths and weaknesses.",
+      "use_case": "Consultants preparing professional, consolidated reports for clients"
     },
     {
-      "name": "competitive_analysis",
-      "template": "Analyze the competitors: {competitor_info} and produce competitive intelligence."
-    },
-    {
-      "name": "client_report",
-      "template": "Compile all generated marketing assets and insights into a client-ready PDF report."
+      "name": "content_calendar_prompt",
+      "template": "Generate a content calendar for the following topics: {content_topics} aligned with the campaign goals: {campaign_goals}."
     }
   ],
   "metadata": {

@@ -4,29 +4,29 @@
   "description": "Reusable prompt pack derived from the seo_geo_claude_skills capability.",
   "prompts": [
     {
-      "name": "keyword_research_prompt",
-      "template": "Analyze the following keywords for search volume, competition, and GEO relevance: {keyword_list} in region {geographic_region}.",
-      "use_case": "Generating optimized content for websites targeting specific geographic locations."
+      "name": "keyword_research",
+      "template": "Analyze the following keywords for search volume, competition, and relevancy: {keyword_list}",
+      "use_case": "Generating SEO-optimized articles and marketing content"
     },
     {
-      "name": "content_writing_prompt",
-      "template": "Generate SEO-optimized content on the topic: {keyword_list}, adhering to CORE-EEAT and CITE frameworks.",
-      "use_case": "Conducting comprehensive SEO audits to improve website technical health."
+      "name": "content_writing",
+      "template": "Write SEO-optimized content on the topic '{topic}' that aligns with CORE-EEAT and CITE frameworks.",
+      "use_case": "Conducting in-depth keyword research for targeted campaigns"
     },
     {
-      "name": "technical_audit_prompt",
-      "template": "Perform a full technical SEO audit of the website at URL: {website_url} and report critical issues.",
-      "use_case": "Performing keyword research to identify valuable SEO and GEO opportunities."
+      "name": "technical_audit",
+      "template": "Perform a technical SEO audit on the website at: {website_url} and list SEO issues and recommendations.",
+      "use_case": "Performing technical SEO audits to identify website issues"
     },
     {
-      "name": "rank_tracking_prompt",
-      "template": "Provide rank tracking report for keywords: {keyword_list} on domain {website_url} over the last 30 days.",
-      "use_case": "Tracking keyword ranking progress for ongoing SEO campaigns."
+      "name": "rank_tracking",
+      "template": "Provide current and historical rankings for the keywords {keyword_list} targeting the region {geographical_data}.",
+      "use_case": "Monitoring SEO rank progress for multiple keywords"
     },
     {
-      "name": "seo_compliance_check_prompt",
-      "template": "Evaluate the content for compliance with CORE-EEAT and CITE SEO frameworks and return a compliance flag.",
-      "use_case": "Applying CORE-EEAT and CITE frameworks to enhance content trustworthiness and expertise."
+      "name": "seo_strategy",
+      "template": "Based on the following data: {input_data}, generate SEO strategy recommendations using CORE-EEAT and CITE best practices.",
+      "use_case": "Implementing SEO strategies that adhere to expertise, authoritativeness, and trustworthiness"
     }
   ],
   "metadata": {
