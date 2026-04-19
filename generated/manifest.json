@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-04-12T14:50:36.915366Z",
+  "generated_at": "2026-04-19T14:51:24.854407Z",
   "total_repositories": 5,
   "assets": [
     {
@@ -32,11 +32,11 @@
       "prompt_pack_path": "prompts/generated/claude_skills_prompts.json"
     },
     {
-      "repo_name": "seo-geo-claude-skills",
-      "analysis_path": "research/openclaw_outputs/seo_geo_claude_skills_analysis.json",
-      "skill_path": "skills/seo_geo_claude_skills_skill.json",
-      "workflow_path": "workflows/seo_geo_claude_skills_workflow.json",
-      "prompt_pack_path": "prompts/generated/seo_geo_claude_skills_prompts.json"
+      "repo_name": "ai-marketing-skills",
+      "analysis_path": "research/openclaw_outputs/ai_marketing_skills_analysis.json",
+      "skill_path": "skills/ai_marketing_skills_skill.json",
+      "workflow_path": "workflows/ai_marketing_skills_workflow.json",
+      "prompt_pack_path": "prompts/generated/ai_marketing_skills_prompts.json"
     }
   ]
 }

@@ -4,19 +4,19 @@
   "description": "Reusable prompt pack derived from the claude_skills capability.",
   "prompts": [
     {
-      "name": "code_assist_prompt",
-      "template": "Apply the following skill to improve or analyze this code snippet:\n\n{code_snippet}\n\nwith context:\n{context_data}",
-      "use_case": "Enhancing coding workflows with advanced AI skills across multiple programming agents"
+      "name": "skill_activation_prompt",
+      "template": "Activate the {skill_name} skill on {agent_name} with the following request: {user_prompt}",
+      "use_case": "Integrating multi-domain coding skills to augment code generation workflows."
     },
     {
-      "name": "agent_command_prompt",
-      "template": "Execute this command using the {agent_name} coding agent:\n\n{agent_command}",
-      "use_case": "Automating compliance checks and product advisory through AI plugins"
+      "name": "contextual_task_request",
+      "template": "Using {skill_name}, perform the task considering this context: {context_data}. Task: {user_prompt}",
+      "use_case": "Using marketing and product-specific plugins for automated content and product management tasks."
     },
     {
-      "name": "domain_advisory_prompt",
-      "template": "As a {domain_expert}, provide recommendations based on the input:\n\n{input_data}",
-      "use_case": "Providing marketing and C-level strategic insights via AI-driven agent interactions"
+      "name": "multi_agent_invoke",
+      "template": "Invoke {skill_name} across supported agents including {agent_list} with input: {user_prompt}",
+      "use_case": "Applying compliance and C-level advisory skills to ensure alignment with organizational policies."
     }
   ],
   "metadata": {
