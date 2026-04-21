@@ -1,0 +1,41 @@
+{
+  "name": "ai_marketing_skills_prompts",
+  "source_skill": "ai_marketing_skills",
+  "description": "Reusable prompt pack derived from the ai_marketing_skills capability.",
+  "prompts": [
+    {
+      "name": "generate_marketing_content",
+      "template": "Create a {content_type} focused on {topic} that appeals to {target_audience} with a tone that is {tone}.",
+      "use_case": "Automating content production for social media and blogs to drive engagement."
+    },
+    {
+      "name": "growth_experiment_setup",
+      "template": "Design a growth experiment with goal: {goal_description} and variables: {variables_list}. Provide the expected metrics to track.",
+      "use_case": "Running and analyzing growth experiments to improve conversion rates."
+    },
+    {
+      "name": "sales_pipeline_optimization",
+      "template": "Analyze this sales pipeline data: {sales_pipeline_data}. Recommend actions to improve closing rates and sales velocity.",
+      "use_case": "Managing and optimizing sales pipelines with AI insights."
+    },
+    {
+      "name": "outbound_campaign_message",
+      "template": "Draft an outbound marketing message targeting {audience_segment} promoting {product_or_service} with a focus on {key_benefit}.",
+      "use_case": "Planning and executing outbound marketing campaigns efficiently."
+    },
+    {
+      "name": "seo_recommendations",
+      "template": "Based on these keywords: {seo_keywords} and existing content: {content_summary}, suggest SEO optimizations to increase organic traffic.",
+      "use_case": "Improving website ranking through automated SEO recommendations."
+    },
+    {
+      "name": "finance_automation_action",
+      "template": "Given finance inputs: {finance_data}, generate automation steps or alerts to manage marketing budget effectively.",
+      "use_case": "Streamlining financial operations related to marketing budgets and expenditures."
+    }
+  ],
+  "metadata": {
+    "repo_url": "https://github.com/ericosiu/ai-marketing-skills",
+    "generated_from": "ai_marketing_skills"
+  }
+}

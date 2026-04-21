@@ -4,29 +4,24 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "CRO_optimization_prompt",
-      "template": "Analyze the following campaign data and provide suggestions to improve conversion rates: {campaign_data}",
-      "use_case": "Improving e-commerce conversion rates using AI-driven CRO techniques"
+      "name": "seo_content_generation",
+      "template": "Create SEO-optimized content focused on the keywords: {keywords}. The goal is to {marketing_goal}. Include engaging and persuasive language.",
+      "use_case": "Generating SEO-optimized blog posts or website copy using AI."
     },
     {
-      "name": "copywriting_generation_prompt",
-      "template": "Create compelling marketing copy based on this brief: {content_brief}",
-      "use_case": "Generating engaging marketing copy for multi-channel campaigns"
+      "name": "analytics_insights",
+      "template": "Analyze the following analytics data: {analytics_data}. Provide a report highlighting key performance metrics and actionable recommendations.",
+      "use_case": "Improving conversion rates on landing pages via AI-powered content adjustments."
     },
     {
-      "name": "seo_recommendation_prompt",
-      "template": "Suggest SEO improvements and keyword integration strategies for these keywords: {seo_keywords}",
-      "use_case": "Enhancing SEO with AI-curated keyword recommendations and content optimization"
+      "name": "conversion_optimization_advice",
+      "template": "Given this content: {content_data}, suggest changes to improve conversion rates targeting {marketing_goal}.",
+      "use_case": "Analyzing user behavior data to inform marketing strategy decisions."
     },
     {
-      "name": "analytics_report_prompt",
-      "template": "Generate a detailed report analyzing the following marketing analytics data: {analytics_data}",
-      "use_case": "Analyzing marketing campaign data to identify trends and optimize budgets"
-    },
-    {
-      "name": "growth_plan_prompt",
-      "template": "Develop a growth engineering plan aimed at improving these metrics: {growth_metrics}",
-      "use_case": "Designing and executing growth engineering implementations to accelerate user acquisition"
+      "name": "growth_strategy_development",
+      "template": "Develop a growth engineering strategy for a campaign with parameters: {campaign_parameters}, aiming to achieve {marketing_goal}.",
+      "use_case": "Developing automated growth strategies for startups or digital products."
     }
   ],
   "metadata": {
