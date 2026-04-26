@@ -4,19 +4,29 @@
   "description": "Reusable prompt pack derived from the claude_skills capability.",
   "prompts": [
     {
-      "name": "skill_activation_prompt",
-      "template": "Activate the {skill_name} skill on {agent_name} with the following request: {user_prompt}",
-      "use_case": "Integrating multi-domain coding skills to augment code generation workflows."
+      "name": "code_generation_prompt",
+      "template": "Generate or complete code for the following task in {programming_language}: {task_description}\nInput snippet:\n{input_data}",
+      "use_case": "Enhancing code generation and completion for software engineering teams."
     },
     {
-      "name": "contextual_task_request",
-      "template": "Using {skill_name}, perform the task considering this context: {context_data}. Task: {user_prompt}",
-      "use_case": "Using marketing and product-specific plugins for automated content and product management tasks."
+      "name": "marketing_strategy_prompt",
+      "template": "Create a marketing strategy based on the following context: {task_description}\nRelevant data:\n{input_data}",
+      "use_case": "Automating marketing content creation and analysis using AI agents."
     },
     {
-      "name": "multi_agent_invoke",
-      "template": "Invoke {skill_name} across supported agents including {agent_list} with input: {user_prompt}",
-      "use_case": "Applying compliance and C-level advisory skills to ensure alignment with organizational policies."
+      "name": "product_planning_prompt",
+      "template": "Develop a product plan considering this description: {task_description}\nAdditional inputs:\n{input_data}",
+      "use_case": "Supporting product management with AI-driven planning and insights."
+    },
+    {
+      "name": "compliance_check_prompt",
+      "template": "Perform compliance analysis on the following data:\n{input_data}\nFocus areas: {task_description}",
+      "use_case": "Conducting compliance audits and generating advisory documentation."
+    },
+    {
+      "name": "executive_advisory_prompt",
+      "template": "Provide strategic advisory notes for C-level decision-making based on this scenario: {task_description}\nSupporting information:\n{input_data}",
+      "use_case": "Providing C-level executives with AI-generated strategic recommendations."
     }
   ],
   "metadata": {

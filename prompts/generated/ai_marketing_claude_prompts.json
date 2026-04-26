@@ -4,33 +4,34 @@
   "description": "Reusable prompt pack derived from the ai_marketing_claude capability.",
   "prompts": [
     {
-      "name": "website_audit",
-      "template": "Perform a detailed marketing and performance audit on the website: {website_url}",
-      "use_case": "Marketing agencies auditing client websites and generating comprehensive marketing strategies"
+      "name": "website_audit_prompt",
+      "template": "Audit the website at {website_url} and identify key marketing strengths, weaknesses, and opportunities.",
+      "use_case": "Performing detailed marketing audits of client websites"
     },
     {
-      "name": "generate_marketing_copy",
-      "template": "Create compelling marketing copy for the product/service described as: {product_or_service_details} targeting {target_audience}",
-      "use_case": "Businesses automating multi-channel marketing content creation including emails and ads"
+      "name": "copy_generation_prompt",
+      "template": "Generate engaging marketing copy based on the following brief: {marketing_brief}",
+      "use_case": "Generating creative marketing copy and email sequences automatically"
     },
     {
-      "name": "email_sequence_creation",
-      "template": "Develop an email marketing sequence based on these requirements: {email_sequence_requirements}",
-      "use_case": "Competitive analysis and market intelligence reporting for strategic planning"
+      "name": "email_sequence_prompt",
+      "template": "Create an email marketing sequence based on these subject lines: {email_subjects}",
+      "use_case": "Planning and preparing digital ad campaigns using AI assistance"
     },
     {
-      "name": "ad_campaign_planning",
-      "template": "Design an ad campaign including copy and strategy for these parameters: {ad_campaign_parameters}",
-      "use_case": "Creating scheduled content calendars to manage marketing outputs efficiently"
+      "name": "ad_campaign_prompt",
+      "template": "Develop a detailed ad campaign plan for this target audience and budget: {ad_campaign_parameters}",
+      "use_case": "Creating organized content calendars for social media and blogs"
     },
     {
-      "name": "content_calendar_generation",
-      "template": "Create a content calendar aligned with the marketing brief: {marketing_brief}",
-      "use_case": "Producing client-ready deliverables summarizing marketing audits and campaign plans"
+      "name": "content_calendar_prompt",
+      "template": "Create a content calendar meeting these requirements: {content_calendar_requirements}",
+      "use_case": "Conducting competitive intelligence for market positioning"
     },
     {
-      "name": "competitive_intelligence",
-      "template": "Analyze the following competitive market data and generate an intelligence report: {competitive_market_data}"
+      "name": "competitive_intelligence_prompt",
+      "template": "Analyze the competitive landscape given this data: {competitive_intelligence_input}",
+      "use_case": "Producing professional marketing reports for clients"
     }
   ],
   "metadata": {
