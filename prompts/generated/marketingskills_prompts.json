@@ -4,24 +4,29 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "seo_content_generation",
-      "template": "Create SEO-optimized content focused on the keywords: {keywords}. The goal is to {marketing_goal}. Include engaging and persuasive language.",
-      "use_case": "Generating SEO-optimized blog posts or website copy using AI."
+      "name": "copywriting_prompt",
+      "template": "Create an engaging marketing copy focused on {product} targeting {audience}, considering the tone: {tone_preference}.",
+      "use_case": "Enhancing AI agent-generated marketing content for better SEO and engagement."
     },
     {
-      "name": "analytics_insights",
-      "template": "Analyze the following analytics data: {analytics_data}. Provide a report highlighting key performance metrics and actionable recommendations.",
-      "use_case": "Improving conversion rates on landing pages via AI-powered content adjustments."
+      "name": "seo_analysis_prompt",
+      "template": "Analyze the following keywords {keywords} and provide SEO improvement recommendations.",
+      "use_case": "Optimizing digital marketing campaigns for improved conversion rates."
     },
     {
-      "name": "conversion_optimization_advice",
-      "template": "Given this content: {content_data}, suggest changes to improve conversion rates targeting {marketing_goal}.",
-      "use_case": "Analyzing user behavior data to inform marketing strategy decisions."
+      "name": "cro_optimization_prompt",
+      "template": "Suggest conversion rate optimization strategies based on these performance metrics: {metrics}.",
+      "use_case": "Generating targeted copywriting for product launches and promotions."
     },
     {
-      "name": "growth_strategy_development",
-      "template": "Develop a growth engineering strategy for a campaign with parameters: {campaign_parameters}, aiming to achieve {marketing_goal}.",
-      "use_case": "Developing automated growth strategies for startups or digital products."
+      "name": "growth_strategy_prompt",
+      "template": "Develop growth engineering tactics to increase user acquisition and retention for {business_model}.",
+      "use_case": "Analyzing campaign performance to guide growth engineering strategies."
+    },
+    {
+      "name": "analytics_report_prompt",
+      "template": "Generate an analytics report summarizing campaign performance with insights for improvement.",
+      "use_case": "Supporting AI-driven marketing automation with expert marketing tactics."
     }
   ],
   "metadata": {

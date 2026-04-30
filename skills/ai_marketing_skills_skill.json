@@ -1,148 +1,132 @@
 {
   "name": "ai_marketing_skills",
   "type": "repository_derived_skill",
-  "description": "Open-source AI-powered marketing skills platform enabling automation and enhancement across growth experiments, sales pipelines, content operations, outbound marketing, SEO, and finance processes.",
+  "description": "An open-source repository providing AI-powered marketing capabilities including growth experiments, sales pipeline management, content operations, outbound marketing, SEO, and finance automation.",
   "triggers": [
-    "growth",
-    "seo",
-    "powered",
-    "source",
-    "finance",
-    "outbound",
-    "processes",
-    "platform",
-    "enhancement",
-    "enabling",
-    "experiments",
-    "content",
-    "operations",
-    "sales",
-    "skills",
-    "ai",
+    "providing",
+    "capabilities",
     "open",
-    "across",
-    "pipelines",
+    "growth",
+    "ai",
+    "including",
+    "operations",
+    "content",
+    "seo",
+    "experiments",
+    "powered",
+    "marketing",
+    "outbound",
+    "management",
+    "pipeline",
+    "repository",
+    "sales",
+    "finance",
     "ai_marketing_skills",
-    "automation",
-    "marketing"
+    "source",
+    "automation"
   ],
   "inputs": [
     {
       "name": "marketing_data",
-      "type": "varied (text, numeric, structured data)",
-      "description": "Data related to marketing activities such as campaigns, sales leads, content topics, SEO keywords, financial figures, or outbound contact lists."
-    },
-    {
-      "name": "experiment_parameters",
       "type": "object",
-      "description": "Configuration settings and hypotheses for growth experiments including test variables and target metrics."
+      "description": "Raw or processed marketing-related data such as campaign metrics, customer interactions, SEO keywords, sales records, and financial stats."
     },
     {
-      "name": "content_brief",
+      "name": "content_requests",
       "type": "string",
-      "description": "Input guidance or topics for generating marketing content or strategies."
+      "description": "Instructions or prompts for generating marketing content or communications."
     },
     {
-      "name": "sales_pipeline_data",
-      "type": "structured data",
-      "description": "Information about sales opportunities, lead stages, and customer interactions."
+      "name": "sales_pipeline_info",
+      "type": "object",
+      "description": "Details about customer leads, stages in the sales funnel, and related sales metrics."
     },
     {
       "name": "seo_keywords",
-      "type": "list of strings",
-      "description": "Keyword list for SEO optimization and analysis."
+      "type": "list<string>",
+      "description": "Keywords and phrases for SEO analysis and content optimization."
     },
     {
       "name": "finance_data",
-      "type": "structured data",
-      "description": "Financial inputs relevant for automation including budgets, expenses, or revenue figures."
+      "type": "object",
+      "description": "Financial data including budgets, forecasts, and transaction records for automation tasks."
     }
   ],
   "outputs": [
     {
       "name": "growth_experiment_results",
-      "type": "report or dataset",
-      "description": "Analysis and outcomes of growth marketing experiments including performance metrics."
-    },
-    {
-      "name": "sales_pipeline_insights",
-      "type": "dashboard or report",
-      "description": "Visualizations and summaries helping optimize sales processes and pipeline management."
+      "type": "object",
+      "description": "Insights and performance metrics from executed growth marketing experiments."
     },
     {
       "name": "automated_content",
-      "type": "text",
-      "description": "Generated marketing content such as blog posts, social media posts, or email templates."
+      "type": "string",
+      "description": "Generated marketing content such as emails, blog posts, outbound messages, or SEO-optimized text."
     },
     {
-      "name": "outbound_campaigns",
-      "type": "campaign plans or message templates",
-      "description": "Created outbound marketing strategies and communication templates."
+      "name": "sales_pipeline_status",
+      "type": "object",
+      "description": "Updated and analyzed sales funnel data reflecting pipeline health and opportunity prioritization."
     },
     {
-      "name": "seo_optimization_suggestions",
-      "type": "list or report",
-      "description": "Recommendations for SEO improvements based on keyword and content analysis."
+      "name": "seo_analysis_report",
+      "type": "object",
+      "description": "Analysis and recommendations on SEO strategy including keyword rankings and content suggestions."
     },
     {
-      "name": "finance_automation_outputs",
-      "type": "reports, alerts, or automated workflows",
-      "description": "Automated finance-related actions such as budgeting alerts or expense tracking reports."
+      "name": "automated_finance_reports",
+      "type": "object",
+      "description": "Financial summaries and automated reports for budget, forecasting, and expenditure tracking."
     }
   ],
   "steps": [
-    "Collect and ingest relevant marketing, sales, SEO, and finance data inputs.",
-    "Configure experiment parameters and campaign goals for growth and outbound marketing.",
-    "Use AI models to generate marketing content and optimize SEO based on inputs.",
-    "Analyze sales pipeline data to identify bottlenecks and recommend improvements.",
-    "Automate finance-related processes such as budgeting and expense tracking in marketing workflows.",
-    "Generate reports, dashboards, and campaign plans for decision-making and execution."
+    "Collect and preprocess marketing, sales, SEO, and finance data inputs",
+    "Apply AI models to generate growth experiment plans and perform analysis",
+    "Generate marketing and outbound content based on requested templates and input prompts",
+    "Analyze sales pipeline data to update status and identify opportunities",
+    "Conduct SEO analysis to generate keyword and content optimization reports",
+    "Automate finance-related reports and workflows",
+    "Aggregate results and insights for review and action"
   ],
   "use_cases": [
-    "Automating content production for social media and blogs to drive engagement.",
-    "Running and analyzing growth experiments to improve conversion rates.",
-    "Managing and optimizing sales pipelines with AI insights.",
-    "Planning and executing outbound marketing campaigns efficiently.",
-    "Improving website ranking through automated SEO recommendations.",
-    "Streamlining financial operations related to marketing budgets and expenditures."
+    "Running AI-assisted marketing growth experiments to optimize campaigns",
+    "Generating automated outbound emails, blog content, and sales messages",
+    "Managing and analyzing sales pipeline to increase conversion efficiency",
+    "Improving SEO strategy with automated keyword research and content suggestions",
+    "Automating finance reports and budgeting tasks in marketing operations"
   ],
   "patterns": [
-    "AI-driven content generation for marketing",
-    "Data-driven growth experiment design and analysis",
-    "Sales pipeline automation and insights extraction",
-    "Automated outbound messaging and campaign management",
-    "SEO keyword-driven optimization workflows",
-    "Finance process automation integrated with marketing activities"
+    "AI-driven content generation for marketing and sales",
+    "Automation of repetitive marketing and finance tasks",
+    "Data-driven growth experiment planning and analysis",
+    "Integration of sales pipeline analytics for improved funnel management",
+    "SEO keyword optimization and performance tracking"
   ],
   "prompt_templates": [
     {
-      "name": "generate_marketing_content",
-      "template": "Create a {content_type} focused on {topic} that appeals to {target_audience} with a tone that is {tone}."
+      "name": "generate_outbound_email",
+      "template": "Create an outbound sales email targeting {target_audience} that highlights {product_features} and includes a call to action."
     },
     {
-      "name": "growth_experiment_setup",
-      "template": "Design a growth experiment with goal: {goal_description} and variables: {variables_list}. Provide the expected metrics to track."
+      "name": "seo_content_optimization",
+      "template": "Optimize the following content for SEO using keywords: {seo_keywords}. Content: {content_text}"
     },
     {
-      "name": "sales_pipeline_optimization",
-      "template": "Analyze this sales pipeline data: {sales_pipeline_data}. Recommend actions to improve closing rates and sales velocity."
+      "name": "growth_experiment_plan",
+      "template": "Design a growth experiment focusing on {growth_goal} with metrics to track: {metrics_list}."
     },
     {
-      "name": "outbound_campaign_message",
-      "template": "Draft an outbound marketing message targeting {audience_segment} promoting {product_or_service} with a focus on {key_benefit}."
+      "name": "sales_pipeline_analysis",
+      "template": "Analyze the sales pipeline data and provide insights on {focus_area} for better opportunity management."
     },
     {
-      "name": "seo_recommendations",
-      "template": "Based on these keywords: {seo_keywords} and existing content: {content_summary}, suggest SEO optimizations to increase organic traffic."
-    },
-    {
-      "name": "finance_automation_action",
-      "template": "Given finance inputs: {finance_data}, generate automation steps or alerts to manage marketing budget effectively."
+      "name": "finance_report_automation",
+      "template": "Generate a finance report summarizing budget, expenditures, and forecast for the period: {time_period}."
     }
   ],
   "metadata": {
     "language": "unknown",
-    "stars": 1984,
+    "stars": 2181,
     "repo_url": "https://github.com/ericosiu/ai-marketing-skills"
   },
   "source": {
