@@ -5,28 +5,27 @@
   "prompts": [
     {
       "name": "code_generation_prompt",
-      "template": "Generate or complete code for the following task in {programming_language}: {task_description}\nInput snippet:\n{input_data}",
-      "use_case": "Enhancing code generation and completion for software engineering teams."
+      "template": "Generate code to perform the following task: {task_description}",
+      "use_case": "Automated code generation and refactoring across multiple AI coding assistants"
     },
     {
-      "name": "marketing_strategy_prompt",
-      "template": "Create a marketing strategy based on the following context: {task_description}\nRelevant data:\n{input_data}",
-      "use_case": "Automating marketing content creation and analysis using AI agents."
-    },
-    {
-      "name": "product_planning_prompt",
-      "template": "Develop a product plan considering this description: {task_description}\nAdditional inputs:\n{input_data}",
-      "use_case": "Supporting product management with AI-driven planning and insights."
+      "name": "marketing_advice_prompt",
+      "template": "Provide marketing strategy suggestions for: {product_or_campaign_details}",
+      "use_case": "Providing marketing strategy recommendations and product management insights via AI agents"
     },
     {
       "name": "compliance_check_prompt",
-      "template": "Perform compliance analysis on the following data:\n{input_data}\nFocus areas: {task_description}",
-      "use_case": "Conducting compliance audits and generating advisory documentation."
+      "template": "Check the following process for regulatory compliance: {process_description}",
+      "use_case": "Ensuring compliance and regulatory adherence through automated advisory plugins"
     },
     {
-      "name": "executive_advisory_prompt",
-      "template": "Provide strategic advisory notes for C-level decision-making based on this scenario: {task_description}\nSupporting information:\n{input_data}",
-      "use_case": "Providing C-level executives with AI-generated strategic recommendations."
+      "name": "product_management_prompt",
+      "template": "Analyze the product requirements and suggest improvements: {requirements_details}",
+      "use_case": "Facilitating C-level decision support with tailored executive advice integrated in coding environments"
+    },
+    {
+      "name": "c_level_advisory_prompt",
+      "template": "Advise on the following executive decision: {decision_context}"
     }
   ],
   "metadata": {

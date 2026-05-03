@@ -4,29 +4,34 @@
   "description": "Reusable prompt pack derived from the ai_marketing_skills capability.",
   "prompts": [
     {
-      "name": "generate_outbound_email",
-      "template": "Create an outbound sales email targeting {target_audience} that highlights {product_features} and includes a call to action.",
-      "use_case": "Running AI-assisted marketing growth experiments to optimize campaigns"
+      "name": "growth_experiment_prompt",
+      "template": "Analyze this marketing growth data and suggest next growth experiments: {marketing_data}",
+      "use_case": "Launching data-driven growth marketing experiments."
     },
     {
-      "name": "seo_content_optimization",
-      "template": "Optimize the following content for SEO using keywords: {seo_keywords}. Content: {content_text}",
-      "use_case": "Generating automated outbound emails, blog content, and sales messages"
+      "name": "sales_pipeline_update_prompt",
+      "template": "Provide insights and next actions for sales pipeline based on this data: {marketing_data}",
+      "use_case": "Managing and automating sales pipelines from lead capture to closing."
     },
     {
-      "name": "growth_experiment_plan",
-      "template": "Design a growth experiment focusing on {growth_goal} with metrics to track: {metrics_list}.",
-      "use_case": "Managing and analyzing sales pipeline to increase conversion efficiency"
+      "name": "content_plan_creation_prompt",
+      "template": "Create a content operations plan for the following marketing goals: {campaign_parameters}",
+      "use_case": "Planning and scheduling content marketing activities using AI assistance."
     },
     {
-      "name": "sales_pipeline_analysis",
-      "template": "Analyze the sales pipeline data and provide insights on {focus_area} for better opportunity management.",
-      "use_case": "Improving SEO strategy with automated keyword research and content suggestions"
+      "name": "seo_optimization_prompt",
+      "template": "Generate SEO keyword strategy and site improvements based on this info: {marketing_data}",
+      "use_case": "Improving website SEO with AI-powered keyword analysis and optimization."
     },
     {
-      "name": "finance_report_automation",
-      "template": "Generate a finance report summarizing budget, expenditures, and forecast for the period: {time_period}.",
-      "use_case": "Automating finance reports and budgeting tasks in marketing operations"
+      "name": "outbound_campaign_prompt",
+      "template": "Design an outbound marketing campaign with these parameters: {campaign_parameters}",
+      "use_case": "Automating outbound marketing campaigns such as cold outreach email sequences."
+    },
+    {
+      "name": "finance_automation_prompt",
+      "template": "Automate the marketing finance tasks including budgeting and forecasting with this data: {marketing_data}",
+      "use_case": "Automating finance operations related to marketing budgeting and forecasting."
     }
   ],
   "metadata": {

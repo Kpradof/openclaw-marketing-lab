@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-04-26T14:55:52.227174Z",
+  "generated_at": "2026-05-03T14:57:39.492766Z",
   "total_repositories": 5,
   "assets": [
     {
@@ -11,18 +11,18 @@
       "prompt_pack_path": "prompts/generated/marketingskills_prompts.json"
     },
     {
-      "repo_name": "OpenOutreach",
-      "analysis_path": "research/openclaw_outputs/openoutreach_analysis.json",
-      "skill_path": "skills/openoutreach_skill.json",
-      "workflow_path": "workflows/openoutreach_workflow.json",
-      "prompt_pack_path": "prompts/generated/openoutreach_prompts.json"
-    },
-    {
       "repo_name": "ai-marketing-claude",
       "analysis_path": "research/openclaw_outputs/ai_marketing_claude_analysis.json",
       "skill_path": "skills/ai_marketing_claude_skill.json",
       "workflow_path": "workflows/ai_marketing_claude_workflow.json",
       "prompt_pack_path": "prompts/generated/ai_marketing_claude_prompts.json"
+    },
+    {
+      "repo_name": "OpenOutreach",
+      "analysis_path": "research/openclaw_outputs/openoutreach_analysis.json",
+      "skill_path": "skills/openoutreach_skill.json",
+      "workflow_path": "workflows/openoutreach_workflow.json",
+      "prompt_pack_path": "prompts/generated/openoutreach_prompts.json"
     },
     {
       "repo_name": "claude-skills",
