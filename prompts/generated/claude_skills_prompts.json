@@ -5,28 +5,28 @@
   "prompts": [
     {
       "name": "code_generation_prompt",
-      "template": "Generate or complete code for the following task in {programming_language}: {task_description}\nInput snippet:\n{input_data}",
-      "use_case": "Enhancing code generation and completion for software engineering teams."
+      "template": "Generate code for the following requirements: {input_data}",
+      "use_case": "Automating and enhancing code generation tasks across multiple AI coding assistants."
     },
     {
-      "name": "marketing_strategy_prompt",
-      "template": "Create a marketing strategy based on the following context: {task_description}\nRelevant data:\n{input_data}",
-      "use_case": "Automating marketing content creation and analysis using AI agents."
+      "name": "marketing_copy_prompt",
+      "template": "Create a marketing pitch based on these points: {input_data}",
+      "use_case": "Generating marketing content drafts and campaign strategies using AI plugins."
     },
     {
-      "name": "product_planning_prompt",
-      "template": "Develop a product plan considering this description: {task_description}\nAdditional inputs:\n{input_data}",
-      "use_case": "Supporting product management with AI-driven planning and insights."
+      "name": "product_insight_prompt",
+      "template": "Provide product strategy suggestions given: {input_data}",
+      "use_case": "Assisting product managers with feature ideation and planning via AI-driven insights."
     },
     {
       "name": "compliance_check_prompt",
-      "template": "Perform compliance analysis on the following data:\n{input_data}\nFocus areas: {task_description}",
-      "use_case": "Conducting compliance audits and generating advisory documentation."
+      "template": "Verify compliance with these regulations: {input_data}",
+      "use_case": "Conducting compliance checks and generating regulatory documentation."
     },
     {
-      "name": "executive_advisory_prompt",
-      "template": "Provide strategic advisory notes for C-level decision-making based on this scenario: {task_description}\nSupporting information:\n{input_data}",
-      "use_case": "Providing C-level executives with AI-generated strategic recommendations."
+      "name": "executive_advice_prompt",
+      "template": "Offer strategic advice on: {input_data}",
+      "use_case": "Providing C-level executives with AI-powered strategic advisory support."
     }
   ],
   "metadata": {
