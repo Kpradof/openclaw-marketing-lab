@@ -5,33 +5,33 @@
   "prompts": [
     {
       "name": "website_audit_prompt",
-      "template": "Audit the website at {website_url} and identify key marketing strengths, weaknesses, and opportunities.",
-      "use_case": "Performing detailed marketing audits of client websites"
+      "template": "Audit the following website focusing on marketing effectiveness and content quality: {website_url}",
+      "use_case": "Performing comprehensive marketing audits for client websites"
     },
     {
       "name": "copy_generation_prompt",
-      "template": "Generate engaging marketing copy based on the following brief: {marketing_brief}",
-      "use_case": "Generating creative marketing copy and email sequences automatically"
+      "template": "Generate compelling marketing copy for a product with these details: {product_details}, targeting {target_audience}.",
+      "use_case": "Generating tailored marketing copy and email sequences to boost engagement"
     },
     {
       "name": "email_sequence_prompt",
-      "template": "Create an email marketing sequence based on these subject lines: {email_subjects}",
-      "use_case": "Planning and preparing digital ad campaigns using AI assistance"
+      "template": "Create an email sequence for a campaign with the following parameters: {campaign_parameters}.",
+      "use_case": "Planning and organizing advertising campaigns with automated assistance"
     },
     {
       "name": "ad_campaign_prompt",
-      "template": "Develop a detailed ad campaign plan for this target audience and budget: {ad_campaign_parameters}",
-      "use_case": "Creating organized content calendars for social media and blogs"
-    },
-    {
-      "name": "content_calendar_prompt",
-      "template": "Create a content calendar meeting these requirements: {content_calendar_requirements}",
-      "use_case": "Conducting competitive intelligence for market positioning"
+      "template": "Plan an advertising campaign based on this marketing brief: {marketing_brief}.",
+      "use_case": "Creating content publication calendars to streamline marketing efforts"
     },
     {
       "name": "competitive_intelligence_prompt",
-      "template": "Analyze the competitive landscape given this data: {competitive_intelligence_input}",
-      "use_case": "Producing professional marketing reports for clients"
+      "template": "Provide a competitive intelligence analysis for the market related to: {product_details}.",
+      "use_case": "Producing competitive intelligence reports to guide business strategy"
+    },
+    {
+      "name": "content_calendar_prompt",
+      "template": "Build a content calendar for the marketing initiatives based on: {campaign_parameters}.",
+      "use_case": "Delivering professional marketing reports in PDF format for clients"
     }
   ],
   "metadata": {
