@@ -5,33 +5,32 @@
   "prompts": [
     {
       "name": "website_audit_prompt",
-      "template": "Audit the following website focusing on marketing effectiveness and content quality: {website_url}",
-      "use_case": "Performing comprehensive marketing audits for client websites"
+      "template": "Audit the website at {website_url} and generate a detailed report on SEO, UX, content quality, and competitor comparison.",
+      "use_case": "Marketing agencies needing automated, comprehensive campaign planning and execution"
     },
     {
       "name": "copy_generation_prompt",
-      "template": "Generate compelling marketing copy for a product with these details: {product_details}, targeting {target_audience}.",
-      "use_case": "Generating tailored marketing copy and email sequences to boost engagement"
+      "template": "Generate marketing copy focused on {marketing_objective} for {target_audience} using this style: {copy_requirements}.",
+      "use_case": "Businesses performing competitor analysis and website audits to improve marketing strategies"
     },
     {
       "name": "email_sequence_prompt",
-      "template": "Create an email sequence for a campaign with the following parameters: {campaign_parameters}.",
-      "use_case": "Planning and organizing advertising campaigns with automated assistance"
+      "template": "Create an email sequence of {email_count} emails with tone {tone} targeted at {target_audience} for the campaign objective: {marketing_objective}.",
+      "use_case": "Content creators generating multi-channel marketing content rapidly"
     },
     {
       "name": "ad_campaign_prompt",
-      "template": "Plan an advertising campaign based on this marketing brief: {marketing_brief}.",
-      "use_case": "Creating content publication calendars to streamline marketing efforts"
-    },
-    {
-      "name": "competitive_intelligence_prompt",
-      "template": "Provide a competitive intelligence analysis for the market related to: {product_details}.",
-      "use_case": "Producing competitive intelligence reports to guide business strategy"
+      "template": "Design an ad campaign plan with budget {budget} and platforms {platforms} focused on {marketing_objective}.",
+      "use_case": "Email marketers designing complex drip campaigns with AI assistance"
     },
     {
       "name": "content_calendar_prompt",
-      "template": "Build a content calendar for the marketing initiatives based on: {campaign_parameters}.",
-      "use_case": "Delivering professional marketing reports in PDF format for clients"
+      "template": "Generate a content calendar for {period} focusing on topics: {topics} with publishing frequency {frequency}.",
+      "use_case": "Consultants preparing professional marketing reports for clients"
+    },
+    {
+      "name": "competitive_intelligence_prompt",
+      "template": "Analyze competitors {competitive_intel_targets} and provide insights on their marketing strategies."
     }
   ],
   "metadata": {

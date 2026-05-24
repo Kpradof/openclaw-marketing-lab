@@ -4,29 +4,19 @@
   "description": "Reusable prompt pack derived from the claude_skills capability.",
   "prompts": [
     {
-      "name": "code_generation_prompt",
-      "template": "Generate code for the following requirements: {input_data}",
-      "use_case": "Automating and enhancing code generation tasks across multiple AI coding assistants."
+      "name": "skill_invocation",
+      "template": "Execute the skill for {task_description} using agent {agent_name} with input: {agent_input}",
+      "use_case": "Automating coding tasks across multiple AI coding agents"
     },
     {
-      "name": "marketing_copy_prompt",
-      "template": "Create a marketing pitch based on these points: {input_data}",
-      "use_case": "Generating marketing content drafts and campaign strategies using AI plugins."
+      "name": "custom_command_execution",
+      "template": "Run the custom command '{custom_command}' with parameters {parameters} on agent {agent_name}",
+      "use_case": "Building custom agent workflows for engineering and product management"
     },
     {
-      "name": "product_insight_prompt",
-      "template": "Provide product strategy suggestions given: {input_data}",
-      "use_case": "Assisting product managers with feature ideation and planning via AI-driven insights."
-    },
-    {
-      "name": "compliance_check_prompt",
-      "template": "Verify compliance with these regulations: {input_data}",
-      "use_case": "Conducting compliance checks and generating regulatory documentation."
-    },
-    {
-      "name": "executive_advice_prompt",
-      "template": "Offer strategic advice on: {input_data}",
-      "use_case": "Providing C-level executives with AI-powered strategic advisory support."
+      "name": "reference_based_query",
+      "template": "Using reference data {reference_name}, respond to: {query}",
+      "use_case": "Enhancing compliance and finance advisory processes using AI"
     }
   ],
   "metadata": {
