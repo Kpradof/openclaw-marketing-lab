@@ -4,24 +4,24 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "seo_optimization_prompt",
-      "template": "Optimize the following content for SEO using these keywords: {seo_keywords}. Content: {content_text}",
-      "use_case": "Enhancing digital marketing campaigns via AI-powered copywriting and SEO optimization."
+      "name": "copywriting_optimization",
+      "template": "Improve the following marketing copy for better conversion and clarity: {content_data}",
+      "use_case": "Enhancing website and landing page conversion rates."
     },
     {
-      "name": "conversion_rate_analysis_prompt",
-      "template": "Analyze this marketing campaign data to provide conversion rate improvement insights: {campaign_data}",
-      "use_case": "Generating actionable insights from marketing analytics to increase conversion rates."
+      "name": "seo_keyword_analysis",
+      "template": "Analyze and suggest improvements for SEO using the keywords: {seo_keywords}",
+      "use_case": "Generating compelling marketing copy for campaigns."
     },
     {
-      "name": "growth_strategy_development_prompt",
-      "template": "Given these analytics and current growth strategies, suggest a detailed growth engineering plan: {analytics_data}, {growth_strategies}",
-      "use_case": "Developing growth engineering strategies for startups and established businesses."
+      "name": "growth_strategy_recommendation",
+      "template": "Based on the following analytics data, suggest a growth strategy: {analytics_data}",
+      "use_case": "Optimizing content for search engine rankings."
     },
     {
-      "name": "copywriting_improvement_prompt",
-      "template": "Improve the following marketing copy to maximize engagement and clarity: {content_text}",
-      "use_case": "Automating content creation workflows tailored for various marketing channels."
+      "name": "conversion_rate_insights",
+      "template": "Provide insights and recommendations to improve conversion rates for the marketing goal: {marketing_goal}",
+      "use_case": "Analyzing campaign analytics to identify growth opportunities."
     }
   ],
   "metadata": {

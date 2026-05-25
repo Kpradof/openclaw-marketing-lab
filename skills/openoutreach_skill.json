@@ -1,92 +1,106 @@
 {
   "name": "openoutreach",
   "type": "repository_derived_skill",
-  "description": "An AI-driven LinkedIn automation tool that finds and generates leads for users by automating outreach processes targeting relevant professionals and businesses.",
+  "description": "An automation tool leveraging AI to find and generate leads on LinkedIn for outreach purposes. It helps businesses describe their product, define target markets, and automate lead identification to streamline lead generation workflows.",
   "triggers": [
-    "processes",
-    "driven",
-    "professionals",
-    "automating",
-    "businesses",
+    "generation",
+    "describe",
+    "generate",
+    "streamline",
     "openoutreach",
-    "targeting",
-    "automation",
-    "generates",
-    "leads",
-    "linkedin",
+    "outreach",
+    "their",
+    "leveraging",
+    "define",
     "ai",
-    "finds",
+    "find",
+    "purposes",
+    "linkedin",
+    "product",
+    "lead",
+    "businesses",
     "tool",
-    "relevant",
-    "users",
-    "outreach"
+    "helps",
+    "identification",
+    "markets",
+    "automation",
+    "target",
+    "automate",
+    "leads",
+    "workflows"
   ],
   "inputs": [
     {
-      "name": "target_market_description",
-      "type": "string",
-      "description": "Description of the target market or audience for lead generation."
-    },
-    {
       "name": "product_description",
       "type": "string",
-      "description": "Description of the product or service being promoted to potential leads."
+      "description": "A description of the product or service to be promoted."
+    },
+    {
+      "name": "target_market_profile",
+      "type": "string",
+      "description": "Definition or criteria describing the ideal customer or market segment for lead generation."
     },
     {
       "name": "LinkedIn_credentials",
       "type": "object",
-      "description": "User's LinkedIn login credentials or API token to enable automation and interaction."
+      "description": "Authentication details or API tokens for accessing LinkedIn data."
     },
     {
-      "name": "search_criteria",
+      "name": "search_parameters",
       "type": "object",
-      "description": "Filters and parameters such as job titles, industries, locations, and keywords to narrow down lead search."
+      "description": "Filters and parameters to refine lead search (e.g., industry, location, job titles)."
     }
   ],
   "outputs": [
     {
       "name": "lead_list",
       "type": "array",
-      "description": "List of identified leads with relevant LinkedIn profile information."
+      "description": "A structured list of potential leads generated from LinkedIn based on input criteria."
     },
     {
-      "name": "automated_outreach_status",
+      "name": "automation_report",
       "type": "object",
-      "description": "Report or log of outreach campaign results including connection requests sent, messages delivered, and responses received."
+      "description": "Summary report detailing the number of leads found, messages sent, and campaign status."
     }
   ],
   "steps": [
-    "Define and input the product description and target market parameters.",
-    "Authenticate and connect to LinkedIn accounts for automation access.",
-    "Use AI to analyze LinkedIn profiles and find leads matching criteria.",
-    "Automatically send connection requests and personalized messages to leads.",
-    "Track outreach campaign metrics and manage lead follow-up interactions."
+    "User provides a detailed description of their product or service.",
+    "User defines their target market using criteria such as industry, role, and geography.",
+    "The AI analyzes inputs to generate search parameters and identifies relevant LinkedIn leads.",
+    "The tool uses LinkedIn credentials to fetch and filter potential leads.",
+    "A list of qualified leads is compiled and organized.",
+    "Automation processes may initiate outreach sequences or export lead data.",
+    "The system produces reports on lead generation performance and campaign progress."
   ],
   "use_cases": [
-    "Sales teams generating targeted B2B leads on LinkedIn.",
-    "Marketing professionals automating personalized outreach campaigns.",
-    "Recruiters identifying and contacting potential candidates.",
-    "Entrepreneurs building networks and opportunities within specific industries."
+    "Businesses seeking to automate LinkedIn lead generation campaigns.",
+    "Sales teams requiring AI support to identify potential clients within specific markets.",
+    "Marketing professionals aiming to streamline and scale LinkedIn outreach.",
+    "Startups and SMEs needing targeted lead lists without manual research."
   ],
   "patterns": [
-    "AI-powered lead discovery via keyword and profile analysis",
-    "Automated LinkedIn connection requests and messaging workflows",
-    "Filtering and targeting leads based on custom search criteria",
-    "Campaign progress tracking and response handling"
+    "Automated lead discovery through AI-enhanced search criteria",
+    "User input-driven market segmentation",
+    "Integration with social media platform APIs for data extraction",
+    "Workflow automation for outreach and lead nurturing"
   ],
   "prompt_templates": [
     {
-      "name": "lead_generation_prompt",
-      "template": "Find leads related to the following target market: {target_market_description} and product: {product_description}."
+      "name": "define_product_and_target",
+      "template": "Describe your product: {product_description}. Define your target market: {target_market_profile}."
     },
     {
-      "name": "outreach_message_prompt",
-      "template": "Generate a personalized LinkedIn connection request message for a lead in {industry} introducing our product: {product_description}."
+      "name": "generate_leads",
+      "template": "Find leads on LinkedIn for a product with description: {product_description} targeting: {target_market_profile}."
+    },
+    {
+      "name": "summarize_campaign",
+      "template": "Provide a summary report for the LinkedIn outreach campaign including leads found and actions taken."
     }
   ],
   "metadata": {
     "language": "unknown",
-    "stars": 1798,
+    "stars": 1903,
     "repo_url": "https://github.com/eracle/OpenOutreach"
   },
   "source": {
