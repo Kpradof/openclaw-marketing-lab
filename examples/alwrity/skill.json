@@ -1,0 +1,152 @@
+{
+  "name": "alwrity",
+  "type": "repository_derived_skill",
+  "description": "An AI-first digital marketing platform providing capabilities for content strategy and planning, multimodal content generation, publishing, analytics, AI-driven SEO, and social account management.",
+  "triggers": [
+    "providing",
+    "generation",
+    "seo",
+    "content",
+    "social",
+    "ai",
+    "driven",
+    "strategy",
+    "multimodal",
+    "capabilities",
+    "marketing",
+    "first",
+    "alwrity",
+    "platform",
+    "analytics",
+    "management",
+    "planning",
+    "digital",
+    "publishing",
+    "account"
+  ],
+  "inputs": [
+    {
+      "name": "content_strategy_parameters",
+      "type": "object",
+      "description": "Parameters defining goals, target audience, keywords, and campaign objectives for AI-driven content strategy and planning."
+    },
+    {
+      "name": "content_requests",
+      "type": "object",
+      "description": "Requests specifying type (text, image, video), theme, style, and length for multimodal content generation."
+    },
+    {
+      "name": "social_account_credentials",
+      "type": "object",
+      "description": "Authentication and connection details for managing and connecting social media accounts."
+    },
+    {
+      "name": "published_content_data",
+      "type": "object",
+      "description": "Content metadata and status updates for publication workflows and scheduling."
+    },
+    {
+      "name": "analytics_query_parameters",
+      "type": "object",
+      "description": "Parameters defining metrics, date ranges, channels, and reports for marketing analytics and insights."
+    },
+    {
+      "name": "seo_keywords_and_content",
+      "type": "object",
+      "description": "SEO keywords, competitor data, and content inputs for AI-powered SEO optimization."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "content_strategy_plan",
+      "type": "object",
+      "description": "A structured content strategy outlining topics, posting schedule, and channel recommendations."
+    },
+    {
+      "name": "generated_content",
+      "type": "multimodal content",
+      "description": "AI-generated content including text, images, videos, and multimedia assets."
+    },
+    {
+      "name": "publish_status",
+      "type": "object",
+      "description": "Status updates and confirmations regarding content publishing on social or digital channels."
+    },
+    {
+      "name": "analytics_reports",
+      "type": "object",
+      "description": "Insights, performance metrics, and analytic reports related to marketing campaigns and content effectiveness."
+    },
+    {
+      "name": "seo_recommendations",
+      "type": "object",
+      "description": "AI-driven SEO suggestions and optimizations to improve search engine rankings."
+    },
+    {
+      "name": "social_account_management_status",
+      "type": "object",
+      "description": "Feedback and status information about connections and management of social media accounts."
+    }
+  ],
+  "steps": [
+    "Define marketing goals and target audience in content strategy parameters.",
+    "Use AI modules to generate a content strategy plan based on input parameters.",
+    "Request multimodal content generation from AI using specified themes and formats.",
+    "Manage and connect social media accounts via the platform for content publishing.",
+    "Publish generated content to selected digital and social channels.",
+    "Collect and analyze marketing and campaign data to produce analytics reports.",
+    "Apply AI-driven SEO optimization suggestions to published or planned content.",
+    "Monitor social account statuses and manage publishing schedules accordingly."
+  ],
+  "use_cases": [
+    "Automated digital marketing strategy development for businesses and agencies.",
+    "Creating diverse marketing materials such as blog posts, social media posts, videos, and images using AI.",
+    "Scheduling and managing publishing across multiple social media platforms.",
+    "Tracking campaign performance and generating actionable marketing analytics reports.",
+    "Implementing AI-powered SEO improvements to enhance online content visibility.",
+    "Centralized management of multiple social media accounts and campaigns."
+  ],
+  "patterns": [
+    "AI-driven content strategy formulation",
+    "Multimodal content generation (text, image, video)",
+    "Automated content publishing workflows",
+    "Real-time marketing analytics and reporting",
+    "AI-enhanced SEO keyword and content optimization",
+    "Social account connection and orchestration"
+  ],
+  "prompt_templates": [
+    {
+      "name": "content_strategy",
+      "template": "Create a content strategy plan targeting {target_audience} with a focus on {primary_goals} using keywords {keywords_list}."
+    },
+    {
+      "name": "generate_multimodal_content",
+      "template": "Generate a {content_type} about {topic} with a {style} style and length of {length}."
+    },
+    {
+      "name": "publish_content",
+      "template": "Publish the content titled '{content_title}' to {social_platforms} on {scheduled_date}."
+    },
+    {
+      "name": "request_analytics_report",
+      "template": "Provide analytics report for campaigns between {start_date} and {end_date} focusing on {metrics}."
+    },
+    {
+      "name": "seo_optimization",
+      "template": "Suggest SEO improvements for the content about {topic} focusing on keywords {keywords_list}."
+    },
+    {
+      "name": "connect_social_account",
+      "template": "Connect and authenticate social media account for platform {platform_name} with credentials {credentials}."
+    }
+  ],
+  "metadata": {
+    "language": "unknown",
+    "stars": 1046,
+    "repo_url": "https://github.com/AJaySi/ALwrity"
+  },
+  "source": {
+    "repo_name": "ALwrity",
+    "repo_url": "https://github.com/AJaySi/ALwrity"
+  }
+}
