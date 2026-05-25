@@ -1,0 +1,41 @@
+{
+  "name": "alwrity_prompts",
+  "source_skill": "alwrity",
+  "description": "Reusable prompt pack derived from the alwrity capability.",
+  "prompts": [
+    {
+      "name": "content_strategy",
+      "template": "Create a content strategy plan targeting {target_audience} with a focus on {primary_goals} using keywords {keywords_list}.",
+      "use_case": "Automated digital marketing strategy development for businesses and agencies."
+    },
+    {
+      "name": "generate_multimodal_content",
+      "template": "Generate a {content_type} about {topic} with a {style} style and length of {length}.",
+      "use_case": "Creating diverse marketing materials such as blog posts, social media posts, videos, and images using AI."
+    },
+    {
+      "name": "publish_content",
+      "template": "Publish the content titled '{content_title}' to {social_platforms} on {scheduled_date}.",
+      "use_case": "Scheduling and managing publishing across multiple social media platforms."
+    },
+    {
+      "name": "request_analytics_report",
+      "template": "Provide analytics report for campaigns between {start_date} and {end_date} focusing on {metrics}.",
+      "use_case": "Tracking campaign performance and generating actionable marketing analytics reports."
+    },
+    {
+      "name": "seo_optimization",
+      "template": "Suggest SEO improvements for the content about {topic} focusing on keywords {keywords_list}.",
+      "use_case": "Implementing AI-powered SEO improvements to enhance online content visibility."
+    },
+    {
+      "name": "connect_social_account",
+      "template": "Connect and authenticate social media account for platform {platform_name} with credentials {credentials}.",
+      "use_case": "Centralized management of multiple social media accounts and campaigns."
+    }
+  ],
+  "metadata": {
+    "repo_url": "https://github.com/AJaySi/ALwrity",
+    "generated_from": "alwrity"
+  }
+}

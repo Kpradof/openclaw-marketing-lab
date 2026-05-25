@@ -28,6 +28,7 @@ MANIFEST
 # Virtual environments / secrets
 .env
 .env.*
+!.env.example
 .envrc
 .venv/
 venv/
@@ -87,3 +88,4 @@ Thumbs.db
 # Temp files
 *.tmp
 *.bak
+examples/demo-output/
