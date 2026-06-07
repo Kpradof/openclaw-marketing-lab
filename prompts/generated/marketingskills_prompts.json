@@ -4,24 +4,9 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "copywriting_optimization",
-      "template": "Improve the following marketing copy for better conversion and clarity: {content_data}",
-      "use_case": "Enhancing website and landing page conversion rates."
-    },
-    {
-      "name": "seo_keyword_analysis",
-      "template": "Analyze and suggest improvements for SEO using the keywords: {seo_keywords}",
-      "use_case": "Generating compelling marketing copy for campaigns."
-    },
-    {
-      "name": "growth_strategy_recommendation",
-      "template": "Based on the following analytics data, suggest a growth strategy: {analytics_data}",
-      "use_case": "Optimizing content for search engine rankings."
-    },
-    {
-      "name": "conversion_rate_insights",
-      "template": "Provide insights and recommendations to improve conversion rates for the marketing goal: {marketing_goal}",
-      "use_case": "Analyzing campaign analytics to identify growth opportunities."
+      "name": "marketingskills_default_prompt",
+      "template": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "use_case": "marketing automation"
     }
   ],
   "metadata": {

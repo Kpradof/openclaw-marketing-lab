@@ -1,111 +1,26 @@
 {
-  "name": "SEO & GEO AI Agent Skills",
-  "description": "A collection of 20 specialized SEO and GEO skills tailored for AI agents like Claude Code, Cursor, Codex, and 35+ others, enabling keyword research, content writing, technical SEO audits, rank tracking, and application of CORE-EEAT and CITE frameworks.",
-  "inputs": [
-    {
-      "name": "keyword_list",
-      "type": "list of strings",
-      "description": "Keywords or phrases for research, analysis, and content generation."
-    },
-    {
-      "name": "content_text",
-      "type": "string",
-      "description": "Text content for SEO optimization, writing, or auditing."
-    },
-    {
-      "name": "website_url",
-      "type": "string",
-      "description": "Target URL for technical SEO audits or rank tracking."
-    },
-    {
-      "name": "geographical_data",
-      "type": "string",
-      "description": "Location-specific data to tailor GEO SEO tasks."
-    },
-    {
-      "name": "rank_tracking_params",
-      "type": "object",
-      "description": "Parameters for tracking keyword rankings over time."
-    }
-  ],
-  "outputs": [
-    {
-      "name": "keyword_insights",
-      "type": "object",
-      "description": "Analysis results including search volume, competition, and opportunity scores."
-    },
-    {
-      "name": "optimized_content",
-      "type": "string",
-      "description": "SEO-enhanced text content generated or revised according to best practices."
-    },
-    {
-      "name": "audit_report",
-      "type": "object",
-      "description": "Technical SEO audit results highlighting issues and recommendations."
-    },
-    {
-      "name": "rank_tracking_report",
-      "type": "object",
-      "description": "Tracking data showing current and historical keyword rankings."
-    },
-    {
-      "name": "seo_strategy_recommendations",
-      "type": "string",
-      "description": "Actionable guidance based on CORE-EEAT and CITE frameworks."
-    }
-  ],
+  "name": "seo-geo-claude-skills",
+  "description": "20 SEO & GEO skills for Claude Code, Cursor, Codex, and 35+ AI agents. Keyword research, content writing, technical audits, rank tracking. CORE-EEAT + CITE frameworks.",
+  "inputs": [],
+  "outputs": [],
   "patterns": [
-    "Keyword research using data-driven analysis",
-    "Automated content generation with SEO optimization",
-    "Technical SEO auditing recognizing common issues",
-    "Rank tracking with time-series comparison",
-    "Applying CORE-EEAT framework for credibility and expertise in content",
-    "Utilizing CITE framework to improve citation and referencing quality",
-    "Geo-targeted SEO adjustments based on location data"
+    "pattern_extraction_pending",
+    "workflow_identification_pending"
   ],
   "steps": [
-    "Collect keywords and/or content input from the user or system",
-    "Perform keyword research to analyze search intent and competition",
-    "Generate or optimize content applying SEO best practices and CORE-EEAT + CITE guidelines",
-    "Conduct a technical SEO audit on the specified website URL",
-    "Track keyword rankings and monitor changes over time",
-    "Generate detailed reports and recommendations for SEO improvements",
-    "Incorporate GEO-specific data to customize SEO strategies regionally"
+    "analyze_repository_metadata",
+    "extract_reusable_patterns",
+    "map_patterns_to_marketing_use_cases"
   ],
   "use_cases": [
-    "Generating SEO-optimized articles and marketing content",
-    "Conducting in-depth keyword research for targeted campaigns",
-    "Performing technical SEO audits to identify website issues",
-    "Monitoring SEO rank progress for multiple keywords",
-    "Implementing SEO strategies that adhere to expertise, authoritativeness, and trustworthiness",
-    "Customizing SEO approaches for geographic locations"
+    "marketing automation",
+    "workflow design",
+    "prompt generation"
   ],
-  "prompt_templates": [
-    {
-      "name": "keyword_research",
-      "template": "Analyze the following keywords for search volume, competition, and relevancy: {keyword_list}"
-    },
-    {
-      "name": "content_writing",
-      "template": "Write SEO-optimized content on the topic '{topic}' that aligns with CORE-EEAT and CITE frameworks."
-    },
-    {
-      "name": "technical_audit",
-      "template": "Perform a technical SEO audit on the website at: {website_url} and list SEO issues and recommendations."
-    },
-    {
-      "name": "rank_tracking",
-      "template": "Provide current and historical rankings for the keywords {keyword_list} targeting the region {geographical_data}."
-    },
-    {
-      "name": "seo_strategy",
-      "template": "Based on the following data: {input_data}, generate SEO strategy recommendations using CORE-EEAT and CITE best practices."
-    }
-  ],
+  "prompt_templates": [],
   "metadata": {
     "language": "unknown",
-    "stars": 950,
+    "stars": 2038,
     "repo_url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills"
   }
 }

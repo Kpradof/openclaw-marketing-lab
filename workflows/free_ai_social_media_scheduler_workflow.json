@@ -1,0 +1,9 @@
+{
+  "name": "free_ai_social_media_scheduler_workflow",
+  "skill_name": "free_ai_social_media_scheduler",
+  "steps": [
+    "analyze_repository_metadata",
+    "extract_reusable_patterns",
+    "map_patterns_to_marketing_use_cases"
+  ]
+}
