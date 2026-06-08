@@ -1,34 +1,24 @@
 {
-  "name": "ai_marketing_claude",
+  "name": "free_ai_social_media_scheduler",
   "type": "repository_derived_skill",
-  "description": "AI Marketing Suite for Claude Code. 15 marketing skills with parallel subagents — audit any website, generate copy, email sequences, ad campaigns, content calendars, competitive intelligence, and client-ready PDF reports.",
+  "description": "Free open-source AI social media scheduler — self-hostable alternative to Postiz, Buffer, and Hootsuite with built-in AI content generation.",
   "triggers": [
-    "ad",
-    "reports",
-    "pdf",
-    "code",
-    "skills",
-    "suite",
-    "parallel",
-    "any",
-    "sequences",
-    "website",
+    "postiz",
     "content",
-    "audit",
-    "claude",
-    "ready",
-    "generate",
-    "intelligence",
-    "subagents",
-    "copy",
-    "marketing",
-    "calendars",
-    "client",
-    "campaigns",
-    "email",
-    "15",
-    "competitive",
-    "ai"
+    "free",
+    "alternative",
+    "hostable",
+    "media",
+    "buffer",
+    "generation",
+    "self",
+    "open",
+    "source",
+    "scheduler",
+    "hootsuite",
+    "built",
+    "ai",
+    "social"
   ],
   "inputs": [
     {
@@ -68,11 +58,11 @@
   "prompt_templates": [],
   "metadata": {
     "language": "unknown",
-    "stars": 1833,
-    "repo_url": "https://github.com/zubair-trabzada/ai-marketing-claude"
+    "stars": 2079,
+    "repo_url": "https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler"
   },
   "source": {
-    "repo_name": "ai-marketing-claude",
-    "repo_url": "https://github.com/zubair-trabzada/ai-marketing-claude"
+    "repo_name": "Free-AI-Social-Media-Scheduler",
+    "repo_url": "https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler"
   }
 }

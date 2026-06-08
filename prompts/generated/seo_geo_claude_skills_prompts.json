@@ -4,29 +4,9 @@
   "description": "Reusable prompt pack derived from the seo_geo_claude_skills capability.",
   "prompts": [
     {
-      "name": "keyword_research",
-      "template": "Analyze the following keywords for search volume, competition, and relevancy: {keyword_list}",
-      "use_case": "Generating SEO-optimized articles and marketing content"
-    },
-    {
-      "name": "content_writing",
-      "template": "Write SEO-optimized content on the topic '{topic}' that aligns with CORE-EEAT and CITE frameworks.",
-      "use_case": "Conducting in-depth keyword research for targeted campaigns"
-    },
-    {
-      "name": "technical_audit",
-      "template": "Perform a technical SEO audit on the website at: {website_url} and list SEO issues and recommendations.",
-      "use_case": "Performing technical SEO audits to identify website issues"
-    },
-    {
-      "name": "rank_tracking",
-      "template": "Provide current and historical rankings for the keywords {keyword_list} targeting the region {geographical_data}.",
-      "use_case": "Monitoring SEO rank progress for multiple keywords"
-    },
-    {
-      "name": "seo_strategy",
-      "template": "Based on the following data: {input_data}, generate SEO strategy recommendations using CORE-EEAT and CITE best practices.",
-      "use_case": "Implementing SEO strategies that adhere to expertise, authoritativeness, and trustworthiness"
+      "name": "seo_geo_claude_skills_default_prompt",
+      "template": "20 SEO & GEO skills for Claude Code, Cursor, Codex, and 35+ AI agents. Keyword research, content writing, technical audits, rank tracking. CORE-EEAT + CITE frameworks.",
+      "use_case": "marketing automation"
     }
   ],
   "metadata": {

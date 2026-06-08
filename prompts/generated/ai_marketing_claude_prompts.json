@@ -4,33 +4,9 @@
   "description": "Reusable prompt pack derived from the ai_marketing_claude capability.",
   "prompts": [
     {
-      "name": "website_audit_prompt",
-      "template": "Audit the website at {website_url} and generate a detailed report on SEO, UX, content quality, and competitor comparison.",
-      "use_case": "Marketing agencies needing automated, comprehensive campaign planning and execution"
-    },
-    {
-      "name": "copy_generation_prompt",
-      "template": "Generate marketing copy focused on {marketing_objective} for {target_audience} using this style: {copy_requirements}.",
-      "use_case": "Businesses performing competitor analysis and website audits to improve marketing strategies"
-    },
-    {
-      "name": "email_sequence_prompt",
-      "template": "Create an email sequence of {email_count} emails with tone {tone} targeted at {target_audience} for the campaign objective: {marketing_objective}.",
-      "use_case": "Content creators generating multi-channel marketing content rapidly"
-    },
-    {
-      "name": "ad_campaign_prompt",
-      "template": "Design an ad campaign plan with budget {budget} and platforms {platforms} focused on {marketing_objective}.",
-      "use_case": "Email marketers designing complex drip campaigns with AI assistance"
-    },
-    {
-      "name": "content_calendar_prompt",
-      "template": "Generate a content calendar for {period} focusing on topics: {topics} with publishing frequency {frequency}.",
-      "use_case": "Consultants preparing professional marketing reports for clients"
-    },
-    {
-      "name": "competitive_intelligence_prompt",
-      "template": "Analyze competitors {competitive_intel_targets} and provide insights on their marketing strategies."
+      "name": "ai_marketing_claude_default_prompt",
+      "template": "AI Marketing Suite for Claude Code. 15 marketing skills with parallel subagents — audit any website, generate copy, email sequences, ad campaigns, content calendars, competitive intelligence, and client-ready PDF reports.",
+      "use_case": "marketing automation"
     }
   ],
   "metadata": {

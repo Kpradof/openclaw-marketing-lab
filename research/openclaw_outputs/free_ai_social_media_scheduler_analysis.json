@@ -1,6 +1,6 @@
 {
-  "name": "OpenOutreach",
-  "description": "Linkedin Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
+  "name": "Free-AI-Social-Media-Scheduler",
+  "description": "Free open-source AI social media scheduler — self-hostable alternative to Postiz, Buffer, and Hootsuite with built-in AI content generation.",
   "inputs": [],
   "outputs": [],
   "patterns": [
@@ -20,7 +20,7 @@
   "prompt_templates": [],
   "metadata": {
     "language": "unknown",
-    "stars": 2035,
-    "repo_url": "https://github.com/eracle/OpenOutreach"
+    "stars": 2079,
+    "repo_url": "https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler"
   }
 }
