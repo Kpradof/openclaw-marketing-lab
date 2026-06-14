@@ -4,24 +4,9 @@
   "description": "Reusable prompt pack derived from the openoutreach capability.",
   "prompts": [
     {
-      "name": "define_product_and_market",
-      "template": "Describe your product in detail: {product_description}. Define your target market: {target_market}.",
-      "use_case": "Sales teams generating targeted leads on LinkedIn for outbound marketing"
-    },
-    {
-      "name": "initiate_lead_generation",
-      "template": "Find leads on LinkedIn that match the product and market description provided.",
-      "use_case": "Entrepreneurs and SMBs automating LinkedIn outreach to potential customers"
-    },
-    {
-      "name": "send_connection_request",
-      "template": "Send a personalized connection request to {lead_name} highlighting the value of {product_description}.",
-      "use_case": "Recruiters sourcing candidates matching specific job requirements"
-    },
-    {
-      "name": "follow_up_message",
-      "template": "Send a follow-up message to {lead_name} referencing previous outreach and inviting engagement.",
-      "use_case": "Marketing agencies running LinkedIn campaigns for client acquisition"
+      "name": "openoutreach_default_prompt",
+      "template": "Linkedin Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
+      "use_case": "marketing automation"
     }
   ],
   "metadata": {

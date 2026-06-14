@@ -1,0 +1,16 @@
+{
+  "name": "free_ai_social_media_scheduler_prompts",
+  "source_skill": "free_ai_social_media_scheduler",
+  "description": "Reusable prompt pack derived from the free_ai_social_media_scheduler capability.",
+  "prompts": [
+    {
+      "name": "free_ai_social_media_scheduler_default_prompt",
+      "template": "Free open-source AI social media scheduler — self-hostable alternative to Postiz, Buffer, and Hootsuite with built-in AI content generation.",
+      "use_case": "marketing automation"
+    }
+  ],
+  "metadata": {
+    "repo_url": "https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler",
+    "generated_from": "free_ai_social_media_scheduler"
+  }
+}

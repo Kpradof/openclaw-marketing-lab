@@ -4,29 +4,29 @@
   "description": "Reusable prompt pack derived from the ai_marketing_skills capability.",
   "prompts": [
     {
-      "name": "generate_outbound_email",
-      "template": "Create an outbound sales email targeting {target_audience} that highlights {product_features} and includes a call to action.",
-      "use_case": "Running AI-assisted marketing growth experiments to optimize campaigns"
+      "name": "growth_experiment_setup",
+      "template": "Design a growth experiment for {campaign_name} targeting {audience} with goals {goals_list}.",
+      "use_case": "Running growth experiments to validate marketing hypotheses and improve ROI"
     },
     {
-      "name": "seo_content_optimization",
-      "template": "Optimize the following content for SEO using keywords: {seo_keywords}. Content: {content_text}",
-      "use_case": "Generating automated outbound emails, blog content, and sales messages"
+      "name": "seo_optimization_prompt",
+      "template": "Suggest SEO improvements for the content related to {topic} focusing on keywords {keywords}.",
+      "use_case": "Automating sales pipeline management to increase efficiency and track leads"
     },
     {
-      "name": "growth_experiment_plan",
-      "template": "Design a growth experiment focusing on {growth_goal} with metrics to track: {metrics_list}.",
-      "use_case": "Managing and analyzing sales pipeline to increase conversion efficiency"
+      "name": "outbound_message_generator",
+      "template": "Create a personalized outbound email message for {contact_name} from {company_name} about {product_or_service}.",
+      "use_case": "Generating SEO-friendly content to boost organic traffic"
     },
     {
-      "name": "sales_pipeline_analysis",
-      "template": "Analyze the sales pipeline data and provide insights on {focus_area} for better opportunity management.",
-      "use_case": "Improving SEO strategy with automated keyword research and content suggestions"
+      "name": "sales_pipeline_update",
+      "template": "Update the sales pipeline status for lead {lead_name} with current stage {stage} and next steps {next_steps}.",
+      "use_case": "Executing outbound marketing campaigns with personalized AI-driven messaging"
     },
     {
-      "name": "finance_report_automation",
-      "template": "Generate a finance report summarizing budget, expenditures, and forecast for the period: {time_period}.",
-      "use_case": "Automating finance reports and budgeting tasks in marketing operations"
+      "name": "finance_automation_task",
+      "template": "Automate the marketing finance process for budget {budget_amount} and track ROI from campaigns {campaign_list}.",
+      "use_case": "Automating finance-related marketing processes including budget tracking and ROI analysis"
     }
   ],
   "metadata": {

@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-04-26T14:55:52.227174Z",
+  "generated_at": "2026-06-07T15:28:32.869106Z",
   "total_repositories": 5,
   "assets": [
     {
@@ -9,6 +9,13 @@
       "skill_path": "skills/marketingskills_skill.json",
       "workflow_path": "workflows/marketingskills_workflow.json",
       "prompt_pack_path": "prompts/generated/marketingskills_prompts.json"
+    },
+    {
+      "repo_name": "seo-geo-claude-skills",
+      "analysis_path": "research/openclaw_outputs/seo_geo_claude_skills_analysis.json",
+      "skill_path": "skills/seo_geo_claude_skills_skill.json",
+      "workflow_path": "workflows/seo_geo_claude_skills_workflow.json",
+      "prompt_pack_path": "prompts/generated/seo_geo_claude_skills_prompts.json"
     },
     {
       "repo_name": "OpenOutreach",
@@ -25,18 +32,11 @@
       "prompt_pack_path": "prompts/generated/ai_marketing_claude_prompts.json"
     },
     {
-      "repo_name": "claude-skills",
-      "analysis_path": "research/openclaw_outputs/claude_skills_analysis.json",
-      "skill_path": "skills/claude_skills_skill.json",
-      "workflow_path": "workflows/claude_skills_workflow.json",
-      "prompt_pack_path": "prompts/generated/claude_skills_prompts.json"
-    },
-    {
-      "repo_name": "ai-marketing-skills",
-      "analysis_path": "research/openclaw_outputs/ai_marketing_skills_analysis.json",
-      "skill_path": "skills/ai_marketing_skills_skill.json",
-      "workflow_path": "workflows/ai_marketing_skills_workflow.json",
-      "prompt_pack_path": "prompts/generated/ai_marketing_skills_prompts.json"
+      "repo_name": "Free-AI-Social-Media-Scheduler",
+      "analysis_path": "research/openclaw_outputs/free_ai_social_media_scheduler_analysis.json",
+      "skill_path": "skills/free_ai_social_media_scheduler_skill.json",
+      "workflow_path": "workflows/free_ai_social_media_scheduler_workflow.json",
+      "prompt_pack_path": "prompts/generated/free_ai_social_media_scheduler_prompts.json"
     }
   ]
 }

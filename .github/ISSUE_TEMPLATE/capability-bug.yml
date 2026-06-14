@@ -1,0 +1,24 @@
+name: Generated capability issue
+description: Report an inaccurate or low-quality generated asset.
+title: "Capability issue: <asset or repo>"
+labels: [capability-quality]
+body:
+  - type: input
+    id: asset
+    attributes:
+      label: Asset path or source repo
+      placeholder: skills/example_skill.json
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should it say or do instead?
+    validations:
+      required: false

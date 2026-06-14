@@ -4,34 +4,9 @@
   "description": "Reusable prompt pack derived from the ai_marketing_claude capability.",
   "prompts": [
     {
-      "name": "website_audit_prompt",
-      "template": "Audit the website at {website_url} and identify key marketing strengths, weaknesses, and opportunities.",
-      "use_case": "Performing detailed marketing audits of client websites"
-    },
-    {
-      "name": "copy_generation_prompt",
-      "template": "Generate engaging marketing copy based on the following brief: {marketing_brief}",
-      "use_case": "Generating creative marketing copy and email sequences automatically"
-    },
-    {
-      "name": "email_sequence_prompt",
-      "template": "Create an email marketing sequence based on these subject lines: {email_subjects}",
-      "use_case": "Planning and preparing digital ad campaigns using AI assistance"
-    },
-    {
-      "name": "ad_campaign_prompt",
-      "template": "Develop a detailed ad campaign plan for this target audience and budget: {ad_campaign_parameters}",
-      "use_case": "Creating organized content calendars for social media and blogs"
-    },
-    {
-      "name": "content_calendar_prompt",
-      "template": "Create a content calendar meeting these requirements: {content_calendar_requirements}",
-      "use_case": "Conducting competitive intelligence for market positioning"
-    },
-    {
-      "name": "competitive_intelligence_prompt",
-      "template": "Analyze the competitive landscape given this data: {competitive_intelligence_input}",
-      "use_case": "Producing professional marketing reports for clients"
+      "name": "ai_marketing_claude_default_prompt",
+      "template": "AI Marketing Suite for Claude Code. 15 marketing skills with parallel subagents — audit any website, generate copy, email sequences, ad campaigns, content calendars, competitive intelligence, and client-ready PDF reports.",
+      "use_case": "marketing automation"
     }
   ],
   "metadata": {

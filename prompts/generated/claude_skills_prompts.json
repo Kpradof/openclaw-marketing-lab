@@ -4,29 +4,19 @@
   "description": "Reusable prompt pack derived from the claude_skills capability.",
   "prompts": [
     {
-      "name": "code_generation_prompt",
-      "template": "Generate or complete code for the following task in {programming_language}: {task_description}\nInput snippet:\n{input_data}",
-      "use_case": "Enhancing code generation and completion for software engineering teams."
+      "name": "skill_invocation",
+      "template": "Execute the skill for {task_description} using agent {agent_name} with input: {agent_input}",
+      "use_case": "Automating coding tasks across multiple AI coding agents"
     },
     {
-      "name": "marketing_strategy_prompt",
-      "template": "Create a marketing strategy based on the following context: {task_description}\nRelevant data:\n{input_data}",
-      "use_case": "Automating marketing content creation and analysis using AI agents."
+      "name": "custom_command_execution",
+      "template": "Run the custom command '{custom_command}' with parameters {parameters} on agent {agent_name}",
+      "use_case": "Building custom agent workflows for engineering and product management"
     },
     {
-      "name": "product_planning_prompt",
-      "template": "Develop a product plan considering this description: {task_description}\nAdditional inputs:\n{input_data}",
-      "use_case": "Supporting product management with AI-driven planning and insights."
-    },
-    {
-      "name": "compliance_check_prompt",
-      "template": "Perform compliance analysis on the following data:\n{input_data}\nFocus areas: {task_description}",
-      "use_case": "Conducting compliance audits and generating advisory documentation."
-    },
-    {
-      "name": "executive_advisory_prompt",
-      "template": "Provide strategic advisory notes for C-level decision-making based on this scenario: {task_description}\nSupporting information:\n{input_data}",
-      "use_case": "Providing C-level executives with AI-generated strategic recommendations."
+      "name": "reference_based_query",
+      "template": "Using reference data {reference_name}, respond to: {query}",
+      "use_case": "Enhancing compliance and finance advisory processes using AI"
     }
   ],
   "metadata": {
