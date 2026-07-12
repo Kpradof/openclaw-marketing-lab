@@ -1,20 +1,46 @@
 {
-  "name": "marketingskills",
+  "name": "aaron_marketing_skills",
   "type": "repository_derived_skill",
-  "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+  "description": "120 marketing skills + 8 commands for Claude Code & AI agents across 7 disciplines — SEO/GEO, influencer, paid ads, email, product launch, organic social & brand narrative — on one shared contract, with 8 auditor gates: CORE-EEAT · CITE · C³ · ROAS · SEND · RAMP · ECHO · TALE.",
   "triggers": [
-    "engineering",
-    "ai",
+    "gates",
+    "ramp",
+    "7",
+    "disciplines",
+    "launch",
+    "tale",
+    "product",
+    "across",
+    "one",
+    "8",
+    "ads",
+    "paid",
+    "geo",
+    "claude",
+    "brand",
+    "shared",
+    "influencer",
+    "contract",
+    "send",
+    "code",
     "marketing",
-    "growth",
+    "ai",
     "seo",
     "agents",
-    "analytics",
-    "claude",
-    "cro",
-    "copywriting",
-    "code",
-    "skills"
+    "narrative",
+    "core",
+    "roas",
+    "echo",
+    "skills",
+    "auditor",
+    "email",
+    "c³",
+    "120",
+    "organic",
+    "cite",
+    "commands",
+    "social",
+    "eeat"
   ],
   "inputs": [
     {
@@ -54,11 +80,11 @@
   "prompt_templates": [],
   "metadata": {
     "language": "unknown",
-    "stars": 37841,
-    "repo_url": "https://github.com/coreyhaines31/marketingskills"
+    "stars": 2368,
+    "repo_url": "https://github.com/aaron-he-zhu/aaron-marketing-skills"
   },
   "source": {
-    "repo_name": "marketingskills",
-    "repo_url": "https://github.com/coreyhaines31/marketingskills"
+    "repo_name": "aaron-marketing-skills",
+    "repo_url": "https://github.com/aaron-he-zhu/aaron-marketing-skills"
   }
 }

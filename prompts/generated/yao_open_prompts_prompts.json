@@ -1,0 +1,16 @@
+{
+  "name": "yao_open_prompts_prompts",
+  "source_skill": "yao_open_prompts",
+  "description": "Reusable prompt pack derived from the yao_open_prompts capability.",
+  "prompts": [
+    {
+      "name": "yao_open_prompts_default_prompt",
+      "template": "Yao Open Prompts: A Chinese-language AI prompt library for work, learning, content, marketing, and everyday life.",
+      "use_case": "marketing automation"
+    }
+  ],
+  "metadata": {
+    "repo_url": "https://github.com/yaojingang/yao-open-prompts",
+    "generated_from": "yao_open_prompts"
+  }
+}

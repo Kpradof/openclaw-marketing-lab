@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-06-07T15:28:32.869106Z",
+  "generated_at": "2026-07-12T15:05:57.824405Z",
   "total_repositories": 5,
   "assets": [
     {
@@ -11,11 +11,11 @@
       "prompt_pack_path": "prompts/generated/marketingskills_prompts.json"
     },
     {
-      "repo_name": "seo-geo-claude-skills",
-      "analysis_path": "research/openclaw_outputs/seo_geo_claude_skills_analysis.json",
-      "skill_path": "skills/seo_geo_claude_skills_skill.json",
-      "workflow_path": "workflows/seo_geo_claude_skills_workflow.json",
-      "prompt_pack_path": "prompts/generated/seo_geo_claude_skills_prompts.json"
+      "repo_name": "yao-open-prompts",
+      "analysis_path": "research/openclaw_outputs/yao_open_prompts_analysis.json",
+      "skill_path": "skills/yao_open_prompts_skill.json",
+      "workflow_path": "workflows/yao_open_prompts_workflow.json",
+      "prompt_pack_path": "prompts/generated/yao_open_prompts_prompts.json"
     },
     {
       "repo_name": "OpenOutreach",
@@ -25,18 +25,18 @@
       "prompt_pack_path": "prompts/generated/openoutreach_prompts.json"
     },
     {
-      "repo_name": "ai-marketing-claude",
-      "analysis_path": "research/openclaw_outputs/ai_marketing_claude_analysis.json",
-      "skill_path": "skills/ai_marketing_claude_skill.json",
-      "workflow_path": "workflows/ai_marketing_claude_workflow.json",
-      "prompt_pack_path": "prompts/generated/ai_marketing_claude_prompts.json"
+      "repo_name": "aaron-marketing-skills",
+      "analysis_path": "research/openclaw_outputs/aaron_marketing_skills_analysis.json",
+      "skill_path": "skills/aaron_marketing_skills_skill.json",
+      "workflow_path": "workflows/aaron_marketing_skills_workflow.json",
+      "prompt_pack_path": "prompts/generated/aaron_marketing_skills_prompts.json"
     },
     {
-      "repo_name": "Free-AI-Social-Media-Scheduler",
-      "analysis_path": "research/openclaw_outputs/free_ai_social_media_scheduler_analysis.json",
-      "skill_path": "skills/free_ai_social_media_scheduler_skill.json",
-      "workflow_path": "workflows/free_ai_social_media_scheduler_workflow.json",
-      "prompt_pack_path": "prompts/generated/free_ai_social_media_scheduler_prompts.json"
+      "repo_name": "AI-Content-Studio",
+      "analysis_path": "research/openclaw_outputs/ai_content_studio_analysis.json",
+      "skill_path": "skills/ai_content_studio_skill.json",
+      "workflow_path": "workflows/ai_content_studio_workflow.json",
+      "prompt_pack_path": "prompts/generated/ai_content_studio_prompts.json"
     }
   ]
 }

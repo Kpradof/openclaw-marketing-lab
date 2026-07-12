@@ -1,20 +1,29 @@
 {
-  "name": "openoutreach",
+  "name": "ai_content_studio",
   "type": "repository_derived_skill",
-  "description": "Agentic Email Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
+  "description": "A 100% free & open-source AI Content Automation Tool that writes scripts, generates voiceovers, creates videos, and uploads them automatically — hands-free YouTube growth powered by AI.",
   "triggers": [
-    "describe",
-    "ai",
-    "define",
-    "leads",
-    "finds",
-    "email",
-    "tool",
-    "product",
-    "agentic",
+    "scripts",
+    "growth",
+    "automatically",
+    "100",
+    "source",
+    "content",
+    "videos",
+    "free",
+    "writes",
+    "open",
     "automation",
-    "market",
-    "target"
+    "powered",
+    "creates",
+    "ai",
+    "tool",
+    "generates",
+    "them",
+    "youtube",
+    "uploads",
+    "voiceovers",
+    "hands"
   ],
   "inputs": [
     {
@@ -54,11 +63,11 @@
   "prompt_templates": [],
   "metadata": {
     "language": "unknown",
-    "stars": 2384,
-    "repo_url": "https://github.com/eracle/OpenOutreach"
+    "stars": 531,
+    "repo_url": "https://github.com/naqashafzal/AI-Content-Studio"
   },
   "source": {
-    "repo_name": "OpenOutreach",
-    "repo_url": "https://github.com/eracle/OpenOutreach"
+    "repo_name": "AI-Content-Studio",
+    "repo_url": "https://github.com/naqashafzal/AI-Content-Studio"
   }
 }

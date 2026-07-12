@@ -1,20 +1,22 @@
 {
-  "name": "openoutreach",
+  "name": "yao_open_prompts",
   "type": "repository_derived_skill",
-  "description": "Agentic Email Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
+  "description": "Yao Open Prompts: A Chinese-language AI prompt library for work, learning, content, marketing, and everyday life.",
   "triggers": [
-    "describe",
+    "yao",
+    "work",
+    "everyday",
     "ai",
-    "define",
-    "leads",
-    "finds",
-    "email",
-    "tool",
-    "product",
-    "agentic",
-    "automation",
-    "market",
-    "target"
+    "marketing",
+    "life",
+    "language",
+    "content",
+    "learning",
+    "prompts",
+    "prompt",
+    "library",
+    "chinese",
+    "open"
   ],
   "inputs": [
     {
@@ -54,11 +56,11 @@
   "prompt_templates": [],
   "metadata": {
     "language": "unknown",
-    "stars": 2384,
-    "repo_url": "https://github.com/eracle/OpenOutreach"
+    "stars": 2611,
+    "repo_url": "https://github.com/yaojingang/yao-open-prompts"
   },
   "source": {
-    "repo_name": "OpenOutreach",
-    "repo_url": "https://github.com/eracle/OpenOutreach"
+    "repo_name": "yao-open-prompts",
+    "repo_url": "https://github.com/yaojingang/yao-open-prompts"
   }
 }
