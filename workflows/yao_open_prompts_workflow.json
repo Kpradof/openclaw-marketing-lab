@@ -1,0 +1,9 @@
+{
+  "name": "yao_open_prompts_workflow",
+  "skill_name": "yao_open_prompts",
+  "steps": [
+    "analyze_repository_metadata",
+    "extract_reusable_patterns",
+    "map_patterns_to_marketing_use_cases"
+  ]
+}

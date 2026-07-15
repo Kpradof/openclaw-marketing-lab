@@ -5,7 +5,7 @@
   "prompts": [
     {
       "name": "openoutreach_default_prompt",
-      "template": "Linkedin Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
+      "template": "Agentic Email Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
       "use_case": "marketing automation"
     }
   ],
