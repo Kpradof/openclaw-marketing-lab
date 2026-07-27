@@ -4,17 +4,17 @@
   "description": "Agentic Email Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
   "triggers": [
     "describe",
-    "ai",
     "define",
-    "leads",
     "finds",
-    "email",
-    "tool",
-    "product",
-    "agentic",
+    "target",
     "automation",
+    "tool",
+    "ai",
+    "product",
+    "email",
+    "agentic",
     "market",
-    "target"
+    "leads"
   ],
   "inputs": [
     {
@@ -54,7 +54,7 @@
   "prompt_templates": [],
   "metadata": {
     "language": "unknown",
-    "stars": 2384,
+    "stars": 2527,
     "repo_url": "https://github.com/eracle/OpenOutreach"
   },
   "source": {

@@ -1,6 +1,6 @@
 {
   "name": "aaron-marketing-skills",
-  "description": "120 marketing skills + 8 commands for Claude Code & AI agents across 7 disciplines — SEO/GEO, influencer, paid ads, email, product launch, organic social & brand narrative — on one shared contract, with 8 auditor gates: CORE-EEAT · CITE · C³ · ROAS · SEND · RAMP · ECHO · TALE.",
+  "description": "120 marketing skills + 8 commands for Claude Code & AI agents across 7 disciplines — SEO/GEO, influencer, paid ads, email, product launch, organic social & brand narrative — on one shared contract, with 8 auditor gates: CORE-EEAT · CITE · STAR · ROAS · SEND · RAMP · ECHO · TALE.",
   "inputs": [],
   "outputs": [],
   "patterns": [
@@ -20,7 +20,7 @@
   "prompt_templates": [],
   "metadata": {
     "language": "unknown",
-    "stars": 2368,
+    "stars": 2462,
     "repo_url": "https://github.com/aaron-he-zhu/aaron-marketing-skills"
   }
 }

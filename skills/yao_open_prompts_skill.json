@@ -3,20 +3,20 @@
   "type": "repository_derived_skill",
   "description": "Yao Open Prompts: A Chinese-language AI prompt library for work, learning, content, marketing, and everyday life.",
   "triggers": [
-    "yao",
-    "work",
     "everyday",
-    "ai",
-    "marketing",
-    "life",
-    "language",
-    "content",
-    "learning",
     "prompts",
-    "prompt",
-    "library",
     "chinese",
-    "open"
+    "prompt",
+    "yao",
+    "library",
+    "content",
+    "ai",
+    "language",
+    "work",
+    "open",
+    "marketing",
+    "learning",
+    "life"
   ],
   "inputs": [
     {
@@ -56,7 +56,7 @@
   "prompt_templates": [],
   "metadata": {
     "language": "unknown",
-    "stars": 2611,
+    "stars": 2666,
     "repo_url": "https://github.com/yaojingang/yao-open-prompts"
   },
   "source": {

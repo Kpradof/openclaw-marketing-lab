@@ -3,27 +3,27 @@
   "type": "repository_derived_skill",
   "description": "A 100% free & open-source AI Content Automation Tool that writes scripts, generates voiceovers, creates videos, and uploads them automatically — hands-free YouTube growth powered by AI.",
   "triggers": [
-    "scripts",
-    "growth",
-    "automatically",
     "100",
-    "source",
-    "content",
-    "videos",
-    "free",
-    "writes",
-    "open",
-    "automation",
-    "powered",
-    "creates",
+    "uploads",
     "ai",
-    "tool",
+    "youtube",
+    "open",
+    "creates",
+    "automation",
+    "scripts",
     "generates",
     "them",
-    "youtube",
-    "uploads",
+    "writes",
+    "growth",
+    "free",
+    "source",
+    "powered",
     "voiceovers",
-    "hands"
+    "videos",
+    "automatically",
+    "hands",
+    "content",
+    "tool"
   ],
   "inputs": [
     {
@@ -63,7 +63,7 @@
   "prompt_templates": [],
   "metadata": {
     "language": "unknown",
-    "stars": 531,
+    "stars": 581,
     "repo_url": "https://github.com/naqashafzal/AI-Content-Studio"
   },
   "source": {
