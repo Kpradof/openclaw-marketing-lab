@@ -4,9 +4,19 @@
   "description": "Reusable prompt pack derived from the aaron_marketing_skills capability.",
   "prompts": [
     {
-      "name": "aaron_marketing_skills_default_prompt",
-      "template": "120 marketing skills + 8 commands for Claude Code & AI agents across 7 disciplines — SEO/GEO, influencer, paid ads, email, product launch, organic social & brand narrative — on one shared contract, with 8 auditor gates: CORE-EEAT · CITE · STAR · ROAS · SEND · RAMP · ECHO · TALE.",
-      "use_case": "marketing automation"
+      "name": "execute_marketing_skill",
+      "template": "Perform the marketing task: {marketing_task} using discipline: {discipline} with command: {command} on content: {content_input}.",
+      "use_case": "Creating SEO-optimized content tailored to geographic and topical contexts"
+    },
+    {
+      "name": "audit_marketing_output",
+      "template": "Evaluate the following marketing output using auditor gate: {auditor_gate}: {content_input}.",
+      "use_case": "Managing influencer marketing campaigns using data-driven skills"
+    },
+    {
+      "name": "generate_marketing_campaign",
+      "template": "Create a comprehensive marketing campaign focusing on {discipline} incorporating skills from the shared contract.",
+      "use_case": "Generating and optimizing paid advertisements for ROI maximization"
     }
   ],
   "metadata": {

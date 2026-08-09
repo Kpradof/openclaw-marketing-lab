@@ -1,26 +1,71 @@
 {
-  "name": "OpenOutreach",
-  "description": "Agentic Email Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
-  "inputs": [],
-  "outputs": [],
+  "name": "agentic_email_automation_tool",
+  "description": "An AI-powered tool that automates email outreach by identifying leads based on user-defined product descriptions and target market parameters, enabling efficient lead generation and targeted communication.",
+  "inputs": [
+    {
+      "name": "product_description",
+      "type": "string",
+      "description": "A detailed description of the user's product or service."
+    },
+    {
+      "name": "target_market",
+      "type": "string",
+      "description": "Information specifying the user’s intended audience or customer segment."
+    },
+    {
+      "name": "email_templates",
+      "type": "string",
+      "description": "Optional pre-defined or generated email message formats to reach leads."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "lead_list",
+      "type": "list",
+      "description": "A curated list of potential leads with contact information identified by the AI."
+    },
+    {
+      "name": "automated_emails",
+      "type": "list",
+      "description": "Emails generated and sent to the identified leads based on the product description and market."
+    },
+    {
+      "name": "campaign_metrics",
+      "type": "object",
+      "description": "Performance data indicating success rates such as open rates, responses, and conversions."
+    }
+  ],
   "patterns": [
-    "pattern_extraction_pending",
-    "workflow_identification_pending"
+    "AI-driven lead identification based on product and market analysis",
+    "Automated personalized email generation",
+    "Email campaign tracking and performance analysis"
   ],
   "steps": [
-    "analyze_repository_metadata",
-    "extract_reusable_patterns",
-    "map_patterns_to_marketing_use_cases"
+    "User inputs product description and defines target market characteristics.",
+    "AI analyzes inputs to find and compile a list of potential leads matching the criteria.",
+    "Email templates are generated or provided for outreach messaging.",
+    "Automated emails are sent to the identified leads.",
+    "The system tracks campaign metrics and engagement for ongoing optimization."
   ],
   "use_cases": [
-    "marketing automation",
-    "workflow design",
-    "prompt generation"
+    "Startup companies seeking targeted leads for their new product launch.",
+    "Sales teams automating initial outreach to potential clients.",
+    "Marketing agencies managing email campaigns for clients.",
+    "SMBs aiming to scale lead generation with AI assistance."
   ],
-  "prompt_templates": [],
+  "prompt_templates": [
+    {
+      "name": "lead_generation_prompt",
+      "template": "Find leads for a product described as: {product_description} targeting: {target_market}."
+    },
+    {
+      "name": "email_creation_prompt",
+      "template": "Create a personalized outreach email for a product: {product_description} to a target: {target_market}."
+    }
+  ],
   "metadata": {
     "language": "unknown",
-    "stars": 2527,
+    "stars": 2647,
     "repo_url": "https://github.com/eracle/OpenOutreach"
   }
 }

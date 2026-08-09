@@ -1,86 +1,117 @@
 {
   "name": "aaron_marketing_skills",
   "type": "repository_derived_skill",
-  "description": "120 marketing skills + 8 commands for Claude Code & AI agents across 7 disciplines — SEO/GEO, influencer, paid ads, email, product launch, organic social & brand narrative — on one shared contract, with 8 auditor gates: CORE-EEAT · CITE · STAR · ROAS · SEND · RAMP · ECHO · TALE.",
+  "description": "A comprehensive single-contract framework providing 120 marketing skills and 8 command modules for Claude Code & AI agents, spanning 7 marketing disciplines with integrated 8 auditor gates to ensure quality, effectiveness, and compliance.",
   "triggers": [
-    "agents",
-    "send",
-    "commands",
+    "comprehensive",
     "8",
-    "skills",
-    "social",
-    "ai",
-    "influencer",
-    "email",
-    "marketing",
-    "across",
-    "contract",
-    "narrative",
-    "launch",
-    "eeat",
-    "seo",
-    "7",
-    "paid",
     "gates",
-    "code",
-    "cite",
+    "single",
+    "skills",
+    "compliance",
+    "providing",
+    "spanning",
+    "ensure",
     "claude",
-    "ads",
-    "one",
-    "core",
+    "agents",
+    "aaron_marketing_skills",
     "120",
-    "echo",
-    "star",
-    "roas",
-    "brand",
+    "effectiveness",
+    "integrated",
+    "command",
+    "modules",
+    "ai",
+    "quality",
+    "framework",
     "disciplines",
-    "organic",
-    "shared",
-    "ramp",
-    "product",
-    "tale",
-    "auditor",
-    "geo"
+    "contract",
+    "code",
+    "7",
+    "marketing",
+    "auditor"
   ],
   "inputs": [
     {
-      "name": "repository_context",
+      "name": "marketing_task",
       "type": "string",
-      "description": "Repository context or summary to analyze"
+      "description": "Description or identifier of the marketing task or goal to be performed."
     },
     {
-      "name": "user_goal",
+      "name": "discipline",
       "type": "string",
-      "description": "User goal for extracting reusable patterns"
+      "description": "Specifies one of the seven marketing disciplines: SEO/GEO, influencer, paid ads, email, product launch, organic social, or brand narrative."
+    },
+    {
+      "name": "command",
+      "type": "string",
+      "description": "One of the 8 command types used to direct AI behavior or agent operations."
+    },
+    {
+      "name": "content_input",
+      "type": "string",
+      "description": "Marketing content or data that will be processed or evaluated."
+    },
+    {
+      "name": "auditor_gate",
+      "type": "string",
+      "description": "One of the 8 quality/audit gates (CORE-EEAT, CITE, STAR, ROAS, SEND, RAMP, ECHO, TALE) for validating outputs."
     }
   ],
   "outputs": [
     {
-      "name": "reusable_patterns",
-      "type": "array",
-      "description": "Reusable patterns identified from the repository"
+      "name": "skill_execution_result",
+      "type": "string",
+      "description": "The outcome or generated marketing solution from applying a selected marketing skill or command."
     },
     {
-      "name": "suggested_actions",
-      "type": "array",
-      "description": "Suggested follow-up actions based on the analysis"
+      "name": "audit_report",
+      "type": "object",
+      "description": "Detailed feedback and scoring based on one or more auditor gates evaluating the marketing output quality."
     }
   ],
   "steps": [
-    "analyze_repository_metadata",
-    "extract_reusable_patterns",
-    "map_patterns_to_marketing_use_cases"
+    "Input marketing task description and select relevant marketing discipline",
+    "Invoke one or more of the 120 marketing skills or 8 command modules aligned to the task",
+    "AI agent processes input and generates marketing content or solution",
+    "Apply the 8 auditor gates to review and validate the output for quality, effectiveness, and compliance",
+    "Receive audit reports and refine the output based on gate feedback",
+    "Deploy or utilize the validated marketing solution"
   ],
   "use_cases": [
-    "marketing automation",
-    "workflow design",
-    "prompt generation"
+    "Creating SEO-optimized content tailored to geographic and topical contexts",
+    "Managing influencer marketing campaigns using data-driven skills",
+    "Generating and optimizing paid advertisements for ROI maximization",
+    "Crafting email marketing sequences with compliance and engagement in mind",
+    "Planning and executing product launch strategies using integrated AI capabilities",
+    "Developing organic social media content to build brand presence",
+    "Shaping consistent brand narrative content across multiple channels",
+    "Conducting automated quality audits on marketing outputs to ensure trust and regulatory compliance"
   ],
-  "patterns": [],
-  "prompt_templates": [],
+  "patterns": [
+    "Unified skill contract integrating multi-disciplinary marketing capabilities",
+    "Modular command interface for AI agents",
+    "Multi-gate auditor framework for quality assurance and compliance",
+    "Discipline-driven skill selection and application",
+    "Shared contract to facilitate interoperability between marketing AI agents",
+    "Scored performance validation through distinct auditor gates"
+  ],
+  "prompt_templates": [
+    {
+      "name": "execute_marketing_skill",
+      "template": "Perform the marketing task: {marketing_task} using discipline: {discipline} with command: {command} on content: {content_input}."
+    },
+    {
+      "name": "audit_marketing_output",
+      "template": "Evaluate the following marketing output using auditor gate: {auditor_gate}: {content_input}."
+    },
+    {
+      "name": "generate_marketing_campaign",
+      "template": "Create a comprehensive marketing campaign focusing on {discipline} incorporating skills from the shared contract."
+    }
+  ],
   "metadata": {
     "language": "unknown",
-    "stars": 2462,
+    "stars": 2538,
     "repo_url": "https://github.com/aaron-he-zhu/aaron-marketing-skills"
   },
   "source": {
