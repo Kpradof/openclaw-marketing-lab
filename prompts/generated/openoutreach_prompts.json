@@ -4,9 +4,14 @@
   "description": "Reusable prompt pack derived from the openoutreach capability.",
   "prompts": [
     {
-      "name": "openoutreach_default_prompt",
-      "template": "Agentic Email Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
-      "use_case": "marketing automation"
+      "name": "lead_generation_prompt",
+      "template": "Find leads for a product described as: {product_description} targeting: {target_market}.",
+      "use_case": "Startup companies seeking targeted leads for their new product launch."
+    },
+    {
+      "name": "email_creation_prompt",
+      "template": "Create a personalized outreach email for a product: {product_description} to a target: {target_market}.",
+      "use_case": "Sales teams automating initial outreach to potential clients."
     }
   ],
   "metadata": {

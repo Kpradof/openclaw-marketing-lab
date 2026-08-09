@@ -4,9 +4,29 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "marketingskills_default_prompt",
-      "template": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "use_case": "marketing automation"
+      "name": "seo_content_creation",
+      "template": "Create an SEO-optimized article on {topic} that targets the following keywords: {seo_keywords}. The article should be engaging and drive conversions.",
+      "use_case": "Enhancing website conversion rates through optimized content and UX adjustments"
+    },
+    {
+      "name": "conversion_rate_improvement",
+      "template": "Analyze the following website data and suggest actionable strategies to improve the conversion rate: {website_data}.",
+      "use_case": "Automating copywriting tasks for marketing campaigns targeting specific audiences"
+    },
+    {
+      "name": "growth_strategy_development",
+      "template": "Develop a growth strategy for a company in the {industry} sector focusing on metrics: {growth_metrics}.",
+      "use_case": "Improving SEO rankings by analyzing keywords and on-page content"
+    },
+    {
+      "name": "marketing_campaign_copy",
+      "template": "Write persuasive marketing copy based on this brief: {content_brief}, aimed at achieving these goals: {marketing_goals}.",
+      "use_case": "Building growth strategies for startups to accelerate user acquisition"
+    },
+    {
+      "name": "analytics_report_summary",
+      "template": "Provide a summary and insights from this marketing analytics data: {analytics_data}.",
+      "use_case": "Generating analytics reports to monitor and adapt marketing performance"
     }
   ],
   "metadata": {
