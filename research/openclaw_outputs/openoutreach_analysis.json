@@ -1,71 +1,65 @@
 {
-  "name": "agentic_email_automation_tool",
-  "description": "An AI-powered tool that automates email outreach by identifying leads based on user-defined product descriptions and target market parameters, enabling efficient lead generation and targeted communication.",
+  "name": "Agentic Email Automation and Lead Generation",
+  "description": "An AI-powered tool that automates the process of generating leads and reaching out via email by describing the user's product and target market to find relevant prospects and initiate email campaigns.",
   "inputs": [
     {
       "name": "product_description",
       "type": "string",
-      "description": "A detailed description of the user's product or service."
+      "description": "A detailed description of the product or service offered."
     },
     {
       "name": "target_market",
       "type": "string",
-      "description": "Information specifying the user’s intended audience or customer segment."
+      "description": "Specification of the ideal customer profile or market segment."
     },
     {
       "name": "email_templates",
       "type": "string",
-      "description": "Optional pre-defined or generated email message formats to reach leads."
+      "description": "Predefined or customizable email messages for outreach."
     }
   ],
   "outputs": [
     {
       "name": "lead_list",
       "type": "list",
-      "description": "A curated list of potential leads with contact information identified by the AI."
+      "description": "A curated list of potential leads matching the target market criteria."
     },
     {
-      "name": "automated_emails",
-      "type": "list",
-      "description": "Emails generated and sent to the identified leads based on the product description and market."
-    },
-    {
-      "name": "campaign_metrics",
+      "name": "email_campaign_status",
       "type": "object",
-      "description": "Performance data indicating success rates such as open rates, responses, and conversions."
+      "description": "Real-time or summary status information about the progress and effectiveness of email outreach campaigns."
     }
   ],
   "patterns": [
-    "AI-driven lead identification based on product and market analysis",
-    "Automated personalized email generation",
-    "Email campaign tracking and performance analysis"
+    "Automated lead discovery based on product and market description",
+    "Dynamic email content generation and personalization",
+    "Batch email outreach and campaign management"
   ],
   "steps": [
-    "User inputs product description and defines target market characteristics.",
-    "AI analyzes inputs to find and compile a list of potential leads matching the criteria.",
-    "Email templates are generated or provided for outreach messaging.",
-    "Automated emails are sent to the identified leads.",
-    "The system tracks campaign metrics and engagement for ongoing optimization."
+    "Input product description and define target market.",
+    "AI system searches and identifies potential leads matching criteria.",
+    "Generate personalized email outreach templates or use predefined templates.",
+    "Automate email sending to curated leads.",
+    "Track and report campaign performance and engagement metrics."
   ],
   "use_cases": [
-    "Startup companies seeking targeted leads for their new product launch.",
-    "Sales teams automating initial outreach to potential clients.",
-    "Marketing agencies managing email campaigns for clients.",
-    "SMBs aiming to scale lead generation with AI assistance."
+    "Startups seeking automated lead generation and outreach without manual prospecting.",
+    "Sales teams automating cold email campaigns targeted by market segment.",
+    "Marketing professionals looking to quickly scale personalized email communication to leads."
   ],
   "prompt_templates": [
     {
       "name": "lead_generation_prompt",
-      "template": "Find leads for a product described as: {product_description} targeting: {target_market}."
+      "template": "Find and list potential leads interested in {product_description} within the {target_market} market."
     },
     {
-      "name": "email_creation_prompt",
-      "template": "Create a personalized outreach email for a product: {product_description} to a target: {target_market}."
+      "name": "email_personalization_prompt",
+      "template": "Create a personalized outreach email for {lead_name} describing how {product_description} addresses their needs."
     }
   ],
   "metadata": {
     "language": "unknown",
-    "stars": 2647,
+    "stars": 2712,
     "repo_url": "https://github.com/eracle/OpenOutreach"
   }
 }

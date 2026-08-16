@@ -4,29 +4,24 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "seo_content_creation",
-      "template": "Create an SEO-optimized article on {topic} that targets the following keywords: {seo_keywords}. The article should be engaging and drive conversions.",
-      "use_case": "Enhancing website conversion rates through optimized content and UX adjustments"
+      "name": "copywriting_optimization",
+      "template": "Generate persuasive marketing copy focused on {marketing_objective} using keywords: {seo_keywords}.",
+      "use_case": "Automating creation of high-converting marketing copy"
     },
     {
-      "name": "conversion_rate_improvement",
-      "template": "Analyze the following website data and suggest actionable strategies to improve the conversion rate: {website_data}.",
-      "use_case": "Automating copywriting tasks for marketing campaigns targeting specific audiences"
+      "name": "seo_content_strategy",
+      "template": "Create an SEO content strategy targeting these keywords: {seo_keywords} with a focus on {marketing_objective}.",
+      "use_case": "Optimizing website or campaign SEO through AI-driven keyword strategies"
     },
     {
-      "name": "growth_strategy_development",
-      "template": "Develop a growth strategy for a company in the {industry} sector focusing on metrics: {growth_metrics}.",
-      "use_case": "Improving SEO rankings by analyzing keywords and on-page content"
+      "name": "analytics_insights",
+      "template": "Analyze the following marketing analytics data and provide a performance report: {analytics_data}.",
+      "use_case": "Generating actionable growth engineering plans for startups"
     },
     {
-      "name": "marketing_campaign_copy",
-      "template": "Write persuasive marketing copy based on this brief: {content_brief}, aimed at achieving these goals: {marketing_goals}.",
-      "use_case": "Building growth strategies for startups to accelerate user acquisition"
-    },
-    {
-      "name": "analytics_report_summary",
-      "template": "Provide a summary and insights from this marketing analytics data: {analytics_data}.",
-      "use_case": "Generating analytics reports to monitor and adapt marketing performance"
+      "name": "growth_plan_generation",
+      "template": "Develop a growth engineering plan to achieve: {marketing_objective} based on input data and best practices.",
+      "use_case": "Analyzing marketing analytics data to inform strategy"
     }
   ],
   "metadata": {

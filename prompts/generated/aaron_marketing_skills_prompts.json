@@ -4,19 +4,19 @@
   "description": "Reusable prompt pack derived from the aaron_marketing_skills capability.",
   "prompts": [
     {
-      "name": "execute_marketing_skill",
-      "template": "Perform the marketing task: {marketing_task} using discipline: {discipline} with command: {command} on content: {content_input}.",
-      "use_case": "Creating SEO-optimized content tailored to geographic and topical contexts"
+      "name": "skill_invocation",
+      "template": "Apply the {marketing_discipline} marketing skill using command {command} with the following input data: {input_data}.",
+      "use_case": "Developing SEO strategies optimized with EEAT and citation validation"
     },
     {
-      "name": "audit_marketing_output",
-      "template": "Evaluate the following marketing output using auditor gate: {auditor_gate}: {content_input}.",
-      "use_case": "Managing influencer marketing campaigns using data-driven skills"
+      "name": "audit_request",
+      "template": "Run the {command} auditor gate to evaluate the marketing output generated for {marketing_discipline} with data: {input_data}.",
+      "use_case": "Running influencer marketing campaigns with performance auditing"
     },
     {
-      "name": "generate_marketing_campaign",
-      "template": "Create a comprehensive marketing campaign focusing on {discipline} incorporating skills from the shared contract.",
-      "use_case": "Generating and optimizing paid advertisements for ROI maximization"
+      "name": "strategy_development",
+      "template": "Develop a marketing strategy for the {marketing_discipline} discipline focusing on optimizing {specific_goal} with inputs: {input_data}.",
+      "use_case": "Creating paid advertisements healthcare ROAS-focused audits"
     }
   ],
   "metadata": {

@@ -4,24 +4,24 @@
   "description": "Reusable prompt pack derived from the ai_content_studio capability.",
   "prompts": [
     {
-      "name": "script_generation",
-      "template": "Write a detailed script for a YouTube video about: {topic}",
-      "use_case": "Automating YouTube video content creation for content creators"
+      "name": "script_generation_prompt",
+      "template": "Write a detailed and engaging YouTube video script about {topic} with a {tone} tone, lasting about {length} minutes.",
+      "use_case": "YouTubers seeking to automate video content generation and publishing"
     },
     {
-      "name": "voiceover_customization",
-      "template": "Generate a voiceover in {voice_language} with {voice_accent} accent for this script: {script}",
-      "use_case": "Rapid production of educational or marketing videos without manual effort"
+      "name": "voiceover_configuration_prompt",
+      "template": "Generate a natural-sounding voiceover in {language} using a {voice_type} voice at {speech_speed} speed for the provided script.",
+      "use_case": "Content marketers creating scripted video content quickly without manual effort"
     },
     {
-      "name": "video_creation",
-      "template": "Create a video using the following script and voiceover audio: {script} | {voiceover_audio}",
-      "use_case": "Hands-free scaling of YouTube channels using AI content generation"
+      "name": "video_creation_prompt",
+      "template": "Combine the voiceover audio with relevant visuals and background effects to create a {resolution} resolution video suited for YouTube.",
+      "use_case": "Businesses automating voiceover and video creation for promotional materials"
     },
     {
-      "name": "upload_prompt",
-      "template": "Upload the video file {video_file} to YouTube channel with credentials {upload_credentials}",
-      "use_case": "Experimenting with AI-driven multimedia content pipelines"
+      "name": "upload_video_prompt",
+      "template": "Upload the video titled '{video_title}' to the YouTube channel authenticated by the provided credentials with the description '{video_description}'.",
+      "use_case": "Educational content creators generating tutorial videos from textual scripts"
     }
   ],
   "metadata": {

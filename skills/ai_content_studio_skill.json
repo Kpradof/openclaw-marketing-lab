@@ -1,116 +1,124 @@
 {
   "name": "ai_content_studio",
   "type": "repository_derived_skill",
-  "description": "An open-source AI-powered tool that automates the creation of YouTube content by writing scripts, generating voiceovers, creating videos, and uploading them automatically for hands-free channel growth.",
+  "description": "A free and open-source tool that automates the creation of YouTube content by writing scripts, generating AI voiceovers, producing videos, and uploading them automatically to enable hands-free channel growth.",
   "triggers": [
-    "growth",
-    "tool",
-    "content",
     "generating",
-    "videos",
-    "powered",
-    "creating",
-    "creation",
-    "automatically",
-    "automates",
-    "source",
-    "youtube",
-    "ai",
-    "writing",
+    "producing",
     "them",
-    "voiceovers",
+    "tool",
+    "scripts",
+    "ai",
     "channel",
+    "youtube",
+    "automates",
     "ai_content_studio",
-    "uploading",
-    "hands",
-    "free",
+    "content",
+    "source",
+    "enable",
+    "writing",
+    "creation",
     "open",
-    "scripts"
+    "free",
+    "growth",
+    "voiceovers",
+    "videos",
+    "automatically",
+    "uploading",
+    "hands"
   ],
   "inputs": [
     {
       "name": "topic",
       "type": "string",
-      "description": "The subject or theme for which the AI will generate a video script."
+      "description": "The subject or theme on which the script and video content are to be generated."
     },
     {
-      "name": "voice_preferences",
+      "name": "script parameters",
       "type": "object",
-      "description": "Settings to customize the voiceover, such as language, accent, and voice style."
+      "description": "Configuration settings or inputs that guide script writing such as tone, length, or style."
     },
     {
-      "name": "video_parameters",
+      "name": "voiceover options",
       "type": "object",
-      "description": "Configuration details for video generation, including length, style, and media assets."
+      "description": "Settings for voice synthesis including voice type, language, and speech speed."
     },
     {
-      "name": "upload_credentials",
+      "name": "video settings",
       "type": "object",
-      "description": "Authentication details needed to upload videos automatically to a YouTube channel."
+      "description": "Parameters to configure video creation such as resolution, background visuals, and templates."
+    },
+    {
+      "name": "upload credentials",
+      "type": "object",
+      "description": "Authentication information required to upload the final video to YouTube automatically."
     }
   ],
   "outputs": [
     {
       "name": "script",
       "type": "string",
-      "description": "Generated script text for the video based on the provided topic."
+      "description": "AI-generated text script ready for narration or voiceover."
     },
     {
-      "name": "voiceover_audio",
+      "name": "voiceover audio",
       "type": "audio file",
-      "description": "AI-generated voiceover audio file corresponding to the script."
+      "description": "AI-generated voiceover audio based on the script."
     },
     {
-      "name": "video_file",
+      "name": "video file",
       "type": "video file",
-      "description": "Generated video combining script, voiceover, and visual elements."
+      "description": "Compiled video combining the script narration, voiceover, and visuals."
     },
     {
-      "name": "upload_status",
-      "type": "boolean",
-      "description": "Indicates whether the video was successfully uploaded to YouTube."
+      "name": "upload status",
+      "type": "object",
+      "description": "Result and status of the automated YouTube upload process including success or failure messages."
     }
   ],
   "steps": [
-    "Receive topic and user preferences as input",
-    "Generate a video script using AI text generation",
-    "Produce a voiceover audio file from the script using text-to-speech",
-    "Create a video by combining the voiceover, script visuals, and media elements",
-    "Automatically upload the generated video to a linked YouTube channel"
+    "Receive topic and optional script parameters from the user",
+    "Generate a video script using AI content writing techniques",
+    "Convert script text into voiceover audio using AI-driven text-to-speech",
+    "Produce video by combining voiceover with generated or selected visuals",
+    "Upload the finished video to YouTube through automated API calls",
+    "Provide status feedback on upload completion and video availability"
   ],
   "use_cases": [
-    "Automating YouTube video content creation for content creators",
-    "Rapid production of educational or marketing videos without manual effort",
-    "Hands-free scaling of YouTube channels using AI content generation",
-    "Experimenting with AI-driven multimedia content pipelines"
+    "YouTubers seeking to automate video content generation and publishing",
+    "Content marketers creating scripted video content quickly without manual effort",
+    "Businesses automating voiceover and video creation for promotional materials",
+    "Educational content creators generating tutorial videos from textual scripts",
+    "Influencers leveraging AI to scale video production and channel growth"
   ],
   "patterns": [
-    "AI-driven script generation from topic input",
-    "Text-to-speech synthesis for automated voiceover creation",
-    "Video assembly by combining audio, script, and visual media",
-    "Automated content publishing via API integration with YouTube"
+    "AI-powered text generation for scripts",
+    "Text-to-speech synthesis for voiceover creation",
+    "Automated video assembly combining audio and visuals",
+    "Integration of content creation with YouTube API for automated publishing",
+    "Hands-free end-to-end content pipeline"
   ],
   "prompt_templates": [
     {
-      "name": "script_generation",
-      "template": "Write a detailed script for a YouTube video about: {topic}"
+      "name": "script_generation_prompt",
+      "template": "Write a detailed and engaging YouTube video script about {topic} with a {tone} tone, lasting about {length} minutes."
     },
     {
-      "name": "voiceover_customization",
-      "template": "Generate a voiceover in {voice_language} with {voice_accent} accent for this script: {script}"
+      "name": "voiceover_configuration_prompt",
+      "template": "Generate a natural-sounding voiceover in {language} using a {voice_type} voice at {speech_speed} speed for the provided script."
     },
     {
-      "name": "video_creation",
-      "template": "Create a video using the following script and voiceover audio: {script} | {voiceover_audio}"
+      "name": "video_creation_prompt",
+      "template": "Combine the voiceover audio with relevant visuals and background effects to create a {resolution} resolution video suited for YouTube."
     },
     {
-      "name": "upload_prompt",
-      "template": "Upload the video file {video_file} to YouTube channel with credentials {upload_credentials}"
+      "name": "upload_video_prompt",
+      "template": "Upload the video titled '{video_title}' to the YouTube channel authenticated by the provided credentials with the description '{video_description}'."
     }
   ],
   "metadata": {
     "language": "unknown",
-    "stars": 727,
+    "stars": 728,
     "repo_url": "https://github.com/naqashafzal/AI-Content-Studio"
   },
   "source": {

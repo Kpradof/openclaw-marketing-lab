@@ -1,100 +1,91 @@
 {
   "name": "yao_open_prompts",
   "type": "repository_derived_skill",
-  "description": "A practical, bilingual AI prompt library designed for prompt engineering across work, learning, content creation, marketing, and everyday applications.",
+  "description": "A practical bilingual AI prompt library designed to support prompt engineering for work, learning, content creation, marketing, and everyday applications.",
   "triggers": [
-    "prompt",
-    "content",
-    "applications",
-    "ai",
-    "work",
     "learning",
-    "bilingual",
-    "designed",
-    "everyday",
-    "across",
-    "creation",
-    "marketing",
-    "yao_open_prompts",
     "library",
+    "engineering",
+    "ai",
+    "creation",
+    "support",
     "practical",
-    "engineering"
+    "content",
+    "yao_open_prompts",
+    "applications",
+    "marketing",
+    "designed",
+    "work",
+    "bilingual",
+    "prompt",
+    "everyday"
   ],
   "inputs": [
     {
-      "name": "task_description",
+      "name": "prompt_context",
       "type": "string",
-      "description": "Description of the task or scenario needing an AI prompt."
+      "description": "Context or topic description to guide the prompt generation."
     },
     {
-      "name": "language_preference",
+      "name": "language",
       "type": "string",
-      "description": "Specifies the desired language for the prompt output (e.g., English, Chinese)."
+      "description": "Language indicator (e.g., English or Chinese) to choose the appropriate bilingual prompt."
     },
     {
-      "name": "context_data",
+      "name": "user_intent",
       "type": "string",
-      "description": "Optional contextual information to enrich the generated prompt."
+      "description": "The intended task or goal for the AI prompt (e.g., writing, summarizing, marketing)."
     }
   ],
   "outputs": [
     {
       "name": "ai_prompt",
       "type": "string",
-      "description": "Generated bilingual AI prompt tailored for the specified task and language."
-    },
-    {
-      "name": "prompt_templates",
-      "type": "list",
-      "description": "A collection of reusable bilingual prompt templates for various common use cases."
+      "description": "Generated bilingual AI prompt tailored to the provided context, language, and user intent."
     }
   ],
   "steps": [
-    "Identify the target task or application domain for the AI prompt.",
-    "Select or input the desired language preference for prompt output.",
-    "Provide additional context or details if needed to refine the prompt.",
-    "Retrieve or generate an appropriate bilingual prompt template based on inputs.",
-    "Customize the prompt template to fit the specific scenario.",
-    "Output the final bilingual AI prompt for use in AI interactions."
+    "Identify user intent and application domain (work, learning, marketing, content, or daily use).",
+    "Select the bilingual prompt template matching the intent and language preference.",
+    "Customize the prompt template by injecting the specific context or parameters.",
+    "Generate the final AI prompt in the specified language for usage with an AI model.",
+    "Utilize the generated prompt to interact with AI for the target outcome."
   ],
   "use_cases": [
-    "Creating effective bilingual prompts for marketing campaigns",
-    "Generating language learning exercises or materials",
-    "Enhancing content creation with tailored AI prompts",
-    "Automating daily task prompts in both English and Chinese",
-    "Developing prompt engineering solutions for productivity tools"
+    "Generating marketing copy or advertisements in English and Chinese.",
+    "Creating bilingual content and learning materials for educational purposes.",
+    "Constructing AI prompts to assist in workplace automation or task completion.",
+    "Developing tailored AI prompts to aid in daily personal productivity.",
+    "Enhancing prompt engineering workflows with ready-to-use bilingual templates."
   ],
   "patterns": [
-    "Bilingual prompt formulation combining Chinese and English",
-    "Task-specific prompt template reuse and customization",
-    "Context-aware prompt engineering",
-    "Prompt categorization for work, learning, marketing, content creation, and daily use"
+    "Bilingual prompt templates with parallel English-Chinese versions",
+    "Context-driven prompt customization",
+    "Reusable prompt templates for diverse scenarios",
+    "Prompt engineering for marketing, content generation, and learning",
+    "Structured prompt format to standardize AI interactions"
   ],
   "prompt_templates": [
     {
-      "name": "general_task_prompt",
-      "template": "Please generate a response for the following task in {language_preference}: {task_description}"
+      "name": "content_creation",
+      "template": "Create a detailed and engaging article on the topic: {prompt_context}. Please write in {language}."
     },
     {
-      "name": "marketing_prompt",
-      "template": "Create an engaging marketing message in {language_preference} focusing on: {task_description}"
+      "name": "marketing_ad_copy",
+      "template": "Generate persuasive marketing ad copy for the product/service: {prompt_context} in {language}."
     },
     {
-      "name": "content_creation_prompt",
-      "template": "Draft content in {language_preference} related to: {task_description}"
+      "name": "learning_material",
+      "template": "Provide an educational explanation or summary about: {prompt_context} in {language} suitable for learners."
     },
     {
-      "name": "learning_prompt",
-      "template": "Design a learning activity in {language_preference} about: {task_description}"
-    },
-    {
-      "name": "daily_use_prompt",
-      "template": "Provide a helpful prompt in {language_preference} for the following everyday use scenario: {task_description}"
+      "name": "daily_use_assistant",
+      "template": "Assist with the following daily task or question: {prompt_context}. Use {language}."
     }
   ],
   "metadata": {
     "language": "unknown",
-    "stars": 2724,
+    "stars": 2745,
     "repo_url": "https://github.com/yaojingang/yao-open-prompts"
   },
   "source": {
