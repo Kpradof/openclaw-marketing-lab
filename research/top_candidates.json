@@ -3,7 +3,7 @@
     "full_name": "coreyhaines31/marketingskills",
     "html_url": "https://github.com/coreyhaines31/marketingskills",
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-    "stargazers_count": 43622,
+    "stargazers_count": 44471,
     "asset_types": [
       "agents"
     ],
@@ -13,7 +13,7 @@
     "full_name": "yaojingang/yao-open-prompts",
     "html_url": "https://github.com/yaojingang/yao-open-prompts",
     "description": "Practical bilingual AI prompt library for prompt engineering, work, learning, content, marketing, and everyday use.",
-    "stargazers_count": 2724,
+    "stargazers_count": 2745,
     "asset_types": [
       "prompts"
     ],
@@ -23,7 +23,7 @@
     "full_name": "eracle/OpenOutreach",
     "html_url": "https://github.com/eracle/OpenOutreach",
     "description": "Agentic Email Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
-    "stargazers_count": 2647,
+    "stargazers_count": 2712,
     "asset_types": [
       "workflows",
       "agents"
@@ -34,7 +34,7 @@
     "full_name": "aaron-he-zhu/aaron-marketing-skills",
     "html_url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
     "description": "120 marketing skills + 8 commands for Claude Code & AI agents across 7 disciplines — SEO/GEO, influencer, paid ads, email, product launch, organic social & brand narrative — on one shared contract, with 8 auditor gates: CORE-EEAT · CITE · STAR · ROAS · SEND · RAMP · ECHO · TALE.",
-    "stargazers_count": 2538,
+    "stargazers_count": 2591,
     "asset_types": [
       "workflows",
       "agents"
@@ -45,7 +45,7 @@
     "full_name": "naqashafzal/AI-Content-Studio",
     "html_url": "https://github.com/naqashafzal/AI-Content-Studio",
     "description": "A 100% free & open-source AI Content Automation Tool that writes scripts, generates voiceovers, creates videos, and uploads them automatically — hands-free YouTube growth powered by AI.",
-    "stargazers_count": 727,
+    "stargazers_count": 728,
     "asset_types": [
       "workflows"
     ],
@@ -55,7 +55,7 @@
     "full_name": "ALwrity/ALwrity",
     "html_url": "https://github.com/ALwrity/ALwrity",
     "description": "ALwrity - AI-first Digital Marketing Platform. AI Content Strategy and Planning, Multimodal content generation, Publishing, Analytics, AI SEO, Connect & Manage Social Accounts. Marketing OS - WIP",
-    "stargazers_count": 1118,
+    "stargazers_count": 1119,
     "asset_types": [
       "workflows",
       "agents"
@@ -66,7 +66,7 @@
     "full_name": "AgriciDaniel/codex-seo",
     "html_url": "https://github.com/AgriciDaniel/codex-seo",
     "description": "Codex-first SEO skill suite. 26 workflows, 24 TOML agents, DataForSEO/Gemini/Google/Firecrawl integrations, GEO/AEO, CWV, schema, backlinks, local/maps, and deterministic reports.",
-    "stargazers_count": 565,
+    "stargazers_count": 587,
     "asset_types": [
       "workflows",
       "agents",
@@ -78,7 +78,7 @@
     "full_name": "alirezarezvani/claude-skills",
     "html_url": "https://github.com/alirezarezvani/claude-skills",
     "description": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
-    "stargazers_count": 24165,
+    "stargazers_count": 24507,
     "asset_types": [
       "prompts",
       "agents",
@@ -90,7 +90,7 @@
     "full_name": "AgriciDaniel/claude-blog",
     "html_url": "https://github.com/AgriciDaniel/claude-blog",
     "description": "Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development at AI-Marketing-Hub/claude-blog (AI Marketing Hub Pro community); public releases ship here.",
-    "stargazers_count": 1601,
+    "stargazers_count": 1646,
     "asset_types": [
       "agents",
       "plugins"
@@ -101,7 +101,7 @@
     "full_name": "ericosiu/ai-marketing-skills",
     "html_url": "https://github.com/ericosiu/ai-marketing-skills",
     "description": "Open-source AI marketing skills — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
-    "stargazers_count": 3342,
+    "stargazers_count": 3387,
     "asset_types": [
       "workflows"
     ],
@@ -111,9 +111,21 @@
     "full_name": "Mohamedsaleh14/Reddit_Scrapper",
     "html_url": "https://github.com/Mohamedsaleh14/Reddit_Scrapper",
     "description": "Scrape Reddit for marketing pain points using GPT — built to fuel Cronlytic's growth.",
-    "stargazers_count": 203,
+    "stargazers_count": 205,
     "asset_types": [
       "workflows"
+    ],
+    "score": 6
+  },
+  {
+    "full_name": "OneWave-AI/claude-skills",
+    "html_url": "https://github.com/OneWave-AI/claude-skills",
+    "description": "200+ production-ready Claude Code skills for sales, marketing, design, engineering, and AI agent architecture. Built and maintained by OneWave AI.",
+    "stargazers_count": 254,
+    "asset_types": [
+      "prompts",
+      "workflows",
+      "agents"
     ],
     "score": 6
   },
@@ -121,7 +133,7 @@
     "full_name": "Anil-matcha/Free-AI-Social-Media-Scheduler",
     "html_url": "https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler",
     "description": "Free open-source AI social media scheduler — self-hostable alternative to Postiz, Buffer, and Hootsuite with built-in AI content generation.",
-    "stargazers_count": 483,
+    "stargazers_count": 489,
     "asset_types": [
       "workflows"
     ],
@@ -163,7 +175,7 @@
     "full_name": "LichAmnesia/awesome-ad-video-prompts",
     "html_url": "https://github.com/LichAmnesia/awesome-ad-video-prompts",
     "description": "Curated, original high-craft prompts for AI video ads (Seedance 2.0 / Veo 3 / Kling / Runway). Companion to HeyDreaming.",
-    "stargazers_count": 151,
+    "stargazers_count": 150,
     "asset_types": [
       "prompts"
     ],
@@ -173,7 +185,7 @@
     "full_name": "ultrafunkamsterdam/nodriver",
     "html_url": "https://github.com/ultrafunkamsterdam/nodriver",
     "description": "Successor of Undetected-Chromedriver. Providing a blazing fast framework for web automation, webscraping, bots and any other creative ideas which are normally hindered by annoying anti bot systems like Captcha / CloudFlare / Imperva / hCaptcha ",
-    "stargazers_count": 4629,
+    "stargazers_count": 4654,
     "asset_types": [
       "workflows"
     ],
@@ -183,7 +195,7 @@
     "full_name": "OpenMinis/AwesomeMinis",
     "html_url": "https://github.com/OpenMinis/AwesomeMinis",
     "description": "😎 A curated collection of real-world Minis use cases, workflows, and creative scenarios — contributed by the community",
-    "stargazers_count": 195,
+    "stargazers_count": 206,
     "asset_types": [
       "workflows"
     ],
@@ -193,7 +205,7 @@
     "full_name": "Anil-matcha/Open-Generative-AI",
     "html_url": "https://github.com/Anil-matcha/Open-Generative-AI",
     "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 500+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
-    "stargazers_count": 25925,
+    "stargazers_count": 26453,
     "asset_types": [
       "unknown"
     ],
@@ -203,7 +215,7 @@
     "full_name": "ErlichLiu/DeepClaude",
     "html_url": "https://github.com/ErlichLiu/DeepClaude",
     "description": "Unleash Next-Level AI! 🚀  💻 Code Generation: DeepSeek r1 + Claude 3.7 Sonnet - Unparalleled Performance! 📝 Content Creation: DeepSeek r1 + Gemini 2.5 Pro - Superior Quality! 🔌 OpenAI-Compatible. 🌊 Streaming & Non-Streaming Support.  ✨ Experience the Future of AI – Today! Click to Try Now! ✨",
-    "stargazers_count": 2937,
+    "stargazers_count": 2935,
     "asset_types": [
       "unknown"
     ],
@@ -223,7 +235,7 @@
     "full_name": "growthack88/growth-marketing-os",
     "html_url": "https://github.com/growthack88/growth-marketing-os",
     "description": "Growth Marketing OS | Mahmoud Omar — open-source AI marketing prompts, Claude skills, agents & growth playbooks (EN + AR)",
-    "stargazers_count": 78,
+    "stargazers_count": 80,
     "asset_types": [
       "prompts",
       "workflows",
@@ -235,7 +247,7 @@
     "full_name": "kursku/skills",
     "html_url": "https://github.com/kursku/skills",
     "description": "Catalogo com +2.300 skills para Claude AI — marketing, vendas, SEO, desenvolvimento e mais",
-    "stargazers_count": 53,
+    "stargazers_count": 54,
     "asset_types": [
       "prompts"
     ],
@@ -275,7 +287,7 @@
     "full_name": "kevenlemon/telegram-ops",
     "html_url": "https://github.com/kevenlemon/telegram-ops",
     "description": "基于 Telethon 编写的 Telegram 关键字监听与全自动营销运维工具。支持多账号登录、网页端(WebUI)管理、自动私信/群回复、智能防封号频率控制及消息归档。Perfect for OSINT, TG marketing, and auto-reply agents.",
-    "stargazers_count": 60,
+    "stargazers_count": 81,
     "asset_types": [
       "agents"
     ],
@@ -285,7 +297,7 @@
     "full_name": "pawbytes/skill-suites",
     "html_url": "https://github.com/pawbytes/skill-suites",
     "description": "50+ AI agent skills for Claude, Codex, OpenClaw etc — agentic marketing automation, AI creative agency, and developer productivity tools",
-    "stargazers_count": 84,
+    "stargazers_count": 86,
     "asset_types": [
       "workflows",
       "agents"

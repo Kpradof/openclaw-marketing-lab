@@ -4,29 +4,24 @@
   "description": "Reusable prompt pack derived from the yao_open_prompts capability.",
   "prompts": [
     {
-      "name": "general_task_prompt",
-      "template": "Please generate a response for the following task in {language_preference}: {task_description}",
-      "use_case": "Creating effective bilingual prompts for marketing campaigns"
+      "name": "content_creation",
+      "template": "Create a detailed and engaging article on the topic: {prompt_context}. Please write in {language}.",
+      "use_case": "Generating marketing copy or advertisements in English and Chinese."
     },
     {
-      "name": "marketing_prompt",
-      "template": "Create an engaging marketing message in {language_preference} focusing on: {task_description}",
-      "use_case": "Generating language learning exercises or materials"
+      "name": "marketing_ad_copy",
+      "template": "Generate persuasive marketing ad copy for the product/service: {prompt_context} in {language}.",
+      "use_case": "Creating bilingual content and learning materials for educational purposes."
     },
     {
-      "name": "content_creation_prompt",
-      "template": "Draft content in {language_preference} related to: {task_description}",
-      "use_case": "Enhancing content creation with tailored AI prompts"
+      "name": "learning_material",
+      "template": "Provide an educational explanation or summary about: {prompt_context} in {language} suitable for learners.",
+      "use_case": "Constructing AI prompts to assist in workplace automation or task completion."
     },
     {
-      "name": "learning_prompt",
-      "template": "Design a learning activity in {language_preference} about: {task_description}",
-      "use_case": "Automating daily task prompts in both English and Chinese"
-    },
-    {
-      "name": "daily_use_prompt",
-      "template": "Provide a helpful prompt in {language_preference} for the following everyday use scenario: {task_description}",
-      "use_case": "Developing prompt engineering solutions for productivity tools"
+      "name": "daily_use_assistant",
+      "template": "Assist with the following daily task or question: {prompt_context}. Use {language}.",
+      "use_case": "Developing tailored AI prompts to aid in daily personal productivity."
     }
   ],
   "metadata": {
