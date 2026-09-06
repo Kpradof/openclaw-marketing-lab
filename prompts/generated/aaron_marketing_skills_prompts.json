@@ -4,19 +4,24 @@
   "description": "Reusable prompt pack derived from the aaron_marketing_skills capability.",
   "prompts": [
     {
-      "name": "skill_invocation",
-      "template": "Apply the {marketing_discipline} marketing skill using command {command} with the following input data: {input_data}.",
-      "use_case": "Developing SEO strategies optimized with EEAT and citation validation"
+      "name": "generate_strategy",
+      "template": "Create a marketing strategy targeting {audience_data} to achieve {marketing_goal} using all seven disciplines.",
+      "use_case": "Developing multi-channel marketing campaigns integrating AI-driven insights."
     },
     {
-      "name": "audit_request",
-      "template": "Run the {command} auditor gate to evaluate the marketing output generated for {marketing_discipline} with data: {input_data}.",
-      "use_case": "Running influencer marketing campaigns with performance auditing"
+      "name": "audit_content",
+      "template": "Evaluate the following marketing content against the audit gates: {audit_criteria} and provide improvement suggestions.",
+      "use_case": "Scaling marketing operations with AI-powered modular skill bots working across disciplines."
     },
     {
-      "name": "strategy_development",
-      "template": "Develop a marketing strategy for the {marketing_discipline} discipline focusing on optimizing {specific_goal} with inputs: {input_data}.",
-      "use_case": "Creating paid advertisements healthcare ROAS-focused audits"
+      "name": "performance_report",
+      "template": "Generate a performance report analyzing metrics from the latest campaign focused on {marketing_goal}.",
+      "use_case": "Quality assurance and compliance auditing for marketing content."
+    },
+    {
+      "name": "optimize_channel",
+      "template": "Recommend optimizations for the {channel_parameters} channel based on recent campaign outcomes.",
+      "use_case": "Optimizing campaign performance via data-driven AI insights and audits."
     }
   ],
   "metadata": {
