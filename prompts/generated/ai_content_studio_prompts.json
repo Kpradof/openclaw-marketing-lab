@@ -4,24 +4,24 @@
   "description": "Reusable prompt pack derived from the ai_content_studio capability.",
   "prompts": [
     {
-      "name": "script_generation_prompt",
-      "template": "Write a detailed and engaging YouTube video script about {topic} with a {tone} tone, lasting about {length} minutes.",
-      "use_case": "YouTubers seeking to automate video content generation and publishing"
+      "name": "script_generation",
+      "template": "Write a detailed YouTube video script on the topic: {script_topic}",
+      "use_case": "YouTube creators seeking to automate video content production"
     },
     {
-      "name": "voiceover_configuration_prompt",
-      "template": "Generate a natural-sounding voiceover in {language} using a {voice_type} voice at {speech_speed} speed for the provided script.",
-      "use_case": "Content marketers creating scripted video content quickly without manual effort"
+      "name": "voiceover_generation",
+      "template": "Generate a natural-sounding voiceover audio for the following script: {generated_script}",
+      "use_case": "Marketing teams needing to produce video content at scale"
     },
     {
-      "name": "video_creation_prompt",
-      "template": "Combine the voiceover audio with relevant visuals and background effects to create a {resolution} resolution video suited for YouTube.",
-      "use_case": "Businesses automating voiceover and video creation for promotional materials"
+      "name": "video_creation",
+      "template": "Create a video combining this voiceover audio and the following visual assets: {video_assets}",
+      "use_case": "Businesses automating explainer or promotional video generation"
     },
     {
-      "name": "upload_video_prompt",
-      "template": "Upload the video titled '{video_title}' to the YouTube channel authenticated by the provided credentials with the description '{video_description}'.",
-      "use_case": "Educational content creators generating tutorial videos from textual scripts"
+      "name": "upload_video",
+      "template": "Upload the video titled '{video_title}' to YouTube using the provided credentials.",
+      "use_case": "Content creators wanting hands-free channel growth automation"
     }
   ],
   "metadata": {
