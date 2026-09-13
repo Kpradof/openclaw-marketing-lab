@@ -4,24 +4,9 @@
   "description": "Reusable prompt pack derived from the yao_open_prompts capability.",
   "prompts": [
     {
-      "name": "task_description_prompt",
-      "template": "Generate a detailed and clear AI prompt for the following task: {user_intent}. Include relevant context: {context}. Use {language_preference} language.",
-      "use_case": "Generating task-oriented AI prompts for business and marketing campaigns."
-    },
-    {
-      "name": "marketing_campaign_prompt",
-      "template": "Create a persuasive marketing prompt targeting: {user_intent}. Background details: {context}. Provide output in {language_preference}.",
-      "use_case": "Creating educational content prompts to aid learning and teaching."
-    },
-    {
-      "name": "content_creation_prompt",
-      "template": "Write an engaging content creation AI prompt focusing on: {user_intent}. Include context: {context}. Output language: {language_preference}.",
-      "use_case": "Formulating content creation prompts for writing, social media, or blogs."
-    },
-    {
-      "name": "learning_assistance_prompt",
-      "template": "Develop an instructional AI prompt to assist with learning: {user_intent}. Relevant info: {context}. Language preference: {language_preference}.",
-      "use_case": "Everyday scenario prompts to improve daily productivity and workflows."
+      "name": "yao_open_prompts_default_prompt",
+      "template": "A practical bilingual library providing AI prompt templates for prompt engineering to support work, learning, content creation, marketing, and everyday applications.",
+      "use_case": "Creating customized AI prompts for bilingual content marketing campaigns."
     }
   ],
   "metadata": {

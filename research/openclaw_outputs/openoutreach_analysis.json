@@ -1,83 +1,86 @@
 {
   "name": "AI-driven B2B Lead Generation Agent",
-  "description": "An open-source, self-hosted AI agent that automates B2B lead generation by analyzing user-described products, identifying fitting prospects, explaining the rationale behind each match, and emailing leads directly from the user's mailbox via a command-line interface.",
+  "description": "An open-source, self-hosted AI agent designed for B2B lead generation. It allows users to describe their product, automatically finds matching potential leads, explains why each lead fits the product, and sends personalized emails from the user's mailbox via a command-line interface with a single installation.",
   "inputs": [
     {
       "name": "product_description",
       "type": "string",
-      "description": "A natural language description of the user's product or service to identify target leads."
+      "description": "A detailed textual description of the user's product or service to identify suitable leads."
     },
     {
       "name": "email_credentials",
       "type": "object",
-      "description": "User's email account details (e.g., SMTP configuration) used to send emails from their mailbox."
+      "description": "User's mailbox configuration and authentication details needed to send emails."
     },
     {
-      "name": "target_criteria",
+      "name": "lead_criteria",
       "type": "object",
-      "description": "Optional filters or parameters defining characteristics of desired leads."
+      "description": "Optional filters or parameters that specify characteristics of the desired leads."
     },
     {
-      "name": "command_line_arguments",
+      "name": "CLI_commands",
       "type": "string",
-      "description": "CLI inputs to initiate and control lead generation, explanation, and emailing processes."
+      "description": "Commands or flags provided through the command-line interface to control the agent's operation."
     }
   ],
   "outputs": [
     {
       "name": "lead_list",
       "type": "array",
-      "description": "List of identified leads matching the product criteria, including contact info."
+      "description": "A list of identified potential leads including matching rationale for each."
     },
     {
-      "name": "match_explanations",
-      "type": "array",
-      "description": "Explanations describing why each lead fits the product criteria."
-    },
-    {
-      "name": "sent_emails_log",
+      "name": "email_reports",
       "type": "object",
-      "description": "Records and statuses of emails sent to the generated leads."
+      "description": "Status and logs of emails sent from the user's mailbox to respective leads."
+    },
+    {
+      "name": "explanations",
+      "type": "array",
+      "description": "Textual explanations detailing why each lead matches the product description."
     }
   ],
   "patterns": [
-    "AI-based lead profiling from product descriptions",
-    "Automated personalized email generation and sending",
-    "Self-hosted CLI deployment for privacy and control",
-    "Lead explanation for transparent lead qualification"
+    "Description-to-lead matching using AI analysis",
+    "Automated personalized email generation",
+    "Self-hosted CLI application for ease of deployment and control",
+    "Lead explanation to increase transparency and trust",
+    "Direct integration with user mailbox for email dispatch"
   ],
   "steps": [
-    "User describes their product or service via the CLI.",
-    "The AI agent analyzes the description to infer ideal lead characteristics.",
-    "The system searches and identifies leads that match these inferred criteria.",
-    "For each lead, the agent generates an explanation outlining why the lead fits.",
-    "Personalized outreach emails are composed for each lead.",
-    "Emails are sent directly from the user's mailbox using provided credentials.",
-    "Logs of sent emails and lead matches are maintained for review."
+    "User installs the CLI application with a single command.",
+    "User provides a detailed product description via CLI input.",
+    "AI agent analyzes the product description to identify characteristics and ideal lead profiles.",
+    "The agent searches and finds matching leads based on defined criteria.",
+    "For each lead, the agent generates an explanation of why the lead matches the product.",
+    "Agent composes personalized outreach emails for the leads.",
+    "Emails are dispatched from the user's mailbox using the provided email credentials.",
+    "Agent provides a report on email sending status and logs."
   ],
   "use_cases": [
-    "Automating discovery and outreach to potential B2B customers.",
-    "Generating transparent lead lists with rationale for marketing teams.",
-    "Integrating personalized cold email campaigns into sales workflows.",
-    "Self-hosting lead generation tools to ensure data privacy and control."
+    "Automated B2B sales prospecting and lead generation.",
+    "Personalized email outreach campaigns for business development.",
+    "Startups and small businesses seeking targeted customer acquisition without third-party SaaS.",
+    "Sales teams wanting self-hosted solutions for lead management and outreach.",
+    "Companies aiming to maintain data privacy by self-hosting their lead generation pipeline."
   ],
   "prompt_templates": [
     {
-      "name": "lead_generation_prompt",
-      "template": "Describe your product or service to generate a list of ideal B2B leads: {product_description}"
+      "name": "product_description_prompt",
+      "template": "Describe your product or service in detail to find matching leads: {product_description}"
     },
     {
       "name": "lead_explanation_prompt",
-      "template": "Explain why this individual is a good lead for the product described: {lead_profile}"
+      "template": "Explain why the following lead fits the product description: {lead_data}"
     },
     {
-      "name": "email_composition_prompt",
-      "template": "Compose a personalized outreach email for this lead based on the product: {lead_profile}, {product_description}"
+      "name": "email_compose_prompt",
+      "template": "Compose a personalized outreach email for the lead named {lead_name} based on the product description: {product_description}"
     }
   ],
   "metadata": {
     "language": "unknown",
-    "stars": 2920,
+    "stars": 2982,
     "repo_url": "https://github.com/eracle/OpenOutreach"
   }
 }

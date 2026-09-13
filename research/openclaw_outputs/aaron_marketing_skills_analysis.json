@@ -1,101 +1,100 @@
 {
   "name": "AI Marketing Skills Suite",
-  "description": "A comprehensive AI-driven marketing capability delivering 120 distinct marketing skill modules that function as a plugin, portable staff, or an 8-bot team. It spans seven key marketing disciplines—narrative, SEO/GEO, social, email, paid media, influencer marketing, and product launch—and integrates 8 auditing gates (TALE, CORE-EEAT, CITE, ECHO, SEND, ROAS, STAR, RAMP) to evaluate and optimize marketing effectiveness and compliance on one contract.",
+  "description": "An integrated AI marketing capability offering 120 distinct skills across 7 marketing disciplines (narrative, SEO/GEO, social, email, paid, influencer, launch) with modular plugins and an 8-bot team approach, incorporating 8 auditing gates (TALE, CORE-EEAT, CITE, ECHO, SEND, ROAS, STAR, RAMP) to ensure quality, effectiveness, and compliance in marketing campaigns.",
   "inputs": [
     {
-      "name": "marketing_goal",
+      "name": "marketing_objective",
       "type": "string",
-      "description": "The primary marketing objective or campaign goal to be achieved."
+      "description": "The primary goal or focus of the marketing campaign or task."
     },
     {
-      "name": "audience_data",
-      "type": "object",
-      "description": "Information about the target audience including demographics, interests, and behaviors."
+      "name": "target_audience",
+      "type": "string",
+      "description": "Description or demographic details of the intended audience."
     },
     {
-      "name": "content_assets",
-      "type": "array",
-      "description": "Collection of marketing content such as text, images, videos, or URLs to be used or analyzed."
+      "name": "content_data",
+      "type": "string",
+      "description": "Marketing content or assets to be processed or optimized."
     },
     {
       "name": "channel_parameters",
       "type": "object",
-      "description": "Settings and preferences specific to marketing channels like social platforms, email lists, paid ad settings, or influencer criteria."
-    },
-    {
-      "name": "audit_criteria",
-      "type": "array",
-      "description": "List of auditing gates to apply for quality, compliance, and performance checks."
-    }
-  ],
-  "outputs": [
-    {
-      "name": "marketing_strategy",
-      "type": "object",
-      "description": "A tailored marketing plan covering seven disciplines including narrative structure, SEO, social engagement, email sequencing, paid media strategy, influencer collaboration, and launch planning."
-    },
-    {
-      "name": "audit_reports",
-      "type": "object",
-      "description": "Detailed evaluations per auditing gate with actionable recommendations for improving marketing content and execution."
+      "description": "Details and configurations specific to marketing channels (e.g., SEO keywords, social media platforms, email strategy parameters)."
     },
     {
       "name": "performance_metrics",
       "type": "object",
-      "description": "Key Performance Indicators (KPIs) such as reach, engagement, ROAS (Return On Ad Spend), conversion rates, and sentiment analysis."
+      "description": "Campaign or marketing performance data for auditing and optimization."
     },
     {
-      "name": "content_recommendations",
-      "type": "array",
-      "description": "Suggestions for optimizing marketing messages, targeting, or channel use based on analysis and audit results."
+      "name": "audit_gate",
+      "type": "string",
+      "description": "The specific auditing gate to apply (TALE, CORE-EEAT, CITE, ECHO, SEND, ROAS, STAR, RAMP)."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "skill_output",
+      "type": "string",
+      "description": "Generated marketing content, strategy suggestions, or analysis results."
+    },
+    {
+      "name": "audit_report",
+      "type": "object",
+      "description": "Detailed feedback and scores from the selected audit gates to improve quality and effectiveness."
+    },
+    {
+      "name": "performance_recommendations",
+      "type": "object",
+      "description": "Optimized actionable recommendations based on campaign data and audits."
     }
   ],
   "patterns": [
-    "Multi-disciplinary marketing skill modularization",
-    "AI-powered auditing gates for content quality and compliance",
-    "Contract-based integrated marketing team simulation",
-    "Sequential narrative and content optimization",
-    "Cross-channel campaign orchestration and analytics",
-    "Performance-driven iterative content improvement"
+    "Modular AI bot team architecture for multi-disciplinary marketing tasks",
+    "Plugin-based skill integration for portability and extensibility",
+    "Audit gating with multiple quality and performance checkpoints",
+    "Cross-channel marketing strategy synthesis",
+    "Data-driven iterative campaign optimization"
   ],
   "steps": [
-    "Define marketing goals and target audience parameters.",
-    "Input or generate marketing content assets tied to seven marketing disciplines.",
-    "Apply 120 marketing skills as modular AI agents to develop strategies for narrative, SEO/GEO, social, email, paid ads, influencer marketing, and launch.",
-    "Run content and strategy through 8 auditing gates (TALE, CORE-EEAT, CITE, ECHO, SEND, ROAS, STAR, RAMP) to validate quality, compliance, and effectiveness.",
-    "Generate audit reports with suggested improvements and content recommendations.",
-    "Analyze performance metrics and adjust marketing strategy iteratively.",
-    "Deliver a comprehensive marketing plan and execution framework on a contractual basis."
+    "Input marketing objectives and target audience details.",
+    "Select relevant marketing discipline(s) and sub-skills.",
+    "Generate or input marketing content and channel-specific parameters.",
+    "Apply skills modules to produce tailored strategy outputs and content.",
+    "Execute 8 audit gates (TALE, CORE-EEAT, CITE, ECHO, SEND, ROAS, STAR, RAMP) to verify quality and effectiveness.",
+    "Review audit reports and refine campaign components based on feedback.",
+    "Generate performance recommendations to optimize marketing ROI.",
+    "Deploy refined marketing campaigns across selected channels."
   ],
   "use_cases": [
-    "Developing multi-channel marketing campaigns integrating AI-driven insights.",
-    "Scaling marketing operations with AI-powered modular skill bots working across disciplines.",
-    "Quality assurance and compliance auditing for marketing content.",
-    "Optimizing campaign performance via data-driven AI insights and audits.",
-    "Managing influencer marketing and paid ad strategies in a unified AI system.",
-    "Launching new products with a coordinated narrative and marketing team simulation."
+    "Creating multi-channel marketing campaigns with AI-generated content and strategy.",
+    "Performing quality audits on marketing materials to comply with branding and effectiveness standards.",
+    "Optimizing SEO and GEO-targeted campaigns using integrated AI skills and audits.",
+    "Managing influencer outreach and paid media strategies through AI-supported workflows.",
+    "Launching new marketing initiatives with comprehensive multi-disciplinary AI support."
   ],
   "prompt_templates": [
     {
-      "name": "generate_strategy",
-      "template": "Create a marketing strategy targeting {audience_data} to achieve {marketing_goal} using all seven disciplines."
+      "name": "generate_marketing_content",
+      "template": "Create marketing content for a {marketing_objective} targeting {target_audience} with focus on {discipline}."
     },
     {
-      "name": "audit_content",
-      "template": "Evaluate the following marketing content against the audit gates: {audit_criteria} and provide improvement suggestions."
+      "name": "audit_campaign",
+      "template": "Audit the campaign content using the {audit_gate} gate and provide an evaluation report."
     },
     {
-      "name": "performance_report",
-      "template": "Generate a performance report analyzing metrics from the latest campaign focused on {marketing_goal}."
+      "name": "optimize_performance",
+      "template": "Given performance metrics {performance_metrics}, provide recommendations to improve ROAS and engagement."
     },
     {
-      "name": "optimize_channel",
-      "template": "Recommend optimizations for the {channel_parameters} channel based on recent campaign outcomes."
+      "name": "multi_channel_strategy",
+      "template": "Develop a multi-channel marketing strategy for {marketing_objective} across SEO, social, email, paid, and influencer channels."
     }
   ],
   "metadata": {
     "language": "unknown",
-    "stars": 2734,
+    "stars": 2772,
     "repo_url": "https://github.com/aaron-he-zhu/aaron-marketing-skills"
   }
 }
