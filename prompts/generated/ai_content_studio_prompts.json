@@ -5,23 +5,23 @@
   "prompts": [
     {
       "name": "script_generation",
-      "template": "Write a detailed YouTube video script on the topic: {script_topic}",
-      "use_case": "YouTube creators seeking to automate video content production"
+      "template": "Write a detailed and engaging script about {topic} with a {tone} tone and approximately {length} words.",
+      "use_case": "YouTube creators seeking to automate video production workflow"
     },
     {
       "name": "voiceover_generation",
-      "template": "Generate a natural-sounding voiceover audio for the following script: {generated_script}",
-      "use_case": "Marketing teams needing to produce video content at scale"
+      "template": "Generate a voiceover narration for the following script using {voice} voice at {speed} speed: {script}",
+      "use_case": "Marketing teams generating consistent video content rapidly"
     },
     {
       "name": "video_creation",
-      "template": "Create a video combining this voiceover audio and the following visual assets: {video_assets}",
-      "use_case": "Businesses automating explainer or promotional video generation"
+      "template": "Create a video using the script and voiceover with the following template style: {template_style}",
+      "use_case": "Educators producing educational videos with minimal manual effort"
     },
     {
-      "name": "upload_video",
-      "template": "Upload the video titled '{video_title}' to YouTube using the provided credentials.",
-      "use_case": "Content creators wanting hands-free channel growth automation"
+      "name": "youtube_upload",
+      "template": "Upload the video titled '{title}' with description '{description}' and tags {tags} to the YouTube channel.",
+      "use_case": "Content marketers scaling video content for social media campaigns"
     }
   ],
   "metadata": {
