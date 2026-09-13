@@ -4,24 +4,24 @@
   "description": "Reusable prompt pack derived from the yao_open_prompts capability.",
   "prompts": [
     {
-      "name": "content_creation",
-      "template": "Create a detailed and engaging article on the topic: {prompt_context}. Please write in {language}.",
-      "use_case": "Generating marketing copy or advertisements in English and Chinese."
+      "name": "task_description_prompt",
+      "template": "Generate a detailed and clear AI prompt for the following task: {user_intent}. Include relevant context: {context}. Use {language_preference} language.",
+      "use_case": "Generating task-oriented AI prompts for business and marketing campaigns."
     },
     {
-      "name": "marketing_ad_copy",
-      "template": "Generate persuasive marketing ad copy for the product/service: {prompt_context} in {language}.",
-      "use_case": "Creating bilingual content and learning materials for educational purposes."
+      "name": "marketing_campaign_prompt",
+      "template": "Create a persuasive marketing prompt targeting: {user_intent}. Background details: {context}. Provide output in {language_preference}.",
+      "use_case": "Creating educational content prompts to aid learning and teaching."
     },
     {
-      "name": "learning_material",
-      "template": "Provide an educational explanation or summary about: {prompt_context} in {language} suitable for learners.",
-      "use_case": "Constructing AI prompts to assist in workplace automation or task completion."
+      "name": "content_creation_prompt",
+      "template": "Write an engaging content creation AI prompt focusing on: {user_intent}. Include context: {context}. Output language: {language_preference}.",
+      "use_case": "Formulating content creation prompts for writing, social media, or blogs."
     },
     {
-      "name": "daily_use_assistant",
-      "template": "Assist with the following daily task or question: {prompt_context}. Use {language}.",
-      "use_case": "Developing tailored AI prompts to aid in daily personal productivity."
+      "name": "learning_assistance_prompt",
+      "template": "Develop an instructional AI prompt to assist with learning: {user_intent}. Relevant info: {context}. Language preference: {language_preference}.",
+      "use_case": "Everyday scenario prompts to improve daily productivity and workflows."
     }
   ],
   "metadata": {

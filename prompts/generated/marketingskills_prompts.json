@@ -4,24 +4,24 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "copywriting_optimization",
-      "template": "Generate persuasive marketing copy focused on {marketing_objective} using keywords: {seo_keywords}.",
-      "use_case": "Automating creation of high-converting marketing copy"
+      "name": "seo_optimization_prompt",
+      "template": "Optimize the following marketing content for SEO using these keywords: {seo_keywords}. Content: {marketing_content}",
+      "use_case": "Automated generation of SEO-optimized marketing copy for AI agents"
     },
     {
-      "name": "seo_content_strategy",
-      "template": "Create an SEO content strategy targeting these keywords: {seo_keywords} with a focus on {marketing_objective}.",
-      "use_case": "Optimizing website or campaign SEO through AI-driven keyword strategies"
+      "name": "conversion_rate_optimization_prompt",
+      "template": "Suggest improvements to increase conversion rates in this campaign content: {marketing_content}. Include CRO best practices.",
+      "use_case": "Data-driven conversion rate optimization for digital campaigns"
     },
     {
-      "name": "analytics_insights",
-      "template": "Analyze the following marketing analytics data and provide a performance report: {analytics_data}.",
-      "use_case": "Generating actionable growth engineering plans for startups"
+      "name": "analytics_reporting_prompt",
+      "template": "Analyze this marketing analytics data and generate a performance report: {analytics_data}",
+      "use_case": "Analytical insights production for marketing performance evaluation"
     },
     {
-      "name": "growth_plan_generation",
-      "template": "Develop a growth engineering plan to achieve: {marketing_objective} based on input data and best practices.",
-      "use_case": "Analyzing marketing analytics data to inform strategy"
+      "name": "growth_strategy_prompt",
+      "template": "Develop a growth engineering strategy based on these business objectives: {growth_objectives}",
+      "use_case": "Strategic growth engineering assistance for startups and businesses"
     }
   ],
   "metadata": {

@@ -1,65 +1,83 @@
 {
-  "name": "Agentic Email Automation and Lead Generation",
-  "description": "An AI-powered tool that automates the process of generating leads and reaching out via email by describing the user's product and target market to find relevant prospects and initiate email campaigns.",
+  "name": "AI-driven B2B Lead Generation Agent",
+  "description": "An open-source, self-hosted AI agent that automates B2B lead generation by analyzing user-described products, identifying fitting prospects, explaining the rationale behind each match, and emailing leads directly from the user's mailbox via a command-line interface.",
   "inputs": [
     {
       "name": "product_description",
       "type": "string",
-      "description": "A detailed description of the product or service offered."
+      "description": "A natural language description of the user's product or service to identify target leads."
     },
     {
-      "name": "target_market",
-      "type": "string",
-      "description": "Specification of the ideal customer profile or market segment."
+      "name": "email_credentials",
+      "type": "object",
+      "description": "User's email account details (e.g., SMTP configuration) used to send emails from their mailbox."
     },
     {
-      "name": "email_templates",
+      "name": "target_criteria",
+      "type": "object",
+      "description": "Optional filters or parameters defining characteristics of desired leads."
+    },
+    {
+      "name": "command_line_arguments",
       "type": "string",
-      "description": "Predefined or customizable email messages for outreach."
+      "description": "CLI inputs to initiate and control lead generation, explanation, and emailing processes."
     }
   ],
   "outputs": [
     {
       "name": "lead_list",
-      "type": "list",
-      "description": "A curated list of potential leads matching the target market criteria."
+      "type": "array",
+      "description": "List of identified leads matching the product criteria, including contact info."
     },
     {
-      "name": "email_campaign_status",
+      "name": "match_explanations",
+      "type": "array",
+      "description": "Explanations describing why each lead fits the product criteria."
+    },
+    {
+      "name": "sent_emails_log",
       "type": "object",
-      "description": "Real-time or summary status information about the progress and effectiveness of email outreach campaigns."
+      "description": "Records and statuses of emails sent to the generated leads."
     }
   ],
   "patterns": [
-    "Automated lead discovery based on product and market description",
-    "Dynamic email content generation and personalization",
-    "Batch email outreach and campaign management"
+    "AI-based lead profiling from product descriptions",
+    "Automated personalized email generation and sending",
+    "Self-hosted CLI deployment for privacy and control",
+    "Lead explanation for transparent lead qualification"
   ],
   "steps": [
-    "Input product description and define target market.",
-    "AI system searches and identifies potential leads matching criteria.",
-    "Generate personalized email outreach templates or use predefined templates.",
-    "Automate email sending to curated leads.",
-    "Track and report campaign performance and engagement metrics."
+    "User describes their product or service via the CLI.",
+    "The AI agent analyzes the description to infer ideal lead characteristics.",
+    "The system searches and identifies leads that match these inferred criteria.",
+    "For each lead, the agent generates an explanation outlining why the lead fits.",
+    "Personalized outreach emails are composed for each lead.",
+    "Emails are sent directly from the user's mailbox using provided credentials.",
+    "Logs of sent emails and lead matches are maintained for review."
   ],
   "use_cases": [
-    "Startups seeking automated lead generation and outreach without manual prospecting.",
-    "Sales teams automating cold email campaigns targeted by market segment.",
-    "Marketing professionals looking to quickly scale personalized email communication to leads."
+    "Automating discovery and outreach to potential B2B customers.",
+    "Generating transparent lead lists with rationale for marketing teams.",
+    "Integrating personalized cold email campaigns into sales workflows.",
+    "Self-hosting lead generation tools to ensure data privacy and control."
   ],
   "prompt_templates": [
     {
       "name": "lead_generation_prompt",
-      "template": "Find and list potential leads interested in {product_description} within the {target_market} market."
+      "template": "Describe your product or service to generate a list of ideal B2B leads: {product_description}"
     },
     {
-      "name": "email_personalization_prompt",
-      "template": "Create a personalized outreach email for {lead_name} describing how {product_description} addresses their needs."
+      "name": "lead_explanation_prompt",
+      "template": "Explain why this individual is a good lead for the product described: {lead_profile}"
+    },
+    {
+      "name": "email_composition_prompt",
+      "template": "Compose a personalized outreach email for this lead based on the product: {lead_profile}, {product_description}"
     }
   ],
   "metadata": {
     "language": "unknown",
-    "stars": 2712,
+    "stars": 2920,
     "repo_url": "https://github.com/eracle/OpenOutreach"
   }
 }

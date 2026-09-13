@@ -5,13 +5,18 @@
   "prompts": [
     {
       "name": "lead_generation_prompt",
-      "template": "Find and list potential leads interested in {product_description} within the {target_market} market.",
-      "use_case": "Startups seeking automated lead generation and outreach without manual prospecting."
+      "template": "Describe your product or service to generate a list of ideal B2B leads: {product_description}",
+      "use_case": "Automating discovery and outreach to potential B2B customers."
     },
     {
-      "name": "email_personalization_prompt",
-      "template": "Create a personalized outreach email for {lead_name} describing how {product_description} addresses their needs.",
-      "use_case": "Sales teams automating cold email campaigns targeted by market segment."
+      "name": "lead_explanation_prompt",
+      "template": "Explain why this individual is a good lead for the product described: {lead_profile}",
+      "use_case": "Generating transparent lead lists with rationale for marketing teams."
+    },
+    {
+      "name": "email_composition_prompt",
+      "template": "Compose a personalized outreach email for this lead based on the product: {lead_profile}, {product_description}",
+      "use_case": "Integrating personalized cold email campaigns into sales workflows."
     }
   ],
   "metadata": {
