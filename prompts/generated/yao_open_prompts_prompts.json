@@ -4,24 +4,24 @@
   "description": "Reusable prompt pack derived from the yao_open_prompts capability.",
   "prompts": [
     {
-      "name": "task_description_prompt",
-      "template": "Generate a detailed and clear AI prompt for the following task: {user_intent}. Include relevant context: {context}. Use {language_preference} language.",
-      "use_case": "Generating task-oriented AI prompts for business and marketing campaigns."
+      "name": "marketing_campaign_prompt",
+      "template": "Create a bilingual marketing message in {language_preference} that highlights {context_data}.",
+      "use_case": "Creating effective AI prompts for bilingual marketing campaigns."
     },
     {
-      "name": "marketing_campaign_prompt",
-      "template": "Create a persuasive marketing prompt targeting: {user_intent}. Background details: {context}. Provide output in {language_preference}.",
-      "use_case": "Creating educational content prompts to aid learning and teaching."
+      "name": "educational_content_prompt",
+      "template": "Generate a bilingual educational explanation about {context_data} suitable for learners.",
+      "use_case": "Generating educational prompts in both English and Chinese for learning applications."
     },
     {
       "name": "content_creation_prompt",
-      "template": "Write an engaging content creation AI prompt focusing on: {user_intent}. Include context: {context}. Output language: {language_preference}.",
-      "use_case": "Formulating content creation prompts for writing, social media, or blogs."
+      "template": "Write a bilingual creative text involving {context_data} for content generation.",
+      "use_case": "Assisting content creators to produce bilingual text prompts for writing or ideation."
     },
     {
-      "name": "learning_assistance_prompt",
-      "template": "Develop an instructional AI prompt to assist with learning: {user_intent}. Relevant info: {context}. Language preference: {language_preference}.",
-      "use_case": "Everyday scenario prompts to improve daily productivity and workflows."
+      "name": "work_task_prompt",
+      "template": "Formulate a bilingual prompt to assist with {context_data} in a professional setting.",
+      "use_case": "Facilitating daily work-related AI prompt engineering across languages."
     }
   ],
   "metadata": {
