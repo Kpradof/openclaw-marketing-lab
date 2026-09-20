@@ -4,24 +4,24 @@
   "description": "Reusable prompt pack derived from the aaron_marketing_skills capability.",
   "prompts": [
     {
-      "name": "generate_strategy",
-      "template": "Create a marketing strategy targeting {audience_data} to achieve {marketing_goal} using all seven disciplines.",
-      "use_case": "Developing multi-channel marketing campaigns integrating AI-driven insights."
+      "name": "generate_marketing_strategy",
+      "template": "Create a detailed marketing strategy for the following objectives: {marketing_task_description} targeting {target_audience_data} focused on {discipline_selection}.",
+      "use_case": "Launching multi-channel marketing campaigns with AI-generated content and strategy"
     },
     {
-      "name": "audit_content",
-      "template": "Evaluate the following marketing content against the audit gates: {audit_criteria} and provide improvement suggestions.",
-      "use_case": "Scaling marketing operations with AI-powered modular skill bots working across disciplines."
+      "name": "audit_content_quality",
+      "template": "Evaluate the following marketing content using the TALE, CORE-EEAT, CITE, ECHO, SEND, ROAS, STAR, and RAMP gates: {content_assets}.",
+      "use_case": "Optimizing SEO and GEO targeting through AI-driven analysis and content placement"
     },
     {
-      "name": "performance_report",
-      "template": "Generate a performance report analyzing metrics from the latest campaign focused on {marketing_goal}.",
-      "use_case": "Quality assurance and compliance auditing for marketing content."
+      "name": "optimize_campaign",
+      "template": "Based on these performance metrics {performance_metrics}, provide recommendations to improve our marketing campaign.",
+      "use_case": "Conducting influencer marketing strategies integrated with automated auditing for impact"
     },
     {
-      "name": "optimize_channel",
-      "template": "Recommend optimizations for the {channel_parameters} channel based on recent campaign outcomes.",
-      "use_case": "Optimizing campaign performance via data-driven AI insights and audits."
+      "name": "generate_campaign_assets",
+      "template": "Produce marketing content suitable for {discipline_selection} discipline for the campaign: {marketing_task_description}.",
+      "use_case": "Email campaign automation with AI-crafted messaging and performance audits"
     }
   ],
   "metadata": {

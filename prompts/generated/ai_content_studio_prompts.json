@@ -4,24 +4,19 @@
   "description": "Reusable prompt pack derived from the ai_content_studio capability.",
   "prompts": [
     {
-      "name": "script_generation",
-      "template": "Write a detailed YouTube video script on the topic: {script_topic}",
-      "use_case": "YouTube creators seeking to automate video content production"
+      "name": "script_generation_prompt",
+      "template": "Write a detailed, engaging script about {topic} in a {tone} tone of approximately {length} words.",
+      "use_case": "YouTube channel creators looking to automate and scale content production"
     },
     {
-      "name": "voiceover_generation",
-      "template": "Generate a natural-sounding voiceover audio for the following script: {generated_script}",
-      "use_case": "Marketing teams needing to produce video content at scale"
+      "name": "voiceover_customization_prompt",
+      "template": "Generate a voiceover for the following script using a {voice_type} voice with {language} language and {speed} speed: {script_text}",
+      "use_case": "Marketers producing automated video ads or explainer videos"
     },
     {
-      "name": "video_creation",
-      "template": "Create a video combining this voiceover audio and the following visual assets: {video_assets}",
-      "use_case": "Businesses automating explainer or promotional video generation"
-    },
-    {
-      "name": "upload_video",
-      "template": "Upload the video titled '{video_title}' to YouTube using the provided credentials.",
-      "use_case": "Content creators wanting hands-free channel growth automation"
+      "name": "upload_video_prompt",
+      "template": "Upload the video titled '{video_title}' with description '{video_description}' to the connected YouTube channel.",
+      "use_case": "Educational content developers generating course videos automatically"
     }
   ],
   "metadata": {
