@@ -4,24 +4,24 @@
   "description": "Reusable prompt pack derived from the ai_content_studio capability.",
   "prompts": [
     {
-      "name": "script_generation",
-      "template": "Write a detailed YouTube video script on the topic: {script_topic}",
-      "use_case": "YouTube creators seeking to automate video content production"
+      "name": "script_generation_prompt",
+      "template": "Write a detailed script about the topic: {topic} with style {style} and length {length}.",
+      "use_case": "YouTube content creators automating video production"
     },
     {
-      "name": "voiceover_generation",
-      "template": "Generate a natural-sounding voiceover audio for the following script: {generated_script}",
-      "use_case": "Marketing teams needing to produce video content at scale"
+      "name": "voiceover_generation_prompt",
+      "template": "Generate a natural voiceover for the script: {script} using voice type {voice_type} in language {language}.",
+      "use_case": "Marketing teams generating video ads or promos rapidly"
     },
     {
-      "name": "video_creation",
-      "template": "Create a video combining this voiceover audio and the following visual assets: {video_assets}",
-      "use_case": "Businesses automating explainer or promotional video generation"
+      "name": "video_creation_prompt",
+      "template": "Create a video by combining the voiceover audio: {voiceover_audio} with visual assets according to theme {theme}.",
+      "use_case": "Educational content automation for video lessons"
     },
     {
-      "name": "upload_video",
-      "template": "Upload the video titled '{video_title}' to YouTube using the provided credentials.",
-      "use_case": "Content creators wanting hands-free channel growth automation"
+      "name": "upload_video_prompt",
+      "template": "Upload the video file {video_file} to YouTube with title '{title}', description '{description}', and tags {tags}.",
+      "use_case": "Small businesses producing frequent video updates without manual editing"
     }
   ],
   "metadata": {

@@ -4,24 +4,24 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "seo_optimization_prompt",
-      "template": "Optimize the following marketing content for SEO using these keywords: {seo_keywords}. Content: {marketing_content}",
-      "use_case": "Automated generation of SEO-optimized marketing copy for AI agents"
+      "name": "copywriting_generate",
+      "template": "Create persuasive marketing copy for a product that focuses on {product_features} targeting {audience} with the goal of {campaign_objective}.",
+      "use_case": "Generating high-conversion marketing copy for digital campaigns"
     },
     {
-      "name": "conversion_rate_optimization_prompt",
-      "template": "Suggest improvements to increase conversion rates in this campaign content: {marketing_content}. Include CRO best practices.",
-      "use_case": "Data-driven conversion rate optimization for digital campaigns"
+      "name": "seo_optimization",
+      "template": "Analyze the following content for SEO improvements targeting keywords: {keywords}. Suggest optimizations.",
+      "use_case": "Optimizing website or content SEO to improve search rankings"
     },
     {
-      "name": "analytics_reporting_prompt",
-      "template": "Analyze this marketing analytics data and generate a performance report: {analytics_data}",
-      "use_case": "Analytical insights production for marketing performance evaluation"
+      "name": "analytics_insights",
+      "template": "Provide an analytics summary and growth recommendations based on the following marketing data: {marketing_data}.",
+      "use_case": "Analyzing campaign data to produce actionable growth strategies"
     },
     {
-      "name": "growth_strategy_prompt",
-      "template": "Develop a growth engineering strategy based on these business objectives: {growth_objectives}",
-      "use_case": "Strategic growth engineering assistance for startups and businesses"
+      "name": "cro_testing_plan",
+      "template": "Generate a CRO testing plan to improve conversion rate for the campaign focused on {campaign_objective}.",
+      "use_case": "Automating marketing tasks for AI-driven agents using Claude Code"
     }
   ],
   "metadata": {

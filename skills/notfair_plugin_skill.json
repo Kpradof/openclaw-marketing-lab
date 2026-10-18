@@ -1,0 +1,113 @@
+{
+  "name": "notfair_plugin",
+  "type": "repository_derived_skill",
+  "description": "An open-source collection of SEO, geolocation, and marketing capabilities designed for AI agents to enhance online presence and targeted marketing strategies.",
+  "triggers": [
+    "ai",
+    "marketing",
+    "source",
+    "geolocation",
+    "targeted",
+    "presence",
+    "open",
+    "collection",
+    "notfair_plugin",
+    "designed",
+    "capabilities",
+    "agents",
+    "online",
+    "seo",
+    "enhance",
+    "strategies"
+  ],
+  "inputs": [
+    {
+      "name": "query",
+      "type": "string",
+      "description": "SEO or marketing-related query or command to be processed by the AI skill."
+    },
+    {
+      "name": "location_data",
+      "type": "object",
+      "description": "Geographical information input used to tailor SEO or marketing strategies based on location."
+    },
+    {
+      "name": "content_data",
+      "type": "string",
+      "description": "Text content or URL input to analyze or optimize for SEO purposes."
+    },
+    {
+      "name": "marketing_parameters",
+      "type": "object",
+      "description": "Marketing campaign details and parameters to generate strategy suggestions."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "seo_strategy",
+      "type": "object",
+      "description": "Recommendations and actionable SEO strategies derived from inputs."
+    },
+    {
+      "name": "geo_targeting_info",
+      "type": "object",
+      "description": "Location-based marketing insights and targeting information generated."
+    },
+    {
+      "name": "marketing_plan",
+      "type": "object",
+      "description": "Comprehensive marketing skill outputs including campaign suggestions and optimizations."
+    },
+    {
+      "name": "response_text",
+      "type": "string",
+      "description": "Textual output summarizing findings or advice delivered by the AI agent."
+    }
+  ],
+  "steps": [
+    "Receive and parse input parameters including SEO content, location data, and marketing constraints.",
+    "Analyze content and keywords for SEO improvements using AI techniques.",
+    "Incorporate geographical data to tailor marketing and SEO recommendations.",
+    "Generate targeted marketing strategies based on AI analysis of inputs.",
+    "Output structured recommendations and textual advice usable by AI agents."
+  ],
+  "use_cases": [
+    "Enhancing website SEO performance with AI-generated strategies.",
+    "Creating geo-targeted marketing campaigns for localized audience reach.",
+    "Automating SEO and marketing advice for chatbots or AI assistants.",
+    "Integrating SEO and marketing skills into AI agent workflows for digital marketing tasks."
+  ],
+  "patterns": [
+    "AI-driven SEO analysis and optimization",
+    "Geolocation-based marketing targeting",
+    "Natural language processing for marketing queries",
+    "Adaptive marketing skill integration for autonomous agents"
+  ],
+  "prompt_templates": [
+    {
+      "name": "seo_analysis_prompt",
+      "template": "Analyze the following content for SEO improvements: {content_data}"
+    },
+    {
+      "name": "geo_targeting_prompt",
+      "template": "Provide geo-targeted marketing strategies based on this location: {location_data}"
+    },
+    {
+      "name": "marketing_strategy_prompt",
+      "template": "Generate a marketing plan with these parameters: {marketing_parameters}"
+    },
+    {
+      "name": "agent_query_prompt",
+      "template": "As an AI agent, provide SEO, GEO, and marketing skills response to: {query}"
+    }
+  ],
+  "metadata": {
+    "language": "unknown",
+    "stars": 3957,
+    "repo_url": "https://github.com/nowork-studio/notfair-plugin"
+  },
+  "source": {
+    "repo_name": "notfair-plugin",
+    "repo_url": "https://github.com/nowork-studio/notfair-plugin"
+  }
+}
