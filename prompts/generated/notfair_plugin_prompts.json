@@ -1,0 +1,31 @@
+{
+  "name": "notfair_plugin_prompts",
+  "source_skill": "notfair_plugin",
+  "description": "Reusable prompt pack derived from the notfair_plugin capability.",
+  "prompts": [
+    {
+      "name": "seo_analysis_prompt",
+      "template": "Analyze the following content for SEO improvements: {content_data}",
+      "use_case": "Enhancing website SEO performance with AI-generated strategies."
+    },
+    {
+      "name": "geo_targeting_prompt",
+      "template": "Provide geo-targeted marketing strategies based on this location: {location_data}",
+      "use_case": "Creating geo-targeted marketing campaigns for localized audience reach."
+    },
+    {
+      "name": "marketing_strategy_prompt",
+      "template": "Generate a marketing plan with these parameters: {marketing_parameters}",
+      "use_case": "Automating SEO and marketing advice for chatbots or AI assistants."
+    },
+    {
+      "name": "agent_query_prompt",
+      "template": "As an AI agent, provide SEO, GEO, and marketing skills response to: {query}",
+      "use_case": "Integrating SEO and marketing skills into AI agent workflows for digital marketing tasks."
+    }
+  ],
+  "metadata": {
+    "repo_url": "https://github.com/nowork-studio/notfair-plugin",
+    "generated_from": "notfair_plugin"
+  }
+}

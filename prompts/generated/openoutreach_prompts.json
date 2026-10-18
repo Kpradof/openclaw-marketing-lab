@@ -4,19 +4,19 @@
   "description": "Reusable prompt pack derived from the openoutreach capability.",
   "prompts": [
     {
-      "name": "lead_generation_prompt",
-      "template": "Describe your product or service to generate a list of ideal B2B leads: {product_description}",
-      "use_case": "Automating discovery and outreach to potential B2B customers."
+      "name": "lead_identification_prompt",
+      "template": "Describe your product: {product_description}. Find leads that fit this description.",
+      "use_case": "Startups seeking targeted B2B leads for new product launches."
     },
     {
       "name": "lead_explanation_prompt",
-      "template": "Explain why this individual is a good lead for the product described: {lead_profile}",
-      "use_case": "Generating transparent lead lists with rationale for marketing teams."
+      "template": "Explain why this person is a good fit: {lead_profile} for the product described as {product_description}.",
+      "use_case": "Sales teams automating personalized outreach at scale."
     },
     {
-      "name": "email_composition_prompt",
-      "template": "Compose a personalized outreach email for this lead based on the product: {lead_profile}, {product_description}",
-      "use_case": "Integrating personalized cold email campaigns into sales workflows."
+      "name": "email_generation_prompt",
+      "template": "Generate a personalized outreach email for lead {lead_name} based on the following template: {email_template}.",
+      "use_case": "Marketing departments improving lead quality with AI insights."
     }
   ],
   "metadata": {
