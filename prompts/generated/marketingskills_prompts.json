@@ -4,24 +4,24 @@
   "description": "Reusable prompt pack derived from the marketingskills capability.",
   "prompts": [
     {
-      "name": "seo_optimization_prompt",
-      "template": "Optimize the following marketing content for SEO using these keywords: {seo_keywords}. Content: {marketing_content}",
-      "use_case": "Automated generation of SEO-optimized marketing copy for AI agents"
+      "name": "generate_marketing_copy",
+      "template": "Generate a persuasive marketing copy targeting {target_audience} aimed at achieving {marketing_goal} with tone and style {content_parameters}.",
+      "use_case": "Enhancing website conversion rates through AI-generated CRO tactics"
     },
     {
-      "name": "conversion_rate_optimization_prompt",
-      "template": "Suggest improvements to increase conversion rates in this campaign content: {marketing_content}. Include CRO best practices.",
-      "use_case": "Data-driven conversion rate optimization for digital campaigns"
+      "name": "seo_strategy_suggestion",
+      "template": "Provide SEO recommendations to improve ranking for keywords related to {marketing_goal} targeting {target_audience}.",
+      "use_case": "Creating SEO-optimized content for improved organic search performance"
     },
     {
-      "name": "analytics_reporting_prompt",
-      "template": "Analyze this marketing analytics data and generate a performance report: {analytics_data}",
-      "use_case": "Analytical insights production for marketing performance evaluation"
+      "name": "growth_analysis_report",
+      "template": "Analyze the following analytics data and create a growth report with actionable insights: {analytics_data}.",
+      "use_case": "Generating compelling marketing copy tailored to specific demographics"
     },
     {
-      "name": "growth_strategy_prompt",
-      "template": "Develop a growth engineering strategy based on these business objectives: {growth_objectives}",
-      "use_case": "Strategic growth engineering assistance for startups and businesses"
+      "name": "conversion_rate_optimization_plan",
+      "template": "Develop a conversion rate optimization strategy based on current data and focus on the goal: {marketing_goal}.",
+      "use_case": "Performing growth engineering analysis to identify scalable opportunities"
     }
   ],
   "metadata": {
