@@ -4,24 +4,41 @@
   "description": "Reusable prompt pack derived from the aaron_marketing_skills capability.",
   "prompts": [
     {
-      "name": "generate_strategy",
-      "template": "Create a marketing strategy targeting {audience_data} to achieve {marketing_goal} using all seven disciplines.",
-      "use_case": "Developing multi-channel marketing campaigns integrating AI-driven insights."
+      "name": "generate_narrative",
+      "template": "Create a compelling marketing narrative for the product targeting {target_audience} focusing on {key_benefits}.",
+      "use_case": "Deploying a comprehensive AI marketing team to plan and execute multi-channel campaigns"
     },
     {
-      "name": "audit_content",
-      "template": "Evaluate the following marketing content against the audit gates: {audit_criteria} and provide improvement suggestions.",
-      "use_case": "Scaling marketing operations with AI-powered modular skill bots working across disciplines."
+      "name": "seo_optimization",
+      "template": "Generate SEO and GEO keywords and content suggestions to improve search rankings for {market_segment}.",
+      "use_case": "Auditing and improving existing marketing strategies and content quality"
     },
     {
-      "name": "performance_report",
-      "template": "Generate a performance report analyzing metrics from the latest campaign focused on {marketing_goal}.",
-      "use_case": "Quality assurance and compliance auditing for marketing content."
+      "name": "social_media_campaign",
+      "template": "Develop a social media campaign plan tailored for {platforms} to increase engagement among {target_audience}.",
+      "use_case": "Automating end-to-end marketing workflow with AI-powered specialized bots"
     },
     {
-      "name": "optimize_channel",
-      "template": "Recommend optimizations for the {channel_parameters} channel based on recent campaign outcomes.",
-      "use_case": "Optimizing campaign performance via data-driven AI insights and audits."
+      "name": "email_marketing_sequence",
+      "template": "Create an email marketing sequence for {campaign_purpose} including subject lines, body content, and CTAs.",
+      "use_case": "Scaling marketing efforts using a portable skill set across industries and products"
+    },
+    {
+      "name": "paid_ad_strategy",
+      "template": "Recommend a paid advertising strategy with budget allocation and targeting criteria for {product}.",
+      "use_case": "Contracting AI marketing expertise for short or long-term marketing projects"
+    },
+    {
+      "name": "influencer_marketing_plan",
+      "template": "Outline an influencer marketing plan targeting {influencer_types} to promote {brand}."
+    },
+    {
+      "name": "launch_plan",
+      "template": "Develop a step-by-step launch plan for {product_or_service} including timelines and key activities."
+    },
+    {
+      "name": "audit_gate_evaluation",
+      "template": "Evaluate marketing materials against the {gate_name} audit criteria and provide improvement suggestions."
     }
   ],
   "metadata": {

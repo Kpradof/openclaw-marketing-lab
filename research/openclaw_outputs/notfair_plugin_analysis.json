@@ -1,0 +1,76 @@
+{
+  "name": "notfair_plugin_seo_geo_marketing_skills",
+  "description": "Provides open-source SEO, geographic (GEO), and marketing skill modules designed for integration with AI agents to enhance their capabilities in search engine optimization, location-based services, and marketing strategies.",
+  "inputs": [
+    {
+      "name": "query",
+      "type": "string",
+      "description": "User search query or marketing-related request for generating SEO or GEO optimized responses."
+    },
+    {
+      "name": "location_data",
+      "type": "object",
+      "description": "Geographic information such as coordinates, region, or address to tailor GEO-based marketing or SEO results."
+    },
+    {
+      "name": "marketing_parameters",
+      "type": "object",
+      "description": "Parameters or constraints relating to marketing objectives like target audience, campaign goals, or channels."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "optimized_content",
+      "type": "string",
+      "description": "SEO and marketing optimized textual content tailored for target geography and marketing goals."
+    },
+    {
+      "name": "geo_targeting_data",
+      "type": "object",
+      "description": "Geographically contextualized data or recommendations for effective marketing and SEO application."
+    },
+    {
+      "name": "performance_metrics",
+      "type": "object",
+      "description": "Analytical metrics or insights related to SEO effectiveness, marketing reach, or GEO targeting impact."
+    }
+  ],
+  "patterns": [
+    "Integration of SEO algorithms with AI agent frameworks",
+    "Location-aware content optimization",
+    "Contextual marketing strategy formulation",
+    "Modular skill interface for AI agent interaction"
+  ],
+  "steps": [
+    "Receive user input containing search queries and marketing parameters",
+    "Extract and interpret geographic location data if provided",
+    "Apply SEO optimization techniques tailored to the query and location",
+    "Generate marketing content or recommendations based on parameters and GEO context",
+    "Return optimized content and GEO-targeted data to AI agent for further response generation"
+  ],
+  "use_cases": [
+    "Enhancing AI-driven chatbots to provide SEO optimized content in multiple regions",
+    "Generating localized marketing campaigns for geographically targeted audiences",
+    "Improving AI recommendations by incorporating geographical and SEO best practices",
+    "Supporting SEO analysis and content creation during AI-assisted digital marketing efforts"
+  ],
+  "prompt_templates": [
+    {
+      "name": "seo_optimization_prompt",
+      "template": "Optimize the following text for SEO based on target keywords: {query}"
+    },
+    {
+      "name": "geo_marketing_prompt",
+      "template": "Create a marketing strategy tailored for the location {location_data} targeting {marketing_parameters}"
+    },
+    {
+      "name": "combined_seo_geo_prompt",
+      "template": "Generate SEO optimized content considering the geographic details: {location_data} with marketing goals: {marketing_parameters}"
+    }
+  ],
+  "metadata": {
+    "language": "unknown",
+    "stars": 4061,
+    "repo_url": "https://github.com/nowork-studio/notfair-plugin"
+  }
+}
